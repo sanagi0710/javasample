@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ja" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+	<link href="/css/index.css" rel="stylesheet">
+		<title>勉強用</title>
+</head>
+
+<body>
+	<header>
+		<div class="container-fluid">
+		<img src="img/header.jpg" alt="Header Image" class="img-fluid">
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<div class="container-fluid">
+				<div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="navbar-nav">
+						<li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="/">Home</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		</div>
+	</header>
+
+	<div class="container my-5">
+		<h1 class="text-center" th:text="${username}" th:if="${username != null}"></h1>
+		<form th:action="@{/confirm}" method="post">
+			<div class="row g-3 justify-content-center align-items-center mb-3">
+				<div class="col-auto text-center">
+					<label for="exampleFormControlInput1" class="form-label" th:text="${msg}"></label>
+					<input type="text" class="form-control" id="exampleFormControlInput1" name="inputMessage"
+						placeholder="何か入れてください" required>
+				</div>
+			</div>
+			<ul class="list-group mb-3">
+				<th:block th:each="message : ${messages}">
+					<li class="list-group-item">
+						<span th:text="${message}"></span>
+					</li>
+				</th:block>
+			</ul>
+			<div class="text-end">
+				<button type="submit" class="btn btn-primary">送信</button>
+			</div>
+
+		</form>
+
+		<form action="/save" method="post" class="text-center">
+			<input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}" />
+			<button type="submit" class="btn btn-success">保存</button>
+		</form>
+
+		<h2 class="text-center">登録済み</h2>
+
+		<ul class="list-group mb-3">
+			<th:block th:each="registrationMessage : ${registrationMessages}">
+				<li class="list-group-item d-flex justify-content-between align-items-center">
+					<span th:text="${registrationMessage.id}"></span>
+					<span th:text="${registrationMessage.content}"></span>
+					<div class="d-grid gap-2 d-md-flex justify-content-md-end">
+						<button type="button" class="deleteOneButton btn btn-danger"
+							th:data-id='${registrationMessage.id}'>削除</button>
+						<button type="button" class="editButton btn btn-warning"
+							th:data-id='${registrationMessage.id}'>編集</button>
+					</div>
+				</li>
+			</th:block>
+		</ul>
+
+		<button type="button" id="deleteAllButton" class="btn btn-warning d-block mx-auto">全削除</button>
+
+		<div class="modal fade" id="editModal" tabindex="-1" aria-labelledby="editModalLabel" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="editModalLabel">メッセージ編集</h5>
+						<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+					</div>
+					<div class="modal-body">
+						<form id="editForm">
+							<input type="hidden" id="editMessageId" name="id" />
+							<div class="mb-3">
+								<label for="editMessageContent" class="form-label">メッセージ内容</label>
+								<input type="text" class="form-control" id="editMessageContent" name="content" required>
+							</div>
+						</form>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">閉じる</button>
+						<button type="button" class="btn btn-primary" id="saveEditButton">保存</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<form th:action="@{/logout}" method="post" class="text-center mt-3">
+			<button type="submit" class="btn btn-secondary">ログアウト</button>
+		</form>
+		<a th:href="@{/recruit}" class="btn btn-secondary">登録</a>
+	</div>
+
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+	<footer class="footer">
+		<p class="footer_copy">
+			<small>© 試験的</small>
+		</p>
+	</footer>
+	<script src="js/main.js" defer></script>>
+</body>
+
+
+</html>

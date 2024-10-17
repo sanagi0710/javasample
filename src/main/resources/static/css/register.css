@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+body {
+	background-color: #f8f9fa;
+	/* 背景色を薄いグレーに */
+}
+
+.container {
+	max-width: 600px;
+	/* 最大幅を設定 */
+	margin-top: 50px;
+	/* 上部の余白 */
+	padding: 20px;
+	/* 内側の余白 */
+	background-color: white;
+	/* 背景色を白に */
+	border-radius: 10px;
+	/* 角を丸く */
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	/* 影を付ける */
+}

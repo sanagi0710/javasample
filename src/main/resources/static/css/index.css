@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+body {
+	background-color: #f8f9fa;
+}
+
+.img-fluid {
+	width: 100%;
+	height: 300px;
+}
+
+.container-fluid{
+	width: 1920px;
+	height: 10%;
+}
+
+.container {
+	max-width: 1000px;
+	/* コンテナの最大幅を設定 */
+	margin-top: 100px;
+	/* 上部のマージン */
+	padding: 20px;
+	background-color: white;
+	/* 背景色を白に */
+	border-radius: 10px;
+	/* 角を丸くする */
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	/* シャドウ効果 */
+}
+
+.footer {
+	position: relative;
+	/* または absolute、必要に応じて変更 */
+	bottom: 0;
+	width: 100%;
+}
+
+.footer_copy {
+	font-size: 1.2rem;
+	line-height: 30px;
+	text-align: center;
+	color: #343434;
+	height: 120px
+		/* デフォルトのマージンをリセット */
+}

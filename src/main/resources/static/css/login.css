@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+body {
+	background-color: #f8f9fa;
+	/* 背景色を薄いグレーに */
+}
+
+.container {
+	max-width: 400px;
+	/* コンテナの最大幅を設定 */
+	margin-top: 100px;
+	/* 上部のマージン */
+	padding: 20px;
+	background-color: white;
+	/* 背景色を白に */
+	border-radius: 10px;
+	/* 角を丸くする */
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	/* シャドウ効果 */
+}
+
+.btn-primary {
+	background-color: #007bff;
+	/* ボタンの色を設定 */
+	border-color: #007bff;
+	/* ボタンの枠の色を設定 */
+}
+
+.btn-primary:hover {
+	background-color: #0056b3;
+	/* ホバー時の色 */
+	border-color: #0056b3;
+	/* ホバー時の枠の色 */
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN"> <!-- ログ設定全体のルート要素。status属性はログの出力レベルを設定（WARN以上のログを出力）。 -->
+    <Appenders>
+
+        <!-- ファイルに出力するアペンダーの定義 -->
+        <File name="File" fileName="C:\pleiades\codeWorkspace\sample\logs\app.log">
+            <!-- ログ出力フォーマットの指定。日付、ログレベル、ロガー名、メッセージを表示 -->
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} %p %c{1} - %m%n"/>
+        </File>
+    </Appenders>
+    
+    <Loggers>
+    <!-- Spring SecurityのDEBUGログを無効にする -->
+    <Logger name="org.springframework.security" level="info" additivity="false">
+        <AppenderRef ref="File"/>
+    </Logger>
+    
+        <!-- ルートロガーの設定。デフォルトのログレベルをinfoに設定し、ConsoleとFileアペンダーを参照 -->
+        <Root level="info">
+            <AppenderRef ref="File"/>    <!-- ファイルアペンダーを参照 -->
+        </Root>
+    </Loggers>
+</Configuration>

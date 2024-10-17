@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+
+.container {
+	width: 1920px;
+	height: 20px;
+}
+
+.header__gnavList li {
+	background-color: blue;
+	list-style-type: none;
+	display: flex;
+}
+
+
