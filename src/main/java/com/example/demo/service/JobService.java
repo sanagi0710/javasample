@@ -22,6 +22,10 @@ public class JobService {
 		return jobRepository.findById(id).orElse(null);
 	}
 
+	public List<Job> sharchJob(String title, String description) {
+		return jobRepository.searchJobs(title, description);
+	}
+
 	public void setJob(Job job) {
 		jobRepository.save(job);
 	}

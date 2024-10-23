@@ -3,6 +3,8 @@ package com.example.demo.controller;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.core.Authentication;
@@ -22,6 +24,8 @@ import com.example.demo.service.MessageService;
 @Controller
 public class MainTextController {
 
+	static Logger logger = LogManager.getLogger(MainTextController.class);
+
 	private List<String> messageList = new ArrayList<>();
 
 	private final MessageService messageServise;
@@ -38,7 +42,9 @@ public class MainTextController {
 		List<Message> messageList = messageServise.getAllMessage();
 		Authentication auth = SecurityContextHolder.getContext().getAuthentication();
 		//Principalからログインユーザの情報を取得
+
 		String userName = auth.getName();
+		logger.info(userName);
 		model.addAttribute("username", userName);
 		model.addAttribute("msg", "メッセージを入力してください");
 		model.addAttribute("registrationMessages", messageList);

@@ -3,7 +3,6 @@ package com.example.demo;
 public class JobDTO {
 	private String title;
 	private String description;
-	private byte[] image;
 
 	public String getTitle() {
 		return title;
@@ -19,14 +18,6 @@ public class JobDTO {
 
 	public void setDescription(String description) {
 		this.description = description;
-	}
-
-	public byte[] getImage() {
-		return image;
-	}
-
-	public void setImage(byte[] image) {
-		this.image = image;
 	}
 
 }

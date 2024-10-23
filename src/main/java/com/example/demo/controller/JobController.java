@@ -5,6 +5,7 @@ import java.net.URLEncoder;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Paths;
+import java.util.ArrayList;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -18,6 +19,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.multipart.MultipartFile;
 
+import com.example.demo.JobDTO;
 import com.example.demo.model.Job;
 import com.example.demo.service.JobService;
 
@@ -42,7 +44,7 @@ public class JobController {
 			}
 		}
 		model.addAttribute("jobs", jobs);
-		return "recruit";
+		return "recruitList";
 	}
 
 	@GetMapping("/{id}")
@@ -53,21 +55,38 @@ public class JobController {
 	}
 
 	@PostMapping()
-	public String recruitDate(@ModelAttribute Job job, @RequestParam("image") MultipartFile file, Model model) {
+	public String recruitDate(@ModelAttribute JobDTO jobDto, @ModelAttribute Job job,
+			@RequestParam("image") MultipartFile file, Model model, @RequestParam("action") String action) {
 		try {
-			// ファイル名を取得
-			String filename = file.getOriginalFilename();
-			// 保存先パス
-			String filePath = "src/main/resources/static/img/" + filename; // パスを修正（/を追加）
+			if ("register".equals(action)) {
 
-			// ファイルを保存
-			Files.write(Paths.get(filePath), file.getBytes());
+				// ファイル名を取得
+				String filename = file.getOriginalFilename();
+				// 保存先パス
+				String filePath = "src/main/resources/static/img/" + filename; // パスを修正（/を追加）
 
-			// 画像のパスをJobオブジェクトに設定
-			job.setImagePath(filename); // JobクラスにimagePathフィールドを追加していることを前提としています
+				// ファイルを保存
+				Files.write(Paths.get(filePath), file.getBytes());
 
-			// Job情報を保存
-			jobService.setJob(job); // jobServiceに保存処理を委譲
+				// 画像のパスをJobオブジェクトに設定
+				job.setImagePath(filename); // JobクラスにimagePathフィールドを追加していることを前提としています
+
+				// Job情報を保存
+				jobService.setJob(job); // jobServiceに保存処理を委譲
+			} else if ("search".equals(action)) {
+
+				String title = jobDto.getTitle();
+				String description = jobDto.getDescription();
+				List<Job> jobs = new ArrayList<>();
+
+				if (title.equals("") && description.equals("")) {
+					jobs = jobService.getAllJobs();
+				} else {
+					jobs = jobService.sharchJob(title, description);
+
+				}
+				model.addAttribute("jobs", jobs);
+			}
 
 		} catch (Exception e) {
 			// エラー時
@@ -75,7 +94,7 @@ public class JobController {
 			// エラーメッセージをモデルに追加するなどの処理があればここに追加
 		}
 
-		return "redirect:/recruit";
+		return "recruitList";
 	}
 
 }

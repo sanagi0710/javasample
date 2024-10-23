@@ -1,724 +1,153 @@
-2024-10-16 18:02:30 INFO SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
-2024-10-16 18:02:30 INFO LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-10-16 18:02:37 INFO SampleApplication - Starting SampleApplication using Java 21.0.4 with PID 6356 (C:\pleiades\codeWorkspace\sample\bin\main started by x_yanwei in C:\pleiades\codeWorkspace\sample)
-2024-10-16 18:02:37 INFO SampleApplication - No active profile set, falling back to 1 default profile: "default"
-2024-10-16 18:02:37 INFO DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2024-10-16 18:02:37 INFO DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2024-10-16 18:02:39 INFO RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
-2024-10-16 18:02:39 INFO RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
-2024-10-16 18:02:39 INFO RepositoryConfigurationExtensionSupport - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.demo.repository.JobRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
-2024-10-16 18:02:39 INFO RepositoryConfigurationExtensionSupport - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.demo.repository.LoginUserRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
-2024-10-16 18:02:39 INFO RepositoryConfigurationExtensionSupport - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.demo.repository.MessageRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
-2024-10-16 18:02:39 INFO RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 55 ms. Found 0 JDBC repository interfaces.
-2024-10-16 18:02:39 INFO RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
-2024-10-16 18:02:39 INFO RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-10-16 18:02:39 INFO RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 47 ms. Found 3 JPA repository interfaces.
-2024-10-16 18:02:40 INFO TomcatWebServer - Tomcat initialized with port 8080 (http)
-2024-10-16 18:02:40 INFO ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2565 ms
-2024-10-16 18:02:40 INFO H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/test1'
-2024-10-16 18:02:40 INFO LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-10-16 18:02:40 INFO Version - HHH000412: Hibernate ORM core version 6.5.3.Final
-2024-10-16 18:02:40 INFO RegionFactoryInitiator - HHH000026: Second-level cache disabled
-2024-10-16 18:02:41 INFO SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-10-16 18:02:41 WARN Dialect - HHH000511: The 5.5.5 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
-2024-10-16 18:02:42 INFO JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-10-16 18:02:42 INFO LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-10-16 18:02:43 WARN JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-10-16 18:02:43 INFO InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name userDetailsServiceImpl
-2024-10-16 18:02:43 INFO WelcomePageHandlerMapping - Adding welcome page template: index
-2024-10-16 18:02:44 INFO OptionalLiveReloadServer - LiveReload server is running on port 35729
-2024-10-16 18:02:44 INFO TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
-2024-10-16 18:02:44 INFO SampleApplication - Started SampleApplication in 7.518 seconds (process running for 13.471)
-2024-10-16 18:02:51 INFO DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-2024-10-16 18:02:51 INFO DispatcherServlet - Completed initialization in 1 ms
-2024-10-16 18:03:16 INFO LoginController - ユーザー登録画面が表示されました
-2024-10-16 18:14:53 INFO SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
-2024-10-16 18:14:53 INFO LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-10-16 18:14:56 INFO SampleApplication - Starting SampleApplication using Java 21.0.4 with PID 22664 (C:\pleiades\codeWorkspace\sample\bin\main started by x_yanwei in C:\pleiades\codeWorkspace\sample)
-2024-10-16 18:14:56 INFO SampleApplication - No active profile set, falling back to 1 default profile: "default"
-2024-10-16 18:14:56 INFO DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2024-10-16 18:14:56 INFO DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2024-10-16 18:14:57 INFO RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
-2024-10-16 18:14:57 INFO RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
-2024-10-16 18:14:57 INFO RepositoryConfigurationExtensionSupport - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.demo.repository.JobRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
-2024-10-16 18:14:57 INFO RepositoryConfigurationExtensionSupport - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.demo.repository.LoginUserRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
-2024-10-16 18:14:57 INFO RepositoryConfigurationExtensionSupport - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.demo.repository.MessageRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
-2024-10-16 18:14:57 INFO RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 43 ms. Found 0 JDBC repository interfaces.
-2024-10-16 18:14:57 INFO RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
-2024-10-16 18:14:57 INFO RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-10-16 18:14:57 INFO RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 37 ms. Found 3 JPA repository interfaces.
-2024-10-16 18:14:58 INFO TomcatWebServer - Tomcat initialized with port 8080 (http)
-2024-10-16 18:14:58 INFO ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1849 ms
-2024-10-16 18:14:58 INFO H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/test1'
-2024-10-16 18:14:58 INFO LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-10-16 18:14:58 INFO Version - HHH000412: Hibernate ORM core version 6.5.3.Final
-2024-10-16 18:14:58 INFO RegionFactoryInitiator - HHH000026: Second-level cache disabled
-2024-10-16 18:14:59 INFO SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-10-16 18:14:59 WARN Dialect - HHH000511: The 5.5.5 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
-2024-10-16 18:15:00 INFO JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-10-16 18:15:00 INFO LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-10-16 18:15:01 WARN JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-10-16 18:15:01 INFO InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name userDetailsServiceImpl
-2024-10-16 18:15:01 INFO WelcomePageHandlerMapping - Adding welcome page template: index
-2024-10-16 18:15:01 DEBUG DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, LogoutFilter, UsernamePasswordAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter
-2024-10-16 18:15:02 INFO OptionalLiveReloadServer - LiveReload server is running on port 35729
-2024-10-16 18:15:02 INFO TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
-2024-10-16 18:15:02 INFO SampleApplication - Started SampleApplication in 6.465 seconds (process running for 7.803)
-2024-10-16 18:55:07 INFO SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
-2024-10-16 18:55:07 INFO LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-10-16 18:55:14 INFO SampleApplication - Starting SampleApplication using Java 21.0.4 with PID 13992 (C:\pleiades\codeWorkspace\sample\bin\main started by x_yanwei in C:\pleiades\codeWorkspace\sample)
-2024-10-16 18:55:14 INFO SampleApplication - Starting SampleApplication using Java 21.0.4 with PID 22732 (C:\pleiades\codeWorkspace\sample\bin\main started by x_yanwei in C:\pleiades\codeWorkspace\sample)
-2024-10-16 18:55:14 INFO SampleApplication - No active profile set, falling back to 1 default profile: "default"
-2024-10-16 18:55:14 INFO SampleApplication - No active profile set, falling back to 1 default profile: "default"
-2024-10-16 18:55:14 INFO DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2024-10-16 18:55:14 INFO DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2024-10-16 18:55:14 INFO DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2024-10-16 18:55:14 INFO DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2024-10-16 18:55:15 INFO RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
-2024-10-16 18:55:15 INFO RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
-2024-10-16 18:55:15 INFO RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
-2024-10-16 18:55:15 INFO RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
-2024-10-16 18:55:15 INFO RepositoryConfigurationExtensionSupport - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.demo.repository.JobRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
-2024-10-16 18:55:15 INFO RepositoryConfigurationExtensionSupport - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.demo.repository.LoginUserRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
-2024-10-16 18:55:15 INFO RepositoryConfigurationExtensionSupport - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.demo.repository.JobRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
-2024-10-16 18:55:15 INFO RepositoryConfigurationExtensionSupport - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.demo.repository.MessageRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
-2024-10-16 18:55:15 INFO RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 82 ms. Found 0 JDBC repository interfaces.
-2024-10-16 18:55:15 INFO RepositoryConfigurationExtensionSupport - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.demo.repository.LoginUserRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
-2024-10-16 18:55:15 INFO RepositoryConfigurationExtensionSupport - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.demo.repository.MessageRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
-2024-10-16 18:55:15 INFO RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 69 ms. Found 0 JDBC repository interfaces.
-2024-10-16 18:55:15 INFO RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
-2024-10-16 18:55:15 INFO RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-10-16 18:55:15 INFO RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
-2024-10-16 18:55:15 INFO RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-10-16 18:55:16 INFO RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 38 ms. Found 3 JPA repository interfaces.
-2024-10-16 18:55:16 INFO RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 41 ms. Found 3 JPA repository interfaces.
-2024-10-16 18:55:16 INFO TomcatWebServer - Tomcat initialized with port 8080 (http)
-2024-10-16 18:55:16 INFO TomcatWebServer - Tomcat initialized with port 8080 (http)
-2024-10-16 18:55:16 INFO ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2086 ms
-2024-10-16 18:55:16 INFO ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2092 ms
-2024-10-16 18:55:17 INFO H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/test1'
-2024-10-16 18:55:17 INFO H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/test1'
-2024-10-16 18:55:17 INFO LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-10-16 18:55:17 INFO LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-10-16 18:55:17 INFO Version - HHH000412: Hibernate ORM core version 6.5.3.Final
-2024-10-16 18:55:17 INFO Version - HHH000412: Hibernate ORM core version 6.5.3.Final
-2024-10-16 18:55:17 INFO RegionFactoryInitiator - HHH000026: Second-level cache disabled
-2024-10-16 18:55:17 INFO RegionFactoryInitiator - HHH000026: Second-level cache disabled
-2024-10-16 18:55:17 INFO SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-10-16 18:55:17 INFO SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-10-16 18:55:18 WARN Dialect - HHH000511: The 5.5.5 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
-2024-10-16 18:55:18 WARN Dialect - HHH000511: The 5.5.5 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
-2024-10-16 18:55:19 INFO JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-10-16 18:55:19 INFO JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-10-16 18:55:19 INFO LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-10-16 18:55:19 INFO LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-10-16 18:55:19 WARN JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-10-16 18:55:20 INFO InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name userDetailsServiceImpl
-2024-10-16 18:55:20 WARN JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-10-16 18:55:20 INFO InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name userDetailsServiceImpl
-2024-10-16 18:55:20 INFO WelcomePageHandlerMapping - Adding welcome page template: index
-2024-10-16 18:55:20 INFO WelcomePageHandlerMapping - Adding welcome page template: index
-2024-10-16 18:55:20 DEBUG DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, LogoutFilter, UsernamePasswordAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter
-2024-10-16 18:55:20 DEBUG DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, LogoutFilter, UsernamePasswordAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter
-2024-10-16 18:55:21 INFO OptionalLiveReloadServer - LiveReload server is running on port 35729
-2024-10-16 18:55:21 WARN OptionalLiveReloadServer - Unable to start LiveReload server
-2024-10-16 18:55:21 INFO TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
-2024-10-16 18:55:21 INFO SampleApplication - Started SampleApplication in 6.919 seconds (process running for 8.414)
-2024-10-16 18:55:21 WARN AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
-2024-10-16 18:55:21 INFO LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-10-16 18:55:21 INFO ConditionEvaluationReportLogger - 
-
-Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
-2024-10-16 18:55:21 ERROR LoggingFailureAnalysisReporter - 
-
-***************************
-APPLICATION FAILED TO START
-***************************
-
-Description:
-
-Web server failed to start. Port 8080 was already in use.
-
-Action:
-
-Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
-
-2024-10-16 18:55:26 INFO DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-2024-10-16 18:55:26 INFO DispatcherServlet - Completed initialization in 2 ms
-2024-10-16 18:55:26 DEBUG FilterChainProxy - Securing GET /
-2024-10-16 18:55:26 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
-2024-10-16 18:55:26 DEBUG HttpSessionRequestCache - Saved request http://localhost:8080/?continue to session
-2024-10-16 18:55:26 DEBUG DefaultRedirectStrategy - Redirecting to http://localhost:8080/login
-2024-10-16 18:55:26 DEBUG FilterChainProxy - Securing GET /login
-2024-10-16 18:55:26 DEBUG FilterChainProxy - Secured GET /login
-2024-10-16 18:55:26 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
-2024-10-16 18:55:26 DEBUG FilterChainProxy - Securing GET /css/login.css
-2024-10-16 18:55:26 DEBUG FilterChainProxy - Secured GET /css/login.css
-2024-10-16 18:55:26 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
-2024-10-16 18:55:40 DEBUG FilterChainProxy - Securing POST /login
-2024-10-16 18:55:40 DEBUG DaoAuthenticationProvider - Authenticated user
-2024-10-16 18:55:40 DEBUG ChangeSessionIdAuthenticationStrategy - Changed session id from 221A01044975EEBD8F350C9D71F7C09D
-2024-10-16 18:55:40 DEBUG HttpSessionSecurityContextRepository - Stored SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=com.example.demo.service.CustomUserDetails@20566d17, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=221A01044975EEBD8F350C9D71F7C09D], Granted Authorities=[]]] to HttpSession [org.apache.catalina.session.StandardSessionFacade@6e902075]
-2024-10-16 18:55:40 DEBUG UsernamePasswordAuthenticationFilter - Set SecurityContextHolder to UsernamePasswordAuthenticationToken [Principal=com.example.demo.service.CustomUserDetails@20566d17, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=221A01044975EEBD8F350C9D71F7C09D], Granted Authorities=[]]
-2024-10-16 18:55:40 DEBUG DefaultRedirectStrategy - Redirecting to http://localhost:8080/?continue
-2024-10-16 18:55:40 DEBUG FilterChainProxy - Securing GET /?continue
-2024-10-16 18:55:40 DEBUG HttpSessionRequestCache - Loaded matching saved request http://localhost:8080/?continue
-2024-10-16 18:55:40 DEBUG HttpSessionSecurityContextRepository - Retrieved SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=com.example.demo.service.CustomUserDetails@20566d17, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=221A01044975EEBD8F350C9D71F7C09D], Granted Authorities=[]]]
-2024-10-16 18:55:40 DEBUG FilterChainProxy - Secured GET /?continue
-2024-10-16 18:55:40 DEBUG FilterChainProxy - Securing GET /css/index.css
-2024-10-16 18:55:40 DEBUG FilterChainProxy - Securing GET /img/header.jpg
-2024-10-16 18:55:40 DEBUG FilterChainProxy - Secured GET /css/index.css
-2024-10-16 18:55:40 DEBUG FilterChainProxy - Securing GET /js/main.js
-2024-10-16 18:55:40 DEBUG HttpSessionSecurityContextRepository - Retrieved SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=com.example.demo.service.CustomUserDetails@20566d17, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=221A01044975EEBD8F350C9D71F7C09D], Granted Authorities=[]]]
-2024-10-16 18:55:40 DEBUG FilterChainProxy - Secured GET /img/header.jpg
-2024-10-16 18:55:40 DEBUG FilterChainProxy - Secured GET /js/main.js
-2024-10-16 18:55:40 DEBUG HttpSessionSecurityContextRepository - Retrieved SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=com.example.demo.service.CustomUserDetails@20566d17, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=221A01044975EEBD8F350C9D71F7C09D], Granted Authorities=[]]]
-2024-10-16 18:55:40 DEBUG HttpSessionSecurityContextRepository - Retrieved SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=com.example.demo.service.CustomUserDetails@20566d17, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=221A01044975EEBD8F350C9D71F7C09D], Granted Authorities=[]]]
-2024-10-16 18:55:44 DEBUG FilterChainProxy - Securing GET /css/index.css
-2024-10-16 18:55:44 DEBUG FilterChainProxy - Secured GET /css/index.css
-2024-10-16 18:55:44 DEBUG HttpSessionSecurityContextRepository - Retrieved SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=com.example.demo.service.CustomUserDetails@20566d17, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=221A01044975EEBD8F350C9D71F7C09D], Granted Authorities=[]]]
-2024-10-16 18:56:11 DEBUG FilterChainProxy - Securing GET /login
-2024-10-16 18:56:11 DEBUG FilterChainProxy - Secured GET /login
-2024-10-16 18:56:11 DEBUG HttpSessionSecurityContextRepository - Retrieved SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=com.example.demo.service.CustomUserDetails@20566d17, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=221A01044975EEBD8F350C9D71F7C09D], Granted Authorities=[]]]
-2024-10-16 18:56:12 DEBUG FilterChainProxy - Securing GET /css/login.css
-2024-10-16 18:56:12 DEBUG FilterChainProxy - Secured GET /css/login.css
-2024-10-16 18:56:12 DEBUG HttpSessionSecurityContextRepository - Retrieved SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=com.example.demo.service.CustomUserDetails@20566d17, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=221A01044975EEBD8F350C9D71F7C09D], Granted Authorities=[]]]
-2024-10-16 18:56:18 DEBUG FilterChainProxy - Securing POST /login
-2024-10-16 18:56:18 DEBUG DaoAuthenticationProvider - Authenticated user
-2024-10-16 18:56:18 DEBUG ChangeSessionIdAuthenticationStrategy - Changed session id from 4948C74260CFAD24A60550D3A522E8A9
-2024-10-16 18:56:18 DEBUG HttpSessionSecurityContextRepository - Stored SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=com.example.demo.service.CustomUserDetails@5fe79d93, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=4948C74260CFAD24A60550D3A522E8A9], Granted Authorities=[]]] to HttpSession [org.apache.catalina.session.StandardSessionFacade@6e902075]
-2024-10-16 18:56:18 DEBUG UsernamePasswordAuthenticationFilter - Set SecurityContextHolder to UsernamePasswordAuthenticationToken [Principal=com.example.demo.service.CustomUserDetails@5fe79d93, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=4948C74260CFAD24A60550D3A522E8A9], Granted Authorities=[]]
-2024-10-16 18:56:18 DEBUG DefaultRedirectStrategy - Redirecting to /
-2024-10-16 18:56:18 DEBUG FilterChainProxy - Securing GET /
-2024-10-16 18:56:18 DEBUG HttpSessionSecurityContextRepository - Retrieved SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=com.example.demo.service.CustomUserDetails@5fe79d93, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=4948C74260CFAD24A60550D3A522E8A9], Granted Authorities=[]]]
-2024-10-16 18:56:18 DEBUG FilterChainProxy - Secured GET /
-2024-10-16 18:56:18 DEBUG FilterChainProxy - Securing GET /css/index.css
-2024-10-16 18:56:18 DEBUG FilterChainProxy - Secured GET /css/index.css
-2024-10-16 18:56:18 DEBUG FilterChainProxy - Securing GET /img/header.jpg
-2024-10-16 18:56:18 DEBUG HttpSessionSecurityContextRepository - Retrieved SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=com.example.demo.service.CustomUserDetails@5fe79d93, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=4948C74260CFAD24A60550D3A522E8A9], Granted Authorities=[]]]
-2024-10-16 18:56:18 DEBUG FilterChainProxy - Secured GET /img/header.jpg
-2024-10-16 18:56:18 DEBUG HttpSessionSecurityContextRepository - Retrieved SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=com.example.demo.service.CustomUserDetails@5fe79d93, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=4948C74260CFAD24A60550D3A522E8A9], Granted Authorities=[]]]
-2024-10-16 18:56:18 DEBUG FilterChainProxy - Securing GET /js/main.js
-2024-10-16 18:56:18 DEBUG FilterChainProxy - Secured GET /js/main.js
-2024-10-16 18:56:18 DEBUG HttpSessionSecurityContextRepository - Retrieved SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=com.example.demo.service.CustomUserDetails@5fe79d93, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=4948C74260CFAD24A60550D3A522E8A9], Granted Authorities=[]]]
-2024-10-16 18:57:00 DEBUG FilterChainProxy - Securing GET /login
-2024-10-16 18:57:00 DEBUG FilterChainProxy - Secured GET /login
-2024-10-16 18:57:00 DEBUG HttpSessionSecurityContextRepository - Retrieved SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=com.example.demo.service.CustomUserDetails@5fe79d93, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=4948C74260CFAD24A60550D3A522E8A9], Granted Authorities=[]]]
-2024-10-16 18:57:00 DEBUG FilterChainProxy - Securing GET /css/login.css
-2024-10-16 18:57:00 DEBUG FilterChainProxy - Secured GET /css/login.css
-2024-10-16 18:57:00 DEBUG HttpSessionSecurityContextRepository - Retrieved SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=com.example.demo.service.CustomUserDetails@5fe79d93, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=4948C74260CFAD24A60550D3A522E8A9], Granted Authorities=[]]]
-2024-10-16 18:58:03 DEBUG FilterChainProxy - Securing GET /
-2024-10-16 18:58:03 DEBUG HttpSessionSecurityContextRepository - Retrieved SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=com.example.demo.service.CustomUserDetails@5fe79d93, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=4948C74260CFAD24A60550D3A522E8A9], Granted Authorities=[]]]
-2024-10-16 18:58:03 DEBUG FilterChainProxy - Secured GET /
-2024-10-16 18:58:03 DEBUG FilterChainProxy - Securing GET /img/header.jpg
-2024-10-16 18:58:03 DEBUG FilterChainProxy - Securing GET /css/index.css
-2024-10-16 18:58:03 DEBUG FilterChainProxy - Secured GET /css/index.css
-2024-10-16 18:58:03 DEBUG HttpSessionSecurityContextRepository - Retrieved SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=com.example.demo.service.CustomUserDetails@5fe79d93, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=4948C74260CFAD24A60550D3A522E8A9], Granted Authorities=[]]]
-2024-10-16 18:58:03 DEBUG FilterChainProxy - Secured GET /img/header.jpg
-2024-10-16 18:58:03 DEBUG HttpSessionSecurityContextRepository - Retrieved SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=com.example.demo.service.CustomUserDetails@5fe79d93, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=4948C74260CFAD24A60550D3A522E8A9], Granted Authorities=[]]]
-2024-10-16 18:58:03 DEBUG FilterChainProxy - Securing GET /
-2024-10-16 18:58:03 DEBUG HttpSessionSecurityContextRepository - Retrieved SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=com.example.demo.service.CustomUserDetails@5fe79d93, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=4948C74260CFAD24A60550D3A522E8A9], Granted Authorities=[]]]
-2024-10-16 18:58:03 DEBUG FilterChainProxy - Secured GET /
-2024-10-16 18:58:03 DEBUG FilterChainProxy - Securing GET /js/main.js
-2024-10-16 18:58:03 DEBUG FilterChainProxy - Secured GET /js/main.js
-2024-10-16 18:58:03 DEBUG HttpSessionSecurityContextRepository - Retrieved SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=com.example.demo.service.CustomUserDetails@5fe79d93, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=4948C74260CFAD24A60550D3A522E8A9], Granted Authorities=[]]]
-2024-10-16 18:58:03 DEBUG FilterChainProxy - Securing GET /css/index.css
-2024-10-16 18:58:03 DEBUG FilterChainProxy - Securing GET /img/header.jpg
-2024-10-16 18:58:03 DEBUG FilterChainProxy - Secured GET /css/index.css
-2024-10-16 18:58:03 DEBUG HttpSessionSecurityContextRepository - Retrieved SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=com.example.demo.service.CustomUserDetails@5fe79d93, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=4948C74260CFAD24A60550D3A522E8A9], Granted Authorities=[]]]
-2024-10-16 18:58:03 DEBUG FilterChainProxy - Secured GET /img/header.jpg
-2024-10-16 18:58:03 DEBUG HttpSessionSecurityContextRepository - Retrieved SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=com.example.demo.service.CustomUserDetails@5fe79d93, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=4948C74260CFAD24A60550D3A522E8A9], Granted Authorities=[]]]
-2024-10-16 18:58:03 DEBUG FilterChainProxy - Securing GET /js/main.js
-2024-10-16 18:58:03 DEBUG FilterChainProxy - Secured GET /js/main.js
-2024-10-16 18:58:03 DEBUG HttpSessionSecurityContextRepository - Retrieved SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=com.example.demo.service.CustomUserDetails@5fe79d93, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=4948C74260CFAD24A60550D3A522E8A9], Granted Authorities=[]]]
-2024-10-16 18:58:06 DEBUG FilterChainProxy - Securing POST /logout
-2024-10-16 18:58:06 DEBUG HttpSessionSecurityContextRepository - Retrieved SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=com.example.demo.service.CustomUserDetails@5fe79d93, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=4948C74260CFAD24A60550D3A522E8A9], Granted Authorities=[]]]
-2024-10-16 18:58:06 DEBUG LogoutFilter - Logging out [UsernamePasswordAuthenticationToken [Principal=com.example.demo.service.CustomUserDetails@5fe79d93, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=4948C74260CFAD24A60550D3A522E8A9], Granted Authorities=[]]]
-2024-10-16 18:58:06 DEBUG SecurityContextLogoutHandler - Invalidated session DE9F295D36E0B33B253F47760789FA40
-2024-10-16 18:58:06 DEBUG DefaultRedirectStrategy - Redirecting to /login?logout
-2024-10-16 18:58:06 DEBUG FilterChainProxy - Securing GET /login?logout
-2024-10-16 18:58:06 DEBUG FilterChainProxy - Secured GET /login?logout
-2024-10-16 18:58:06 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
-2024-10-16 18:58:06 DEBUG FilterChainProxy - Securing GET /css/login.css
-2024-10-16 18:58:06 DEBUG FilterChainProxy - Secured GET /css/login.css
-2024-10-16 18:58:06 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
-2024-10-16 18:58:11 DEBUG FilterChainProxy - Securing POST /login
-2024-10-16 18:58:11 DEBUG DaoAuthenticationProvider - Authenticated user
-2024-10-16 18:58:11 DEBUG HttpSessionSecurityContextRepository - Stored SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=com.example.demo.service.CustomUserDetails@1187f529, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[]]] to HttpSession [org.apache.catalina.session.StandardSessionFacade@682f2fa4]
-2024-10-16 18:58:11 DEBUG UsernamePasswordAuthenticationFilter - Set SecurityContextHolder to UsernamePasswordAuthenticationToken [Principal=com.example.demo.service.CustomUserDetails@1187f529, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[]]
-2024-10-16 18:58:11 DEBUG DefaultRedirectStrategy - Redirecting to /
-2024-10-16 18:58:11 DEBUG FilterChainProxy - Securing GET /
-2024-10-16 18:58:11 DEBUG HttpSessionSecurityContextRepository - Retrieved SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=com.example.demo.service.CustomUserDetails@1187f529, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[]]]
-2024-10-16 18:58:11 DEBUG FilterChainProxy - Secured GET /
-2024-10-16 18:58:12 DEBUG FilterChainProxy - Securing GET /css/index.css
-2024-10-16 18:58:12 DEBUG FilterChainProxy - Secured GET /css/index.css
-2024-10-16 18:58:12 DEBUG FilterChainProxy - Securing GET /img/header.jpg
-2024-10-16 18:58:12 DEBUG FilterChainProxy - Securing GET /js/main.js
-2024-10-16 18:58:12 DEBUG FilterChainProxy - Secured GET /js/main.js
-2024-10-16 18:58:12 DEBUG HttpSessionSecurityContextRepository - Retrieved SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=com.example.demo.service.CustomUserDetails@1187f529, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[]]]
-2024-10-16 18:58:12 DEBUG FilterChainProxy - Secured GET /img/header.jpg
-2024-10-16 18:58:12 DEBUG HttpSessionSecurityContextRepository - Retrieved SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=com.example.demo.service.CustomUserDetails@1187f529, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[]]]
-2024-10-16 18:58:12 DEBUG HttpSessionSecurityContextRepository - Retrieved SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=com.example.demo.service.CustomUserDetails@1187f529, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[]]]
-2024-10-16 18:58:15 DEBUG FilterChainProxy - Securing GET /css/index.css
-2024-10-16 18:58:15 DEBUG FilterChainProxy - Secured GET /css/index.css
-2024-10-16 18:58:15 DEBUG HttpSessionSecurityContextRepository - Retrieved SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=com.example.demo.service.CustomUserDetails@1187f529, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[]]]
-2024-10-16 18:58:26 INFO SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
-2024-10-16 18:58:26 INFO LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-10-16 18:58:29 INFO SampleApplication - Starting SampleApplication using Java 21.0.4 with PID 16268 (C:\pleiades\codeWorkspace\sample\bin\main started by x_yanwei in C:\pleiades\codeWorkspace\sample)
-2024-10-16 18:58:29 INFO SampleApplication - No active profile set, falling back to 1 default profile: "default"
-2024-10-16 18:58:29 INFO DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2024-10-16 18:58:29 INFO DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2024-10-16 18:58:30 INFO RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
-2024-10-16 18:58:30 INFO RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
-2024-10-16 18:58:30 INFO RepositoryConfigurationExtensionSupport - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.demo.repository.JobRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
-2024-10-16 18:58:30 INFO RepositoryConfigurationExtensionSupport - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.demo.repository.LoginUserRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
-2024-10-16 18:58:30 INFO RepositoryConfigurationExtensionSupport - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.demo.repository.MessageRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
-2024-10-16 18:58:30 INFO RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 52 ms. Found 0 JDBC repository interfaces.
-2024-10-16 18:58:30 INFO RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
-2024-10-16 18:58:30 INFO RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-10-16 18:58:30 INFO RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 45 ms. Found 3 JPA repository interfaces.
-2024-10-16 18:58:31 INFO TomcatWebServer - Tomcat initialized with port 8080 (http)
-2024-10-16 18:58:31 INFO ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2187 ms
-2024-10-16 18:58:31 INFO H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/test1'
-2024-10-16 18:58:32 INFO LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-10-16 18:58:32 INFO Version - HHH000412: Hibernate ORM core version 6.5.3.Final
-2024-10-16 18:58:32 INFO RegionFactoryInitiator - HHH000026: Second-level cache disabled
-2024-10-16 18:58:32 INFO SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-10-16 18:58:32 WARN Dialect - HHH000511: The 5.5.5 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
-2024-10-16 18:58:33 INFO JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-10-16 18:58:34 INFO LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-10-16 18:58:34 WARN JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-10-16 18:58:34 INFO InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name userDetailsServiceImpl
-2024-10-16 18:58:34 INFO WelcomePageHandlerMapping - Adding welcome page template: index
-2024-10-16 18:58:35 DEBUG DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, LogoutFilter, UsernamePasswordAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter
-2024-10-16 18:58:35 INFO OptionalLiveReloadServer - LiveReload server is running on port 35729
-2024-10-16 18:58:35 INFO TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
-2024-10-16 18:58:35 INFO SampleApplication - Started SampleApplication in 6.756 seconds (process running for 8.154)
-2024-10-16 19:03:55 INFO SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
-2024-10-16 19:03:55 INFO LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-10-17 10:01:21 INFO SampleApplication - Starting SampleApplication using Java 21.0.4 with PID 10264 (C:\pleiades\codeWorkspace\sample\bin\main started by x_yanwei in C:\pleiades\codeWorkspace\sample)
-2024-10-17 10:01:21 INFO SampleApplication - No active profile set, falling back to 1 default profile: "default"
-2024-10-17 10:01:21 INFO DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2024-10-17 10:01:21 INFO DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2024-10-17 10:01:23 INFO RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
-2024-10-17 10:01:23 INFO RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
-2024-10-17 10:01:23 INFO RepositoryConfigurationExtensionSupport - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.demo.repository.JobRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
-2024-10-17 10:01:23 INFO RepositoryConfigurationExtensionSupport - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.demo.repository.LoginUserRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
-2024-10-17 10:01:23 INFO RepositoryConfigurationExtensionSupport - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.demo.repository.MessageRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
-2024-10-17 10:01:23 INFO RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 51 ms. Found 0 JDBC repository interfaces.
-2024-10-17 10:01:23 INFO RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
-2024-10-17 10:01:23 INFO RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-10-17 10:01:23 INFO RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 42 ms. Found 3 JPA repository interfaces.
-2024-10-17 10:01:24 INFO TomcatWebServer - Tomcat initialized with port 8080 (http)
-2024-10-17 10:01:24 INFO ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2313 ms
-2024-10-17 10:01:25 INFO LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-10-17 10:01:25 INFO Version - HHH000412: Hibernate ORM core version 6.5.3.Final
-2024-10-17 10:01:25 INFO RegionFactoryInitiator - HHH000026: Second-level cache disabled
-2024-10-17 10:01:26 INFO SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-10-17 10:01:27 WARN SqlExceptionHelper - SQL Error: 0, SQLState: 08S01
-2024-10-17 10:01:27 ERROR SqlExceptionHelper - Communications link failure
-
-The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
-2024-10-17 10:01:27 WARN JdbcEnvironmentInitiator - HHH000342: Could not obtain connection to query metadata
-org.hibernate.exception.JDBCConnectionException: unable to obtain isolated JDBC connection [Communications link failure
-
-The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.] [n/a]
-	at org.hibernate.exception.internal.SQLStateConversionDelegate.convert(SQLStateConversionDelegate.java:100) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:58) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:108) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:94) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.delegateWork(JdbcIsolationDelegate.java:116) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentUsingJdbcMetadata(JdbcEnvironmentInitiator.java:292) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:124) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:78) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:130) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:238) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:215) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.boot.model.relational.Database.<init>(Database.java:45) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:221) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:189) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:171) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1431) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1502) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75) ~[spring-orm-6.1.13.jar:6.1.13]
-	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390) ~[spring-orm-6.1.13.jar:6.1.13]
-	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409) ~[spring-orm-6.1.13.jar:6.1.13]
-	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396) ~[spring-orm-6.1.13.jar:6.1.13]
-	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366) ~[spring-orm-6.1.13.jar:6.1.13]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1853) ~[spring-beans-6.1.13.jar:6.1.13]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1802) ~[spring-beans-6.1.13.jar:6.1.13]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600) ~[spring-beans-6.1.13.jar:6.1.13]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.13.jar:6.1.13]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337) ~[spring-beans-6.1.13.jar:6.1.13]
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) [spring-beans-6.1.13.jar:6.1.13]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335) [spring-beans-6.1.13.jar:6.1.13]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205) [spring-beans-6.1.13.jar:6.1.13]
-	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:954) [spring-context-6.1.13.jar:6.1.13]
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625) [spring-context-6.1.13.jar:6.1.13]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) [spring-boot-3.3.4.jar:3.3.4]
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) [spring-boot-3.3.4.jar:3.3.4]
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) [spring-boot-3.3.4.jar:3.3.4]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335) [spring-boot-3.3.4.jar:3.3.4]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) [spring-boot-3.3.4.jar:3.3.4]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) [spring-boot-3.3.4.jar:3.3.4]
-	at com.example.demo.SampleApplication.main(SampleApplication.java:10) [main/:?]
-	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
-	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
-	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) [spring-boot-devtools-3.3.4.jar:3.3.4]
-Caused by: com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
-
-The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
-	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174) ~[mysql-connector-java-8.0.30.jar:8.0.30]
-	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64) ~[mysql-connector-java-8.0.30.jar:8.0.30]
-	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:828) ~[mysql-connector-java-8.0.30.jar:8.0.30]
-	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448) ~[mysql-connector-java-8.0.30.jar:8.0.30]
-	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241) ~[mysql-connector-java-8.0.30.jar:8.0.30]
-	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198) ~[mysql-connector-java-8.0.30.jar:8.0.30]
-	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:137) ~[HikariCP-5.1.0.jar:?]
-	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:360) ~[HikariCP-5.1.0.jar:?]
-	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:202) ~[HikariCP-5.1.0.jar:?]
-	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:461) ~[HikariCP-5.1.0.jar:?]
-	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:550) ~[HikariCP-5.1.0.jar:?]
-	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:98) ~[HikariCP-5.1.0.jar:?]
-	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:111) ~[HikariCP-5.1.0.jar:?]
-	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:439) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.delegateWork(JdbcIsolationDelegate.java:61) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	... 38 more
-Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
-
-The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
-	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
-	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
-	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61) ~[mysql-connector-java-8.0.30.jar:8.0.30]
-	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105) ~[mysql-connector-java-8.0.30.jar:8.0.30]
-	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151) ~[mysql-connector-java-8.0.30.jar:8.0.30]
-	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167) ~[mysql-connector-java-8.0.30.jar:8.0.30]
-	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:89) ~[mysql-connector-java-8.0.30.jar:8.0.30]
-	at com.mysql.cj.NativeSession.connect(NativeSession.java:120) ~[mysql-connector-java-8.0.30.jar:8.0.30]
-	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:948) ~[mysql-connector-java-8.0.30.jar:8.0.30]
-	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:818) ~[mysql-connector-java-8.0.30.jar:8.0.30]
-	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448) ~[mysql-connector-java-8.0.30.jar:8.0.30]
-	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241) ~[mysql-connector-java-8.0.30.jar:8.0.30]
-	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198) ~[mysql-connector-java-8.0.30.jar:8.0.30]
-	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:137) ~[HikariCP-5.1.0.jar:?]
-	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:360) ~[HikariCP-5.1.0.jar:?]
-	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:202) ~[HikariCP-5.1.0.jar:?]
-	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:461) ~[HikariCP-5.1.0.jar:?]
-	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:550) ~[HikariCP-5.1.0.jar:?]
-	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:98) ~[HikariCP-5.1.0.jar:?]
-	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:111) ~[HikariCP-5.1.0.jar:?]
-	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:439) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.delegateWork(JdbcIsolationDelegate.java:61) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	... 38 more
-Caused by: java.net.ConnectException: Connection refused: getsockopt
-	at sun.nio.ch.Net.pollConnect(Native Method) ~[?:?]
-	at sun.nio.ch.Net.pollConnectNow(Net.java:682) ~[?:?]
-	at sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542) ~[?:?]
-	at sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:592) ~[?:?]
-	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[?:?]
-	at java.net.Socket.connect(Socket.java:751) ~[?:?]
-	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:153) ~[mysql-connector-java-8.0.30.jar:8.0.30]
-	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:63) ~[mysql-connector-java-8.0.30.jar:8.0.30]
-	at com.mysql.cj.NativeSession.connect(NativeSession.java:120) ~[mysql-connector-java-8.0.30.jar:8.0.30]
-	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:948) ~[mysql-connector-java-8.0.30.jar:8.0.30]
-	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:818) ~[mysql-connector-java-8.0.30.jar:8.0.30]
-	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448) ~[mysql-connector-java-8.0.30.jar:8.0.30]
-	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241) ~[mysql-connector-java-8.0.30.jar:8.0.30]
-	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198) ~[mysql-connector-java-8.0.30.jar:8.0.30]
-	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:137) ~[HikariCP-5.1.0.jar:?]
-	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:360) ~[HikariCP-5.1.0.jar:?]
-	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:202) ~[HikariCP-5.1.0.jar:?]
-	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:461) ~[HikariCP-5.1.0.jar:?]
-	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:550) ~[HikariCP-5.1.0.jar:?]
-	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:98) ~[HikariCP-5.1.0.jar:?]
-	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:111) ~[HikariCP-5.1.0.jar:?]
-	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:439) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.delegateWork(JdbcIsolationDelegate.java:61) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	... 38 more
-2024-10-17 10:01:27 ERROR LocalContainerEntityManagerFactoryBean - Failed to initialize JPA EntityManagerFactory: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment] due to: Unable to determine Dialect without JDBC metadata (please set 'jakarta.persistence.jdbc.url' for common cases or 'hibernate.dialect' when a custom Dialect implementation must be provided)
-2024-10-17 10:01:27 WARN AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment] due to: Unable to determine Dialect without JDBC metadata (please set 'jakarta.persistence.jdbc.url' for common cases or 'hibernate.dialect' when a custom Dialect implementation must be provided)
-2024-10-17 10:01:27 INFO ConditionEvaluationReportLogger - 
-
-Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
-2024-10-17 10:01:27 ERROR SpringApplication - Application run failed
-org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment] due to: Unable to determine Dialect without JDBC metadata (please set 'jakarta.persistence.jdbc.url' for common cases or 'hibernate.dialect' when a custom Dialect implementation must be provided)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1806) ~[spring-beans-6.1.13.jar:6.1.13]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600) ~[spring-beans-6.1.13.jar:6.1.13]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.13.jar:6.1.13]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337) ~[spring-beans-6.1.13.jar:6.1.13]
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.13.jar:6.1.13]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335) ~[spring-beans-6.1.13.jar:6.1.13]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205) ~[spring-beans-6.1.13.jar:6.1.13]
-	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:954) ~[spring-context-6.1.13.jar:6.1.13]
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625) ~[spring-context-6.1.13.jar:6.1.13]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.3.4.jar:3.3.4]
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) [spring-boot-3.3.4.jar:3.3.4]
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) [spring-boot-3.3.4.jar:3.3.4]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335) [spring-boot-3.3.4.jar:3.3.4]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) [spring-boot-3.3.4.jar:3.3.4]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) [spring-boot-3.3.4.jar:3.3.4]
-	at com.example.demo.SampleApplication.main(SampleApplication.java:10) [main/:?]
-	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
-	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
-	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) [spring-boot-devtools-3.3.4.jar:3.3.4]
-Caused by: org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment] due to: Unable to determine Dialect without JDBC metadata (please set 'jakarta.persistence.jdbc.url' for common cases or 'hibernate.dialect' when a custom Dialect implementation must be provided)
-	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:276) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:238) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:215) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.boot.model.relational.Database.<init>(Database.java:45) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:221) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:189) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:171) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1431) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1502) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75) ~[spring-orm-6.1.13.jar:6.1.13]
-	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390) ~[spring-orm-6.1.13.jar:6.1.13]
-	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409) ~[spring-orm-6.1.13.jar:6.1.13]
-	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396) ~[spring-orm-6.1.13.jar:6.1.13]
-	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366) ~[spring-orm-6.1.13.jar:6.1.13]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1853) ~[spring-beans-6.1.13.jar:6.1.13]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1802) ~[spring-beans-6.1.13.jar:6.1.13]
-	... 18 more
-Caused by: org.hibernate.HibernateException: Unable to determine Dialect without JDBC metadata (please set 'jakarta.persistence.jdbc.url' for common cases or 'hibernate.dialect' when a custom Dialect implementation must be provided)
-	at org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.determineDialect(DialectFactoryImpl.java:191) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.buildDialect(DialectFactoryImpl.java:87) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentWithDefaults(JdbcEnvironmentInitiator.java:153) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentUsingJdbcMetadata(JdbcEnvironmentInitiator.java:364) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:124) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:78) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:130) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:238) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:215) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.boot.model.relational.Database.<init>(Database.java:45) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:221) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:189) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:171) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1431) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1502) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75) ~[spring-orm-6.1.13.jar:6.1.13]
-	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390) ~[spring-orm-6.1.13.jar:6.1.13]
-	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409) ~[spring-orm-6.1.13.jar:6.1.13]
-	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396) ~[spring-orm-6.1.13.jar:6.1.13]
-	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366) ~[spring-orm-6.1.13.jar:6.1.13]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1853) ~[spring-beans-6.1.13.jar:6.1.13]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1802) ~[spring-beans-6.1.13.jar:6.1.13]
-	... 18 more
-2024-10-17 10:32:02 INFO SampleApplication - Starting SampleApplication using Java 21.0.4 with PID 19004 (C:\pleiades\codeWorkspace\sample\bin\main started by x_yanwei in C:\pleiades\codeWorkspace\sample)
-2024-10-17 10:32:02 INFO SampleApplication - No active profile set, falling back to 1 default profile: "default"
-2024-10-17 10:32:02 INFO DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2024-10-17 10:32:02 INFO DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2024-10-17 10:32:03 INFO RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
-2024-10-17 10:32:03 INFO RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
-2024-10-17 10:32:03 INFO RepositoryConfigurationExtensionSupport - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.demo.repository.JobRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
-2024-10-17 10:32:03 INFO RepositoryConfigurationExtensionSupport - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.demo.repository.LoginUserRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
-2024-10-17 10:32:03 INFO RepositoryConfigurationExtensionSupport - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.demo.repository.MessageRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
-2024-10-17 10:32:03 INFO RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 40 ms. Found 0 JDBC repository interfaces.
-2024-10-17 10:32:03 INFO RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
-2024-10-17 10:32:03 INFO RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-10-17 10:32:03 INFO RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 36 ms. Found 3 JPA repository interfaces.
-2024-10-17 10:32:04 INFO TomcatWebServer - Tomcat initialized with port 8080 (http)
-2024-10-17 10:32:04 INFO ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1885 ms
-2024-10-17 10:32:05 INFO LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-10-17 10:32:06 INFO Version - HHH000412: Hibernate ORM core version 6.5.3.Final
-2024-10-17 10:32:06 INFO RegionFactoryInitiator - HHH000026: Second-level cache disabled
-2024-10-17 10:32:06 INFO SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-10-17 10:32:07 WARN SqlExceptionHelper - SQL Error: 0, SQLState: 08S01
-2024-10-17 10:32:07 ERROR SqlExceptionHelper - Communications link failure
-
-The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
-2024-10-17 10:32:07 WARN JdbcEnvironmentInitiator - HHH000342: Could not obtain connection to query metadata
-org.hibernate.exception.JDBCConnectionException: unable to obtain isolated JDBC connection [Communications link failure
-
-The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.] [n/a]
-	at org.hibernate.exception.internal.SQLStateConversionDelegate.convert(SQLStateConversionDelegate.java:100) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:58) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:108) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:94) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.delegateWork(JdbcIsolationDelegate.java:116) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentUsingJdbcMetadata(JdbcEnvironmentInitiator.java:292) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:124) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:78) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:130) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:238) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:215) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.boot.model.relational.Database.<init>(Database.java:45) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:221) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:189) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:171) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1431) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1502) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75) ~[spring-orm-6.1.13.jar:6.1.13]
-	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390) ~[spring-orm-6.1.13.jar:6.1.13]
-	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409) ~[spring-orm-6.1.13.jar:6.1.13]
-	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396) ~[spring-orm-6.1.13.jar:6.1.13]
-	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366) ~[spring-orm-6.1.13.jar:6.1.13]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1853) ~[spring-beans-6.1.13.jar:6.1.13]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1802) ~[spring-beans-6.1.13.jar:6.1.13]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600) ~[spring-beans-6.1.13.jar:6.1.13]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.13.jar:6.1.13]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337) ~[spring-beans-6.1.13.jar:6.1.13]
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) [spring-beans-6.1.13.jar:6.1.13]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335) [spring-beans-6.1.13.jar:6.1.13]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205) [spring-beans-6.1.13.jar:6.1.13]
-	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:954) [spring-context-6.1.13.jar:6.1.13]
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625) [spring-context-6.1.13.jar:6.1.13]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) [spring-boot-3.3.4.jar:3.3.4]
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) [spring-boot-3.3.4.jar:3.3.4]
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) [spring-boot-3.3.4.jar:3.3.4]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335) [spring-boot-3.3.4.jar:3.3.4]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) [spring-boot-3.3.4.jar:3.3.4]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) [spring-boot-3.3.4.jar:3.3.4]
-	at com.example.demo.SampleApplication.main(SampleApplication.java:10) [main/:?]
-	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
-	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
-	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) [spring-boot-devtools-3.3.4.jar:3.3.4]
-Caused by: com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
-
-The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
-	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174) ~[mysql-connector-java-8.0.30.jar:8.0.30]
-	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64) ~[mysql-connector-java-8.0.30.jar:8.0.30]
-	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:828) ~[mysql-connector-java-8.0.30.jar:8.0.30]
-	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448) ~[mysql-connector-java-8.0.30.jar:8.0.30]
-	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241) ~[mysql-connector-java-8.0.30.jar:8.0.30]
-	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198) ~[mysql-connector-java-8.0.30.jar:8.0.30]
-	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:137) ~[HikariCP-5.1.0.jar:?]
-	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:360) ~[HikariCP-5.1.0.jar:?]
-	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:202) ~[HikariCP-5.1.0.jar:?]
-	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:461) ~[HikariCP-5.1.0.jar:?]
-	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:550) ~[HikariCP-5.1.0.jar:?]
-	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:98) ~[HikariCP-5.1.0.jar:?]
-	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:111) ~[HikariCP-5.1.0.jar:?]
-	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:439) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.delegateWork(JdbcIsolationDelegate.java:61) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	... 38 more
-Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
-
-The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
-	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
-	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
-	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61) ~[mysql-connector-java-8.0.30.jar:8.0.30]
-	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105) ~[mysql-connector-java-8.0.30.jar:8.0.30]
-	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151) ~[mysql-connector-java-8.0.30.jar:8.0.30]
-	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167) ~[mysql-connector-java-8.0.30.jar:8.0.30]
-	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:89) ~[mysql-connector-java-8.0.30.jar:8.0.30]
-	at com.mysql.cj.NativeSession.connect(NativeSession.java:120) ~[mysql-connector-java-8.0.30.jar:8.0.30]
-	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:948) ~[mysql-connector-java-8.0.30.jar:8.0.30]
-	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:818) ~[mysql-connector-java-8.0.30.jar:8.0.30]
-	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448) ~[mysql-connector-java-8.0.30.jar:8.0.30]
-	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241) ~[mysql-connector-java-8.0.30.jar:8.0.30]
-	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198) ~[mysql-connector-java-8.0.30.jar:8.0.30]
-	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:137) ~[HikariCP-5.1.0.jar:?]
-	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:360) ~[HikariCP-5.1.0.jar:?]
-	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:202) ~[HikariCP-5.1.0.jar:?]
-	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:461) ~[HikariCP-5.1.0.jar:?]
-	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:550) ~[HikariCP-5.1.0.jar:?]
-	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:98) ~[HikariCP-5.1.0.jar:?]
-	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:111) ~[HikariCP-5.1.0.jar:?]
-	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:439) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.delegateWork(JdbcIsolationDelegate.java:61) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	... 38 more
-Caused by: java.net.ConnectException: Connection refused: getsockopt
-	at sun.nio.ch.Net.pollConnect(Native Method) ~[?:?]
-	at sun.nio.ch.Net.pollConnectNow(Net.java:682) ~[?:?]
-	at sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542) ~[?:?]
-	at sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:592) ~[?:?]
-	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[?:?]
-	at java.net.Socket.connect(Socket.java:751) ~[?:?]
-	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:153) ~[mysql-connector-java-8.0.30.jar:8.0.30]
-	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:63) ~[mysql-connector-java-8.0.30.jar:8.0.30]
-	at com.mysql.cj.NativeSession.connect(NativeSession.java:120) ~[mysql-connector-java-8.0.30.jar:8.0.30]
-	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:948) ~[mysql-connector-java-8.0.30.jar:8.0.30]
-	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:818) ~[mysql-connector-java-8.0.30.jar:8.0.30]
-	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448) ~[mysql-connector-java-8.0.30.jar:8.0.30]
-	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241) ~[mysql-connector-java-8.0.30.jar:8.0.30]
-	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198) ~[mysql-connector-java-8.0.30.jar:8.0.30]
-	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:137) ~[HikariCP-5.1.0.jar:?]
-	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:360) ~[HikariCP-5.1.0.jar:?]
-	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:202) ~[HikariCP-5.1.0.jar:?]
-	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:461) ~[HikariCP-5.1.0.jar:?]
-	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:550) ~[HikariCP-5.1.0.jar:?]
-	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:98) ~[HikariCP-5.1.0.jar:?]
-	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:111) ~[HikariCP-5.1.0.jar:?]
-	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:439) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.delegateWork(JdbcIsolationDelegate.java:61) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	... 38 more
-2024-10-17 10:32:07 ERROR LocalContainerEntityManagerFactoryBean - Failed to initialize JPA EntityManagerFactory: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment] due to: Unable to determine Dialect without JDBC metadata (please set 'jakarta.persistence.jdbc.url' for common cases or 'hibernate.dialect' when a custom Dialect implementation must be provided)
-2024-10-17 10:32:07 WARN AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment] due to: Unable to determine Dialect without JDBC metadata (please set 'jakarta.persistence.jdbc.url' for common cases or 'hibernate.dialect' when a custom Dialect implementation must be provided)
-2024-10-17 10:32:07 INFO ConditionEvaluationReportLogger - 
-
-Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
-2024-10-17 10:32:07 ERROR SpringApplication - Application run failed
-org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment] due to: Unable to determine Dialect without JDBC metadata (please set 'jakarta.persistence.jdbc.url' for common cases or 'hibernate.dialect' when a custom Dialect implementation must be provided)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1806) ~[spring-beans-6.1.13.jar:6.1.13]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600) ~[spring-beans-6.1.13.jar:6.1.13]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.13.jar:6.1.13]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337) ~[spring-beans-6.1.13.jar:6.1.13]
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.13.jar:6.1.13]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335) ~[spring-beans-6.1.13.jar:6.1.13]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205) ~[spring-beans-6.1.13.jar:6.1.13]
-	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:954) ~[spring-context-6.1.13.jar:6.1.13]
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625) ~[spring-context-6.1.13.jar:6.1.13]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.3.4.jar:3.3.4]
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) [spring-boot-3.3.4.jar:3.3.4]
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) [spring-boot-3.3.4.jar:3.3.4]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335) [spring-boot-3.3.4.jar:3.3.4]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) [spring-boot-3.3.4.jar:3.3.4]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) [spring-boot-3.3.4.jar:3.3.4]
-	at com.example.demo.SampleApplication.main(SampleApplication.java:10) [main/:?]
-	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
-	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
-	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) [spring-boot-devtools-3.3.4.jar:3.3.4]
-Caused by: org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment] due to: Unable to determine Dialect without JDBC metadata (please set 'jakarta.persistence.jdbc.url' for common cases or 'hibernate.dialect' when a custom Dialect implementation must be provided)
-	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:276) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:238) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:215) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.boot.model.relational.Database.<init>(Database.java:45) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:221) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:189) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:171) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1431) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1502) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75) ~[spring-orm-6.1.13.jar:6.1.13]
-	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390) ~[spring-orm-6.1.13.jar:6.1.13]
-	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409) ~[spring-orm-6.1.13.jar:6.1.13]
-	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396) ~[spring-orm-6.1.13.jar:6.1.13]
-	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366) ~[spring-orm-6.1.13.jar:6.1.13]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1853) ~[spring-beans-6.1.13.jar:6.1.13]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1802) ~[spring-beans-6.1.13.jar:6.1.13]
-	... 18 more
-Caused by: org.hibernate.HibernateException: Unable to determine Dialect without JDBC metadata (please set 'jakarta.persistence.jdbc.url' for common cases or 'hibernate.dialect' when a custom Dialect implementation must be provided)
-	at org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.determineDialect(DialectFactoryImpl.java:191) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.buildDialect(DialectFactoryImpl.java:87) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentWithDefaults(JdbcEnvironmentInitiator.java:153) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentUsingJdbcMetadata(JdbcEnvironmentInitiator.java:364) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:124) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:78) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:130) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:238) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:215) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.boot.model.relational.Database.<init>(Database.java:45) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:221) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:189) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:171) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1431) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1502) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
-	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75) ~[spring-orm-6.1.13.jar:6.1.13]
-	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390) ~[spring-orm-6.1.13.jar:6.1.13]
-	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409) ~[spring-orm-6.1.13.jar:6.1.13]
-	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396) ~[spring-orm-6.1.13.jar:6.1.13]
-	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366) ~[spring-orm-6.1.13.jar:6.1.13]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1853) ~[spring-beans-6.1.13.jar:6.1.13]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1802) ~[spring-beans-6.1.13.jar:6.1.13]
-	... 18 more
+2024-10-23 17:18:48 DEBUG FilterChainProxy - Securing GET /register
+2024-10-23 17:18:48 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-10-23 17:18:48 DEBUG FilterChainProxy - Secured GET /register
+2024-10-23 17:18:48 DEBUG FilterChainProxy - Securing GET /css/register.css
+2024-10-23 17:18:48 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-10-23 17:18:48 DEBUG FilterChainProxy - Secured GET /css/register.css
+2024-10-23 17:18:51 DEBUG FilterChainProxy - Securing POST /register
+2024-10-23 17:18:51 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-10-23 17:18:51 DEBUG FilterChainProxy - Secured POST /register
+2024-10-23 17:18:51 DEBUG FilterChainProxy - Securing POST /error
+2024-10-23 17:18:51 DEBUG FilterChainProxy - Secured POST /error
+2024-10-23 17:18:52 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-10-23 17:19:01 DEBUG FilterChainProxy - Securing GET /register
+2024-10-23 17:19:01 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-10-23 17:19:01 DEBUG FilterChainProxy - Secured GET /register
+2024-10-23 17:19:01 DEBUG FilterChainProxy - Securing GET /css/register.css
+2024-10-23 17:19:01 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-10-23 17:19:01 DEBUG FilterChainProxy - Secured GET /css/register.css
+2024-10-23 17:19:08 DEBUG FilterChainProxy - Securing POST /register
+2024-10-23 17:19:08 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-10-23 17:19:08 DEBUG FilterChainProxy - Secured POST /register
+2024-10-23 17:19:08 INFO LoginController - LoginUser(id=23, username=aaa7, password=$2a$10$a.sg.SZp7nU0PuNtAojy5Oug03fUB7FFYZEOUeOBYM2xcmcJWE/m., email=x_yanwei@jobtkk.co.jp, role=User)が登録された
+2024-10-23 17:19:08 DEBUG FilterChainProxy - Securing GET /css/login.css
+2024-10-23 17:19:08 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-10-23 17:19:08 DEBUG FilterChainProxy - Secured GET /css/login.css
+2024-10-23 17:19:23 DEBUG FilterChainProxy - Securing POST /login
+2024-10-23 17:19:23 DEBUG DaoAuthenticationProvider - Failed to authenticate since password does not match stored value
+2024-10-23 17:19:23 DEBUG DefaultRedirectStrategy - Redirecting to /login?error
+2024-10-23 17:19:23 DEBUG FilterChainProxy - Securing GET /login?error
+2024-10-23 17:19:23 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-10-23 17:19:23 DEBUG FilterChainProxy - Secured GET /login?error
+2024-10-23 17:19:23 DEBUG FilterChainProxy - Securing GET /css/login.css
+2024-10-23 17:19:23 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-10-23 17:19:23 DEBUG FilterChainProxy - Secured GET /css/login.css
+2024-10-23 17:19:29 DEBUG FilterChainProxy - Securing POST /login
+2024-10-23 17:19:29 DEBUG DaoAuthenticationProvider - Authenticated user
+2024-10-23 17:19:29 DEBUG ChangeSessionIdAuthenticationStrategy - Changed session id from BE71FF586A12ACDCA51D0D53BB160E72
+2024-10-23 17:19:29 DEBUG HttpSessionSecurityContextRepository - Stored SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=com.example.demo.service.CustomUserDetails@1ebbdc13, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=BE71FF586A12ACDCA51D0D53BB160E72], Granted Authorities=[com.example.demo.service.CustomUserDetails$$Lambda/0x000001ed018caca0@625921b4]]] to HttpSession [org.apache.catalina.session.StandardSessionFacade@17eec864]
+2024-10-23 17:19:29 DEBUG UsernamePasswordAuthenticationFilter - Set SecurityContextHolder to UsernamePasswordAuthenticationToken [Principal=com.example.demo.service.CustomUserDetails@1ebbdc13, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=BE71FF586A12ACDCA51D0D53BB160E72], Granted Authorities=[com.example.demo.service.CustomUserDetails$$Lambda/0x000001ed018caca0@625921b4]]
+2024-10-23 17:19:29 DEBUG DefaultRedirectStrategy - Redirecting to /
+2024-10-23 17:19:29 DEBUG FilterChainProxy - Securing GET /
+2024-10-23 17:19:29 DEBUG FilterChainProxy - Secured GET /
+2024-10-23 17:19:29 DEBUG HttpSessionSecurityContextRepository - Retrieved SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=com.example.demo.service.CustomUserDetails@1ebbdc13, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=BE71FF586A12ACDCA51D0D53BB160E72], Granted Authorities=[com.example.demo.service.CustomUserDetails$$Lambda/0x000001ed018caca0@625921b4]]]
+2024-10-23 17:19:29 INFO MainTextController - aaa1
+2024-10-23 17:19:29 DEBUG FilterChainProxy - Securing GET /css/index.css
+2024-10-23 17:19:29 DEBUG FilterChainProxy - Secured GET /css/index.css
+2024-10-23 17:19:29 DEBUG FilterChainProxy - Securing GET /img/header.jpg
+2024-10-23 17:19:29 DEBUG FilterChainProxy - Secured GET /img/header.jpg
+2024-10-23 17:19:29 DEBUG HttpSessionSecurityContextRepository - Retrieved SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=com.example.demo.service.CustomUserDetails@1ebbdc13, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=BE71FF586A12ACDCA51D0D53BB160E72], Granted Authorities=[com.example.demo.service.CustomUserDetails$$Lambda/0x000001ed018caca0@625921b4]]]
+2024-10-23 17:19:29 DEBUG FilterChainProxy - Securing GET /js/main.js
+2024-10-23 17:19:29 DEBUG FilterChainProxy - Secured GET /js/main.js
+2024-10-23 17:19:29 DEBUG HttpSessionSecurityContextRepository - Retrieved SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=com.example.demo.service.CustomUserDetails@1ebbdc13, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=BE71FF586A12ACDCA51D0D53BB160E72], Granted Authorities=[com.example.demo.service.CustomUserDetails$$Lambda/0x000001ed018caca0@625921b4]]]
+2024-10-23 17:19:29 DEBUG HttpSessionSecurityContextRepository - Retrieved SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=com.example.demo.service.CustomUserDetails@1ebbdc13, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=BE71FF586A12ACDCA51D0D53BB160E72], Granted Authorities=[com.example.demo.service.CustomUserDetails$$Lambda/0x000001ed018caca0@625921b4]]]
+2024-10-23 17:38:14 INFO SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2024-10-23 17:38:14 INFO LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-23 17:38:17 INFO SampleApplication - Starting SampleApplication using Java 21.0.4 with PID 19640 (C:\pleiades\codeWorkspace\sample\bin\main started by x_yanwei in C:\pleiades\codeWorkspace\sample)
+2024-10-23 17:38:17 INFO SampleApplication - No active profile set, falling back to 1 default profile: "default"
+2024-10-23 17:38:17 INFO DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-23 17:38:17 INFO DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-23 17:38:18 INFO RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-10-23 17:38:18 INFO RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2024-10-23 17:38:18 INFO RepositoryConfigurationExtensionSupport - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.demo.repository.JobRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2024-10-23 17:38:18 INFO RepositoryConfigurationExtensionSupport - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.demo.repository.LoginUserRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2024-10-23 17:38:18 INFO RepositoryConfigurationExtensionSupport - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.demo.repository.MessageRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2024-10-23 17:38:18 INFO RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 47 ms. Found 0 JDBC repository interfaces.
+2024-10-23 17:38:18 INFO RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-10-23 17:38:18 INFO RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-23 17:38:18 INFO RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 45 ms. Found 3 JPA repository interfaces.
+2024-10-23 17:38:19 INFO TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-10-23 17:38:19 INFO ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1851 ms
+2024-10-23 17:38:19 INFO H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/test1'
+2024-10-23 17:38:20 INFO LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-23 17:38:20 INFO Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-23 17:38:20 INFO RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-10-23 17:38:20 INFO SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-23 17:38:20 WARN Dialect - HHH000511: The 5.5.5 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2024-10-23 17:38:21 INFO JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-23 17:38:21 INFO LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-23 17:38:22 WARN JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-23 17:38:22 WARN InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+2024-10-23 17:38:22 INFO WelcomePageHandlerMapping - Adding welcome page template: index
+2024-10-23 17:38:22 DEBUG DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, LogoutFilter, UsernamePasswordAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2024-10-23 17:38:23 INFO OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-10-23 17:38:23 INFO TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-10-23 17:38:23 INFO SampleApplication - Started SampleApplication in 6.03 seconds (process running for 7.412)
+2024-10-23 17:38:33 INFO DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-10-23 17:38:33 INFO DispatcherServlet - Completed initialization in 2 ms
+2024-10-23 17:38:33 DEBUG FilterChainProxy - Securing GET /
+2024-10-23 17:38:33 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-10-23 17:38:33 DEBUG FilterChainProxy - Secured GET /
+2024-10-23 17:38:33 INFO MainTextController - anonymousUser
+2024-10-23 17:38:33 DEBUG FilterChainProxy - Securing GET /img/header.jpg
+2024-10-23 17:38:33 DEBUG FilterChainProxy - Securing GET /css/index.css
+2024-10-23 17:38:33 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-10-23 17:38:33 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-10-23 17:38:33 DEBUG FilterChainProxy - Securing GET /js/main.js
+2024-10-23 17:38:33 DEBUG FilterChainProxy - Secured GET /css/index.css
+2024-10-23 17:38:33 DEBUG FilterChainProxy - Secured GET /img/header.jpg
+2024-10-23 17:38:33 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-10-23 17:38:33 DEBUG FilterChainProxy - Secured GET /js/main.js
+2024-10-23 17:38:36 DEBUG FilterChainProxy - Securing GET /registerCorporation
+2024-10-23 17:38:36 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-10-23 17:38:36 DEBUG FilterChainProxy - Secured GET /registerCorporation
+2024-10-23 17:38:36 DEBUG FilterChainProxy - Securing GET /css/register.css
+2024-10-23 17:38:36 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-10-23 17:38:36 DEBUG FilterChainProxy - Secured GET /css/register.css
+2024-10-23 17:38:47 DEBUG FilterChainProxy - Securing POST /corporationRegister
+2024-10-23 17:38:47 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-10-23 17:38:47 DEBUG FilterChainProxy - Secured POST /corporationRegister
+2024-10-23 17:38:47 INFO LoginController - LoginUser(id=24, username=aaa999, password=$2a$10$TaAqFbvzGbMp3lRBMdzvqeEljlAcoLXYuYXTNUdJkR2Rlr9ZmKpma, email=1111@111.com, role=CORPORATEUSER)が登録された
+2024-10-23 17:38:47 DEBUG FilterChainProxy - Securing GET /css/login.css
+2024-10-23 17:38:47 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-10-23 17:38:47 DEBUG FilterChainProxy - Secured GET /css/login.css
+2024-10-23 18:27:25 DEBUG FilterChainProxy - Securing GET /
+2024-10-23 18:27:25 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-10-23 18:27:25 DEBUG FilterChainProxy - Secured GET /
+2024-10-23 18:27:25 INFO MainTextController - anonymousUser
+2024-10-23 18:27:25 DEBUG FilterChainProxy - Securing GET /css/index.css
+2024-10-23 18:27:25 DEBUG FilterChainProxy - Securing GET /img/header.jpg
+2024-10-23 18:27:25 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-10-23 18:27:25 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-10-23 18:27:25 DEBUG FilterChainProxy - Secured GET /css/index.css
+2024-10-23 18:27:25 DEBUG FilterChainProxy - Secured GET /img/header.jpg
+2024-10-23 18:27:25 DEBUG FilterChainProxy - Securing GET /js/main.js
+2024-10-23 18:27:25 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-10-23 18:27:25 DEBUG FilterChainProxy - Secured GET /js/main.js
+2024-10-23 18:27:26 DEBUG FilterChainProxy - Securing GET /favicon.ico
+2024-10-23 18:27:26 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-10-23 18:27:26 DEBUG FilterChainProxy - Secured GET /favicon.ico
+2024-10-23 18:27:26 DEBUG FilterChainProxy - Securing GET /error
+2024-10-23 18:27:26 DEBUG FilterChainProxy - Secured GET /error
+2024-10-23 18:27:26 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-10-23 18:29:32 DEBUG FilterChainProxy - Securing GET /recruit
+2024-10-23 18:29:32 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-10-23 18:29:32 DEBUG FilterChainProxy - Secured GET /recruit
+2024-10-23 18:29:32 DEBUG FilterChainProxy - Securing GET /css/recruit.css
+2024-10-23 18:29:32 DEBUG FilterChainProxy - Securing GET /css/header.css
+2024-10-23 18:29:32 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-10-23 18:29:32 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-10-23 18:29:32 DEBUG FilterChainProxy - Secured GET /css/header.css
+2024-10-23 18:29:32 DEBUG FilterChainProxy - Secured GET /css/recruit.css
+2024-10-23 18:29:32 DEBUG FilterChainProxy - Securing GET /img/スクリーンショット2.png
+2024-10-23 18:29:32 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-10-23 18:29:32 DEBUG FilterChainProxy - Secured GET /img/スクリーンショット2.png
+2024-10-23 18:29:32 DEBUG FilterChainProxy - Securing GET /js/recruit.js
+2024-10-23 18:29:32 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-10-23 18:29:32 DEBUG FilterChainProxy - Secured GET /js/recruit.js
+2024-10-23 18:29:32 DEBUG FilterChainProxy - Securing GET /packs/media/common/bg--pt3-f3239198.gif
+2024-10-23 18:29:32 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-10-23 18:29:32 DEBUG FilterChainProxy - Secured GET /packs/media/common/bg--pt3-f3239198.gif
+2024-10-23 18:29:32 DEBUG FilterChainProxy - Securing GET /error
+2024-10-23 18:29:32 DEBUG FilterChainProxy - Secured GET /error
+2024-10-23 18:29:32 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
