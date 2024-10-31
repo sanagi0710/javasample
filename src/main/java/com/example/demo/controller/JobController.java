@@ -59,6 +59,8 @@ public class JobController {
 		return "jobDetail";
 	}
 
+	@GetMapping("/categories/{categories}")
+
 	@PostMapping
 	public String recruitDate(@ModelAttribute JobDTO jobDto, @ModelAttribute Job job,
 			@RequestParam("image") MultipartFile file, Model model, @RequestParam("action") String action) {

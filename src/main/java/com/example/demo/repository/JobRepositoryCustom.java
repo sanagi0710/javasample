@@ -6,4 +6,6 @@ import com.example.demo.model.Job;
 
 public interface JobRepositoryCustom {
 	List<Job> searchJobs(String title, String description, Boolean bookmarkFlag);
+
+	List<Job> findByCategory(String category);
 }

@@ -56,22 +56,22 @@
 		<p class="select__trigger">SELECT</p>
 		<ul class="okinawaInfo__tab" style="display: flex;">
 			<li class="okinawaInfo__tab__item">
-				<a class="on" href="all" onclick="return false;">ALL</a>
+				<a th:href=@{/recruitList/categories/all}>ALL</a>
 			</li>
 			<li class="okinawaInfo__tab__item">
-				<a href="news" onclick="return false;">#</a>
+				<a th:href=@{/recruitList/categories/se}>SE</a>
 			</li>
 			<li class="okinawaInfo__tab__item">
-				<a href="new_jobs" onclick="return false;">#</a>
+				<a th:href=@{/recruitList/categories/pm}>PM</a>
 			</li>
 			<li class="okinawaInfo__tab__item">
-				<a href="know_hows" onclick="return false;">#</a>
+				<a href="#">PG</a>
 			</li>
 			<li class="okinawaInfo__tab__item">
-				<a href="okinawa-life" onclick="return false;">#</a>
+				<a href="#">#</a>
 			</li>
 			<li class="okinawaInfo__tab__item">
-				<a href="interview" onclick="return false;">#</a>
+				<a href="#">#</a>
 			</li>
 		</ul>
 	</div>
@@ -119,7 +119,7 @@
 		<input type="text" name="description" placeholder="説明を入れてください">
 		<input type="file" name="image">
 		<input type="date" name="date">
-		<input type="hidden" name="bookmarkFlag" value="false"> 
+		<input type="hidden" name="bookmarkFlag" value="false">
 		<label for="bookmarkCheckbox">ブックマーク</label>
 		<input type="checkbox" id="bookmarkCheckbox" onchange="updateBookmarkFlag()" checked>
 		<div>
