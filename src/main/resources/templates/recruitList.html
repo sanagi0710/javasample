@@ -4,6 +4,7 @@
 <head>
 	<title>求人一覧</title>
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 	<link href="/css/recruit.css" rel="stylesheet">
 	<link href="/css/header.css" rel="stylesheet">
 </head>
@@ -99,13 +100,13 @@
 					</ul>
 				</div>
 			</div>
-			<!-- ページネーション -->>
+			<!-- ページネーション -->
 			<div class="swiper-pagination"></div>
 			<!-- 前のスライドに移動するボタン -->
 			<div class="swiper-button-prev"></div>
 			<!-- 次のスライドに移動するボタン -->
 			<div class="swiper-button-next"></div>
-			<!-- スクロールバー -->>
+			<!-- スクロールバー -->
 			<div class="swiper-scrollbar"></div>
 		</div>
 	</div>
@@ -118,8 +119,15 @@
 		<input type="text" name="description" placeholder="説明を入れてください">
 		<input type="file" name="image">
 		<input type="date" name="date">
-		<input type="hidden" name="bookmarkFlag" value="false">
+		<input type="hidden" name="bookmarkFlag" value="false"> 
+		<label for="bookmarkCheckbox">ブックマーク</label>
 		<input type="checkbox" id="bookmarkCheckbox" onchange="updateBookmarkFlag()" checked>
+		<div>
+			<h3>カテゴリーを選択してください</h3>
+			<label><input type="checkbox" name="categories" value="SE">SE</label>
+			<label><input type="checkbox" name="categories" value="PM">PM</label>
+			<label><input type="checkbox" name="categories" value="PG">PG</label>
+		</div>
 		<button type="submit" name="action" value="register">登録</button>
 		<button type="submit" name="action" value="search">検索</button>
 	</form>

@@ -35,3 +35,7 @@ out/
 
 ### VS Code ###
 .vscode/
+
+# 特定のファイルを除外
+static/img/
+*.log

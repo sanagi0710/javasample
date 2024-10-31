@@ -24,6 +24,7 @@ import org.springframework.web.multipart.MultipartFile;
 import com.example.demo.JobDTO;
 import com.example.demo.model.Job;
 import com.example.demo.service.JobService;
+import com.example.demo.util.FileNameUtil;
 
 @Controller
 @RequestMapping("/recruitList")
@@ -62,10 +63,23 @@ public class JobController {
 	public String recruitDate(@ModelAttribute JobDTO jobDto, @ModelAttribute Job job,
 			@RequestParam("image") MultipartFile file, Model model, @RequestParam("action") String action) {
 		try {
+
+			// 明確にDTOとモデルの連携を行うために各フィールドを抽出
+			String title = jobDto.getTitle();
+			String description = jobDto.getDescription();
+			Boolean bookmarkFlag = jobDto.getBookmarkFlag();
+			List<String> categories = jobDto.getCategories();
+
 			if ("register".equals(action)) {
 
+				// DTOからmodelにセット
+				job.setTitle(title);
+				job.setDescription(description);
+				job.setBookmarkFlag(bookmarkFlag);
+				job.setCategories(categories);
+
 				// ファイル名を取得
-				String filename = file.getOriginalFilename();
+				String filename = FileNameUtil.removeDateFromFilename(file.getOriginalFilename());
 				// 保存先パス
 				String filePath = "src/main/resources/static/img/" + filename; // パスを修正（/を追加）
 
@@ -79,11 +93,11 @@ public class JobController {
 				jobService.setJob(job); // jobServiceに保存処理を委譲
 			} else if ("search".equals(action)) {
 
-				String title = jobDto.getTitle();
-				String description = jobDto.getDescription();
-				Boolean bookmarkFlag = jobDto.getBookmarkFlag();
+				// リスト初期化
 				List<Job> jobs = new ArrayList<>();
 
+				// 両方空文字の場合は全条件で検索
+				// 違う場合はそれぞれの合う値で検索
 				if (title.isEmpty() && description.isEmpty()) {
 					jobs = jobService.getAllJobs();
 				} else {

@@ -1,9 +1,12 @@
 package com.example.demo;
 
+import java.util.List;
+
 public class JobDTO {
 	private String title;
 	private String description;
 	private Boolean bookmarkFlag;
+	private List<String> categories;
 
 	public String getTitle() {
 		return title;
@@ -27,6 +30,14 @@ public class JobDTO {
 
 	public void setBookmarkFlag(Boolean bookmarkFlag) {
 		this.bookmarkFlag = bookmarkFlag;
+	}
+
+	public List<String> getCategories() {
+		return categories;
+	}
+
+	public void setCategories(List<String> categories) {
+		this.categories = categories;
 	}
 
 }
