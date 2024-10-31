@@ -9,7 +9,6 @@
 </head>
 
 <body>
-	<h1>求人一覧</h1>
 	<div th:replace="header :: header"></div>
 	<section class="topic">
 		<div class="topic__inner">
@@ -104,11 +103,13 @@
 		<div class="swiper-scrollbar"></div>
 	</div>
 	
-	<form method="post" th:action="@{/recruit}" enctype="multipart/form-data">
+	<form method="post" th:action="@{/recruit}" enctype="multipart/form-data" id="from">
 		<input type="text" name="title" placeholder="タイトルを入れてください">
 		<input type="text" name="description" placeholder="説明を入れてください">
 		<input type="file" name="image">
 		<input type="date" name="date">
+		<input type="hidden" name="bookmarkFlag" value="false">
+		<input type="checkbox" id="bookmarkCheckbox" onchange="updateBookmarkFlag()" checked>
 		<button type="submit" name="action" value="register">登録</button>	
 		<button type="submit" name="action" value="search">検索</button> 
 	</form>

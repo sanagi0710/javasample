@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Navigation and Form</title>
+    <style>
+        body {
+            display: flex;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .v-navigation-drawer {
+            width: 256px;
+            position: fixed;
+            top: 84px;
+            height: calc(100% - 84px);
+            background-color: #f9f9f9;
+            border-right: 1px solid #e0e0e0;
+            overflow-y: auto;
+        }
+
+        .main-content {
+            margin-left: 256px; /* サイドバーの幅に合わせる */
+            padding: 20px;
+            flex-grow: 1;
+            background-color: #ffffff;
+        }
+
+        @media (max-width: 768px) {
+            .v-navigation-drawer {
+                display: none;
+            }
+
+            .main-content {
+                margin-left: 0;
+                padding: 10px;
+            }
+        }
+
+        .container {
+            margin: 0; /* 余白をリセット */
+        }
+
+        .v-list-item {
+            text-decoration: none;
+            color: #333;
+            display: flex;
+            align-items: center;
+            padding: 10px 15px;
+        }
+
+        .v-list-item:hover {
+            background-color: #e0e0e0;
+        }
+
+        .v-list-item--active {
+            background-color: #d0d0d0;
+        }
+
+        .form-control {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+            margin-bottom: 15px;
+        }
+
+        .btn {
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .btn-primary {
+            background-color: #007bff;
+            color: white;
+        }
+
+        .btn-secondary {
+            background-color: #6c757d;
+            color: white;
+        }
+
+        .btn:hover {
+            opacity: 0.9;
+        }
+
+        .alert {
+            padding: 10px;
+            background-color: #d4edda;
+            color: #155724;
+            border: 1px solid #c3e6cb;
+            border-radius: 4px;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <aside class="hidden-sm-and-down v-navigation-drawer theme--light">
+        <div class="v-navigation-drawer__content">
+            <div class="v-list">
+                <div class="v-item-group">
+                    <a th:href=@{/} target="_blank" class="v-list-item">
+                        <div class="v-list-item__icon">
+                            <i class="mdi mdi-home"></i>
+                        </div>
+                        <div class="v-list-item__content">
+                            <div class="v-list-item__title">トップ</div>
+                        </div>
+                    </a>
+                    <a href="" target="_blank" class="v-list-item">
+                        <div class="v-list-item__icon">
+                            <i class="mdi mdi-domain"></i>
+                        </div>
+                        <div class="v-list-item__content">
+                            <div class="v-list-item__title">求人情報</div>
+                        </div>
+                    </a>
+                    <a href="" class="v-list-item">
+                        <div class="v-list-item__icon">
+                            <i class="mdi mdi-account-edit"></i>
+                        </div>
+                        <div class="v-list-item__content">
+                            <div class="v-list-item__title">プロフィール</div>
+                        </div>
+                    </a>
+                    <a href="" class="v-list-item v-item--active">
+                        <div class="v-list-item__icon">
+                            <i class="mdi mdi-calendar-check"></i>
+                        </div>
+                        <div class="v-list-item__content">
+                            <div class="v-list-item__title">イベント</div>
+                        </div>
+                    </a>
+                    <a href="" class="v-list-item">
+                        <div class="v-list-item__icon">
+                            <i class="mdi mdi-star"></i>
+                        </div>
+                        <div class="v-list-item__content">
+                            <div class="v-list-item__title">気になる企業</div>
+                        </div>
+                    </a>
+                    <a href="/settings" class="v-list-item">
+                        <div class="v-list-item__icon">
+                            <i class="mdi mdi-cog"></i>
+                        </div>
+                        <div class="v-list-item__content">
+                            <div class="v-list-item__title">設定</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </aside>
+
+    <div class="main-content">
+        <div class="container">
+            <h1 class="text-center">ユーザー情報の更新</h1>
+            <form action="/updateUser" method="post">
+                <input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}" />
+
+                <div th:if="${message}" th:text="${message}" class="alert alert-success"></div>
+
+                <div class="mb-3">
+                    <label for="username" class="form-label">ユーザー名:</label>
+                    <input type="text" id="username" name="username" class="form-control" th:value="${username}" required>
+                </div>
+
+                <div class="mb-3">
+                    <label for="email" class="form-label">メールアドレス:</label>
+                    <input type="email" id="email" name="email" class="form-control" th:value="${email}" required>
+                </div>
+
+                <div class="mb-3">
+                    <label for="password" class="form-label">新しいパスワード:</label>
+                    <input type="password" id="password" name="password" class="form-control">
+                    <small class="form-text text-muted">新しいパスワードを設定する場合は入力してください。変更しない場合は空白のままにしてください。</small>
+                </div>
+
+                <div class="mb-3">
+                    <label for="confirmPassword" class="form-label">パスワード確認:</label>
+                    <input type="password" id="confirmPassword" name="confirmPassword" class="form-control">
+                </div>
+
+                <div class="d-flex justify-content-between">
+                    <button type="submit" class="btn btn-primary">更新</button>
+                    <a th:href="@{/}" class="btn btn-secondary">戻る</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

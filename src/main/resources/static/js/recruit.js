@@ -1,4 +1,4 @@
-
+document.addEventListener('DOMContentLoaded', () => {
 // Swiperの初期化
 const swiper = new Swiper('.swiper', {
 	slidesPerView: 5, // 1行あたりのスライド数
@@ -29,9 +29,26 @@ const swiper = new Swiper('.swiper', {
 	},
 });
 
+
+
+function updateBookmarkFlag() {
+	const bookmarkCheckbox = document.getElementById("bookmarkCheckbox");
+	const bookmarkFlog = document.getElmentsName("bookmarkFlag")[0];
+	
+	if(bookmarkCheckbox.chacked) {
+		bookmarkFlog.value = "true";
+	} else {
+		bookmarkFlog.value = "false";
+	}
+};
+
 const list = document.querySelector(".topic__list");
 const items = document.querySelectorAll(".topic__item");
 const totalWidth = Array.from(items).reduce((sum, item) => sum + item.clientWidth, 0);
 
 list.style.animation = `scroll ${totalWidth / 100}s linear infinite`;
+
+});
+
+
 

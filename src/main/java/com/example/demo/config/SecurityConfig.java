@@ -24,13 +24,14 @@ public class SecurityConfig {
 				.formLogin(login -> login
 						.loginPage("/login")
 						.permitAll()
-						.defaultSuccessUrl("/"))
+						.defaultSuccessUrl("/updateUserPage"))
 				.logout(logout -> logout
 						.logoutSuccessUrl("/")
 						.permitAll()
 						.invalidateHttpSession(true)
 						.deleteCookies("JSESSIONID"))
 				.authorizeHttpRequests(authz -> authz
+						//.requestMatchers("/updateUserPage").hasRole("USER")
 						.anyRequest().permitAll())
 				.csrf().disable();
 

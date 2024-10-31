@@ -3,6 +3,7 @@ package com.example.demo.model;
 import java.util.Date;
 import java.util.List;
 
+import jakarta.persistence.Column;
 import jakarta.persistence.ElementCollection;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -26,6 +27,8 @@ public class Job {
 	private String imagepath;
 	@DateTimeFormat(pattern = "yyyy-MM-dd")
 	private Date date;
+	@Column(name = "bookmark_flag")
+	private Boolean bookmarkFlag;
 
 	@ElementCollection
 	private List<String> categories;
@@ -82,6 +85,14 @@ public class Job {
 	public String toString() {
 		return "Job [id=" + id + ", title=" + title + ", description=" + description + ", image" + imagepath
 				+ ", date=" + date + ", categories=" + categories + "]";
+	}
+
+	public Boolean getBookmarkFlag() {
+		return bookmarkFlag;
+	}
+
+	public void setBookmarkFlag(Boolean bookmarkFlag) {
+		this.bookmarkFlag = bookmarkFlag;
 	}
 
 }

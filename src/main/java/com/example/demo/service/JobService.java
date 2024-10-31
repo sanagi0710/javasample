@@ -22,12 +22,22 @@ public class JobService {
 		return jobRepository.findById(id).orElse(null);
 	}
 
-	public List<Job> sharchJob(String title, String description) {
-		return jobRepository.searchJobs(title, description);
+	public List<Job> sharchJob(String title, String description, Boolean bookmarkFlag) {
+		return jobRepository.searchJobs(title, description, bookmarkFlag);
 	}
 
 	public void setJob(Job job) {
 		jobRepository.save(job);
+	}
+
+	public void toggleBookmark(Long id, Boolean bookmarkFlag) {
+		Job job = jobRepository.findById(id).orElseThrow(() -> new RuntimeException("Job not found"));
+		job.setBookmarkFlag(bookmarkFlag);
+		jobRepository.save(job);
+	}
+
+	public List<Job> findBookmarkedJobs(Boolean bookmarkFlag) {
+		return jobRepository.findByBookmarkFlag(bookmarkFlag);
 	}
 
 }

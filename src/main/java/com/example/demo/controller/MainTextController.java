@@ -35,8 +35,6 @@ public class MainTextController {
 		this.messageServise = messageServise;
 	}
 
-	//	複数のHTTPメソッドを処理する場合: 同じURLでGETとPOSTなどの異なるメソッドを処理する場合は、
-	//	@RequestMappingを使用することが適切です。この場合、リクエストメソッドを指定する必要があります。
 	@GetMapping("/")
 	public String index(Model model) {
 		List<Message> messageList = messageServise.getAllMessage();
@@ -44,15 +42,16 @@ public class MainTextController {
 		//Principalからログインユーザの情報を取得
 
 		String userName = auth.getName();
-		logger.info(userName);
 		model.addAttribute("username", userName);
 		model.addAttribute("msg", "メッセージを入力してください");
 		model.addAttribute("registrationMessages", messageList);
+
 		return "index";
 	}
 
 	@PostMapping("/confirm")
 	public String confirm(@RequestParam(name = "inputMessage", required = false) String inputMessage, Model model) {
+		List<Message> messageDbList = messageServise.getAllMessage();
 		if (inputMessage != null && !inputMessage.isEmpty()) {
 			// 新しいメッセージをリストに追加
 			messageList.add(inputMessage);
@@ -60,6 +59,7 @@ public class MainTextController {
 		model.addAttribute("submittedMessage", inputMessage != null ? inputMessage : "メッセージがありません");
 		model.addAttribute("msg", "メッセージを入力してください");
 		model.addAttribute("messages", messageList);
+		model.addAttribute("registrationMessages", messageDbList);
 		return "index";
 	}
 

@@ -8,6 +8,8 @@ import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -24,10 +26,12 @@ import com.example.demo.model.Job;
 import com.example.demo.service.JobService;
 
 @Controller
-@RequestMapping("/recruit")
+@RequestMapping("/recruitList")
 //クラスレベルに @RequestMapping("/recruit") をつける意味は、
 //そのコントローラ内のメソッドに一貫してプレフィックス (/recruit) を付けるためです。
 public class JobController {
+
+	private static final Logger logger = LogManager.getLogger(JobController.class);
 
 	@Autowired
 	private JobService jobService;
@@ -77,12 +81,13 @@ public class JobController {
 
 				String title = jobDto.getTitle();
 				String description = jobDto.getDescription();
+				Boolean bookmarkFlag = jobDto.getBookmarkFlag();
 				List<Job> jobs = new ArrayList<>();
 
-				if (title.equals("") && description.equals("")) {
+				if (title.isEmpty() && description.isEmpty()) {
 					jobs = jobService.getAllJobs();
 				} else {
-					jobs = jobService.sharchJob(title, description);
+					jobs = jobService.sharchJob(title, description, bookmarkFlag);
 
 				}
 				model.addAttribute("jobs", jobs);

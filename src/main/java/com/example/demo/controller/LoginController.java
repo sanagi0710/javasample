@@ -3,6 +3,7 @@ package com.example.demo.controller;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.core.annotation.AuthenticationPrincipal;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -10,6 +11,7 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 
 import com.example.demo.model.LoginUser;
+import com.example.demo.service.CustomUserDetails;
 import com.example.demo.service.UserDetailsServiceImpl;
 
 @Controller
@@ -23,6 +25,19 @@ public class LoginController {
 	@GetMapping("/login")
 	public String login() {
 		return "login";
+	}
+
+	@GetMapping("/updateUserPage")
+	public String updateUserPage(@AuthenticationPrincipal CustomUserDetails userDetails, Model model) {
+		// ユーザー情報を取得
+		LoginUser user = userDetailsServiceImpl.findUserByUsername(userDetails.getUsername());
+
+		// ユーザー情報をモデルに追加
+		model.addAttribute("username", user.getUsername());
+		model.addAttribute("email", user.getEmail());
+		// 他のユーザー情報も必要に応じて追加
+
+		return "updateUserPage";
 	}
 
 	// 一般ユーザー登録画面を表示
@@ -56,7 +71,7 @@ public class LoginController {
 	@PostMapping("/corporationRegister")
 	public String registercorporationUser(@ModelAttribute LoginUser loginUser, Model model) {
 		// ユーザーを保存
-		loginUser.setRole("CORPORATEUSER");
+		loginUser.setRole("ROLE_CORPORATEUSER");
 		userDetailsServiceImpl.saveUser(loginUser);
 		model.addAttribute("message", "ユーザー登録が完了しました。");
 		logger.info(loginUser + "が登録された");

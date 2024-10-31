@@ -9,28 +9,15 @@
 
 <body>
 	<div th:fragment="header" class="header__gnav">
-		<div class="container">
-			<ul class="header__gnavList">
-
-				<li class=" header__gnavItem--home on">
+	
+			<ul class="header__gnavItem header__gnavList">
+				<li class="header__gnavItem--home">
 					<a th:href="@{/}">TOP</a>
 				</li>
 				<li class="header__gnavItem header__gnavItem--recruit">
 					<a th:href="@{#}">求人情報</a>
-					<ul class="header__gnav__innerList">
-						<li class="header__gnav__innerItem">
-						</li>
-						<li class="header__gnav__innerItem">
-						</li>
-					</ul>
 				</li>
-				<li class="header__gnavItem header__gnavItem--about">
-					<a th:href="@{#}"></a>
-				</li>
-
-
 			</ul>
-		</div>
 	</div>
 </body>
 

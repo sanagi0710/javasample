@@ -18,6 +18,11 @@ public class UserDetailsServiceImpl implements UserDetailsService {
 	@Autowired
 	private PasswordEncoder passwordEncoder;
 
+	// ユーザー名でユーザーを取得するメソッド
+	public LoginUser findUserByUsername(String username) {
+		return loginUserRepository.findByUsername(username);
+	}
+
 	@Override
 	public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
 		LoginUser user = loginUserRepository.findByUsername(username);
