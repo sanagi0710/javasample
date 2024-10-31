@@ -59,7 +59,22 @@ public class JobController {
 		return "jobDetail";
 	}
 
-	@GetMapping("/categories/{categories}")
+	@GetMapping("/categories/{categorie}")
+	public String getFolderJobs(@PathVariable String categorie, Model model) {
+		List<Job> jobs = new ArrayList<Job>();
+		
+		switch(categorie) {
+		case "all":
+		jobs = jobService.getAllJobs();
+		break;
+		case "se":
+			
+			jobs= jobService.
+		default:
+		break;
+		}
+		
+	}
 
 	@PostMapping
 	public String recruitDate(@ModelAttribute JobDTO jobDto, @ModelAttribute Job job,
