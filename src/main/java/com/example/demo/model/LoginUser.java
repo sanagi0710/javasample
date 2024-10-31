@@ -26,7 +26,7 @@ public class LoginUser {
 
 	private String email;
 
-	//	@ElementCollection(fetch = FetchType.EAGER)
+	//@ElementCollection(fetch = FetchType.EAGER)
 	private String role;
 
 }

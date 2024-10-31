@@ -12,43 +12,43 @@
 	<div th:replace="header :: header"></div>
 	<section class="topic">
 		<div class="topic__inner">
-	<ul class="topic__list" style="height: 29px; position: relative;">
-		<li class="topic__item showlist"
-			style="display: flex; top: 0px; left: 0px; position: absolute; opacity: 1; z-index: 99;">
-			<p class="topic__day">
-				2024.09.24
-			</p>
-			<h3 class="topic__ttl">
-				<a href="#">
-					新しいニュース
-				</a>
-			</h3>
-		</li>
-		<li class="topic__item"
-			style="display: none; top: 0px; left: -760px; position: absolute; opacity: 0; z-index: 98;">
-			<p class="topic__day">
-				2024.10.03
-			</p>
-			<p class="post__new post__new--mv">NEW</p>
-			<h3 class="topic__ttl">
-				<a href="#">
-					古いニュース
-				</a>
-			</h3>
-		</li>
-		<li class="topic__item"
-			style="display: none; top: 0px; left: -760px; position: absolute; opacity: 0; z-index: 98;">
-			<p class="topic__day">
-				2024.09.25
-			</p>
-			<h3 class="topic__ttl">
-				<a href="/content/news/2947">
-					古すぎるニュース
-				</a>
-			</h3>
-		</li>
-	</ul>
-	</div>
+			<ul class="topic__list" style="height: 29px; position: relative;">
+				<li class="topic__item showlist"
+					style="display: flex; top: 0px; left: 0px; position: absolute; opacity: 1; z-index: 99;">
+					<p class="topic__day">
+						2024.09.24
+					</p>
+					<h3 class="topic__ttl">
+						<a href="#">
+							新しいニュース
+						</a>
+					</h3>
+				</li>
+				<li class="topic__item"
+					style="display: none; top: 0px; left: -760px; position: absolute; opacity: 0; z-index: 98;">
+					<p class="topic__day">
+						2024.10.03
+					</p>
+					<p class="post__new post__new--mv">NEW</p>
+					<h3 class="topic__ttl">
+						<a href="#">
+							古いニュース
+						</a>
+					</h3>
+				</li>
+				<li class="topic__item"
+					style="display: none; top: 0px; left: -760px; position: absolute; opacity: 0; z-index: 98;">
+					<p class="topic__day">
+						2024.09.25
+					</p>
+					<h3 class="topic__ttl">
+						<a href="/content/news/2947">
+							古すぎるニュース
+						</a>
+					</h3>
+				</li>
+			</ul>
+		</div>
 	</section>
 	<!-- 情報選択メニュー -->
 	<div class="select__trigger__wrap">
@@ -74,44 +74,54 @@
 			</li>
 		</ul>
 	</div>
-
-	<!-- Slider main container -->
-	<div class="swiper">
-		<!-- Additional required wrapper -->
-		<div class="swiper-wrapper">
-			<!-- Slides -->
-			<div th:each="job : ${jobs}" class="swiper-slide recruit_post_item">
-				<p class="recruit_post_thumbnail">
-				    <a th:href="@{/recruit/{id}(id=${job.id})}">
-						 <img th:src="@{'/img/' + ${job.imagePath}}" alt="Job Thumbnail" />
-				    </a>
-				</p>
-				<p class="recruit_post_day">更新日 : <span th:text="${#dates.format(job.date, 'yyyy-MM-dd')}"></span></p>
-				<h4 class="recruit_post_ttl">
-					<a th:href="@{/recruit/{id}(id=${job.id})}" th:text="${job.title}"></a>
-				</h4>
-				<p class="recruit_post_catch" th:text="${job.description}"></p>
-				<div class="divider"></div>
-				<ul class="recruit_post_catList">
-					<li th:each="category : ${job.categories}" th:text="${category}" class="recruit_post_catItem"></li>
-				</ul>
+	<div th:if="${jobs != null || jobs.size() > 0}">
+		<!-- スライダーのコンテナ -->
+		<div class="swiper">
+			<!-- スライダーのラッパー -->
+			<div class="swiper-wrapper">
+				<!-- 本体(実装部) -->
+				<div th:each="job : ${jobs}" class="swiper-slide recruit_post_item">
+					<p class="recruit_post_thumbnail">
+						<a th:href="@{/recruit/{id}(id=${job.id})}">
+							<img th:src="@{'/img/' + ${job.imagePath}}" alt="Job Thumbnail" />
+						</a>
+					</p>
+					<p class="recruit_post_day">更新日 : <span th:text="${#dates.format(job.date, 'yyyy-MM-dd')}"></span>
+					</p>
+					<h4 class="recruit_post_ttl">
+						<a th:href="@{/recruit/{id}(id=${job.id})}" th:text="${job.title}"></a>
+					</h4>
+					<p class="recruit_post_catch" th:text="${job.description}"></p>
+					<div class="divider"></div>
+					<ul class="recruit_post_catList">
+						<li th:each="category : ${job.categories}" th:text="${category}" class="recruit_post_catItem">
+						</li>
+					</ul>
+				</div>
 			</div>
+			<!-- ページネーション -->>
+			<div class="swiper-pagination"></div>
+			<!-- 前のスライドに移動するボタン -->
+			<div class="swiper-button-prev"></div>
+			<!-- 次のスライドに移動するボタン -->
+			<div class="swiper-button-next"></div>
+			<!-- スクロールバー -->>
+			<div class="swiper-scrollbar"></div>
 		</div>
-		<div class="swiper-pagination"></div>
-		<div class="swiper-button-prev"></div>
-		<div class="swiper-button-next"></div>
-		<div class="swiper-scrollbar"></div>
 	</div>
-	
-	<form method="post" th:action="@{/recruit}" enctype="multipart/form-data" id="from">
+	<div th:if="${jobs == null || jobs.size() == 0}">
+		検索結果はありません。
+	</div>
+
+	<form method="post" th:action="@{/recruitList}" enctype="multipart/form-data" id="form">
 		<input type="text" name="title" placeholder="タイトルを入れてください">
 		<input type="text" name="description" placeholder="説明を入れてください">
 		<input type="file" name="image">
 		<input type="date" name="date">
 		<input type="hidden" name="bookmarkFlag" value="false">
 		<input type="checkbox" id="bookmarkCheckbox" onchange="updateBookmarkFlag()" checked>
-		<button type="submit" name="action" value="register">登録</button>	
-		<button type="submit" name="action" value="search">検索</button> 
+		<button type="submit" name="action" value="register">登録</button>
+		<button type="submit" name="action" value="search">検索</button>
 	</form>
 
 	<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>

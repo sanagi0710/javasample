@@ -37,7 +37,7 @@ public class LoginController {
 		model.addAttribute("email", user.getEmail());
 		// 他のユーザー情報も必要に応じて追加
 
-		return "updateUserPage";
+		return "accountSettings";
 	}
 
 	// 一般ユーザー登録画面を表示

@@ -176,16 +176,3 @@ input[type="date"] {
     border-radius: 4px; /* 角を丸く */
     box-sizing: border-box; /* ボックスサイズを調整 */
 }
-
-button {
-    background-color: #4CAF50; /* ボタンの背景色 */
-    color: white; /* ボタンの文字色 */
-    padding: 10px 15px; /* 内側の余白 */
-    border: none; /* 境界線なし */
-    border-radius: 4px; /* 角を丸く */
-    cursor: pointer; /* カーソルをポインターに */
-}
-
-button:hover {
-    background-color: #45a049; /* ホバー時の背景色 */
-}
