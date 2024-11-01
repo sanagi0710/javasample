@@ -15,20 +15,20 @@
 		<div class="topic__inner">
 			<ul class="topic__list" style="height: 29px; position: relative;">
 				<li class="topic__item showlist"
-					style="display: flex; top: 0px; left: 0px; position: absolute; opacity: 1; z-index: 99;">
+					style="display: flex; top: 0px; left: 760px; position: absolute; opacity: 0; z-index: 99;">
 					<p class="topic__day">2024.09.24</p>
 					<h3 class="topic__ttl">
 						<a href="#">新しいニュース</a>
 					</h3>
 				</li>
-				<li class="topic__item" style="display: none;">
+				<li class="topic__item" style="display: none; top: 0px; left: -760px; position: absolute; opacity: 0; z-index: 98;">
 					<p class="topic__day">2024.10.03</p>
 					<p class="post__new post__new--mv">NEW</p>
 					<h3 class="topic__ttl">
 						<a href="#">古いニュース</a>
 					</h3>
 				</li>
-				<li class="topic__item" style="display: none;">
+				<li class="topic__item"  style="display: none; top: 0px; left: -760px; position: absolute; opacity: 0; z-index: 98;">
 					<p class="topic__day">2024.09.25</p>
 					<h3 class="topic__ttl">
 						<a href="/content/news/2947">古すぎるニュース</a>
@@ -104,8 +104,10 @@
 		<input type="file" name="image">
 		<input type="date" name="date">
 		<input type="hidden" name="bookmarkFlag" value="false">
+		<div class="bookmarkCheck">
 		<label for="bookmarkCheckbox">ブックマーク</label>
 		<input type="checkbox" id="bookmarkCheckbox" onchange="updateBookmarkFlag()">
+		</div>
 		<div>
 			<h3>カテゴリーを選択してください</h3>
 			<label><input type="checkbox" name="categories" value="SE">SE</label>

@@ -1059,3 +1059,1188 @@ Caused by: org.springframework.data.mapping.PropertyReferenceException: No prope
 2024-11-01 14:04:46 DEBUG FilterChainProxy - Securing GET /error
 2024-11-01 14:04:46 DEBUG FilterChainProxy - Secured GET /error
 2024-11-01 14:04:46 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 14:21:52 DEBUG FilterChainProxy - Securing GET /css/header.css
+2024-11-01 14:21:52 DEBUG FilterChainProxy - Securing GET /css/recruit.css
+2024-11-01 14:21:52 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 14:21:52 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 14:21:52 DEBUG FilterChainProxy - Secured GET /css/header.css
+2024-11-01 14:21:52 DEBUG FilterChainProxy - Secured GET /css/recruit.css
+2024-11-01 14:25:35 DEBUG FilterChainProxy - Securing GET /recruitList
+2024-11-01 14:25:35 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 14:25:35 DEBUG FilterChainProxy - Secured GET /recruitList
+2024-11-01 14:25:35 DEBUG FilterChainProxy - Securing GET /img/{job.imagePath}?id=34
+2024-11-01 14:25:35 DEBUG FilterChainProxy - Securing GET /css/recruit.css
+2024-11-01 14:25:35 DEBUG FilterChainProxy - Securing GET /css/header.css
+2024-11-01 14:25:35 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 14:25:35 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 14:25:35 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 14:25:35 DEBUG FilterChainProxy - Secured GET /css/header.css
+2024-11-01 14:25:35 DEBUG FilterChainProxy - Securing GET /img/{job.imagePath}?id=35
+2024-11-01 14:25:35 DEBUG FilterChainProxy - Secured GET /css/recruit.css
+2024-11-01 14:25:35 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 14:25:35 DEBUG FilterChainProxy - Secured GET /img/{job.imagePath}?id=34
+2024-11-01 14:25:35 DEBUG FilterChainProxy - Secured GET /img/{job.imagePath}?id=35
+2024-11-01 14:25:35 DEBUG FilterChainProxy - Securing GET /error?id=34
+2024-11-01 14:25:35 DEBUG FilterChainProxy - Secured GET /error?id=34
+2024-11-01 14:25:35 DEBUG FilterChainProxy - Securing GET /error?id=35
+2024-11-01 14:25:35 DEBUG FilterChainProxy - Secured GET /error?id=35
+2024-11-01 14:25:35 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 14:25:35 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 14:25:35 DEBUG FilterChainProxy - Securing GET /js/recruit.js
+2024-11-01 14:25:35 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 14:25:35 DEBUG FilterChainProxy - Secured GET /js/recruit.js
+2024-11-01 14:25:35 DEBUG FilterChainProxy - Securing GET /packs/media/common/bg--pt3-f3239198.gif
+2024-11-01 14:25:35 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 14:25:35 DEBUG FilterChainProxy - Secured GET /packs/media/common/bg--pt3-f3239198.gif
+2024-11-01 14:25:35 DEBUG FilterChainProxy - Securing GET /error
+2024-11-01 14:25:35 DEBUG FilterChainProxy - Secured GET /error
+2024-11-01 14:25:35 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 14:28:51 INFO JavasampleApplication - Starting JavasampleApplication using Java 21.0.4 with PID 6260 (C:\pleiades\codeWorkspace\javasample\bin\main started by x_yanwei in C:\pleiades\codeWorkspace\javasample)
+2024-11-01 14:28:51 INFO JavasampleApplication - No active profile set, falling back to 1 default profile: "default"
+2024-11-01 14:28:51 INFO DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-11-01 14:28:51 INFO DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-11-01 14:28:52 INFO RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-11-01 14:28:52 INFO RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2024-11-01 14:28:52 INFO RepositoryConfigurationExtensionSupport - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.demo.repository.JobRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2024-11-01 14:28:52 INFO RepositoryConfigurationExtensionSupport - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.demo.repository.LoginUserRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2024-11-01 14:28:52 INFO RepositoryConfigurationExtensionSupport - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.demo.repository.MessageRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2024-11-01 14:28:52 INFO RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 100 ms. Found 0 JDBC repository interfaces.
+2024-11-01 14:28:52 INFO RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-11-01 14:28:52 INFO RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-01 14:28:52 INFO RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 54 ms. Found 3 JPA repository interfaces.
+2024-11-01 14:28:53 INFO TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-11-01 14:28:53 INFO ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2773 ms
+2024-11-01 14:28:54 INFO H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/test1'
+2024-11-01 14:28:54 INFO LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-01 14:28:54 INFO Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-01 14:28:54 INFO RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-11-01 14:28:55 INFO SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-01 14:28:55 WARN Dialect - HHH000511: The 5.5.5 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2024-11-01 14:28:56 INFO JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-01 14:28:56 INFO LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-01 14:28:57 WARN JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-01 14:28:57 WARN InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+2024-11-01 14:28:57 INFO WelcomePageHandlerMapping - Adding welcome page template: index
+2024-11-01 14:28:58 DEBUG DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, LogoutFilter, UsernamePasswordAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2024-11-01 14:28:58 INFO OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-11-01 14:28:58 INFO TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-11-01 14:28:58 INFO JavasampleApplication - Started JavasampleApplication in 8.497 seconds (process running for 9.906)
+2024-11-01 14:28:59 INFO DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-11-01 14:28:59 INFO DispatcherServlet - Completed initialization in 1 ms
+2024-11-01 14:28:59 DEBUG FilterChainProxy - Securing GET /logout
+2024-11-01 14:28:59 DEBUG LogoutFilter - Logging out [null]
+2024-11-01 14:28:59 DEBUG DefaultRedirectStrategy - Redirecting to /
+2024-11-01 14:28:59 DEBUG FilterChainProxy - Securing GET /
+2024-11-01 14:28:59 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 14:28:59 DEBUG FilterChainProxy - Secured GET /
+2024-11-01 14:28:59 DEBUG FilterChainProxy - Securing GET /css/header.css
+2024-11-01 14:28:59 DEBUG FilterChainProxy - Securing GET /css/index.css
+2024-11-01 14:28:59 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 14:28:59 DEBUG FilterChainProxy - Secured GET /css/header.css
+2024-11-01 14:28:59 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 14:28:59 DEBUG FilterChainProxy - Secured GET /css/index.css
+2024-11-01 14:28:59 DEBUG FilterChainProxy - Securing GET /js/main.js
+2024-11-01 14:28:59 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 14:28:59 DEBUG FilterChainProxy - Secured GET /js/main.js
+2024-11-01 14:29:02 DEBUG FilterChainProxy - Securing GET /recruitList
+2024-11-01 14:29:02 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 14:29:02 DEBUG FilterChainProxy - Secured GET /recruitList
+2024-11-01 14:29:02 DEBUG FilterChainProxy - Securing GET /css/header.css
+2024-11-01 14:29:02 DEBUG FilterChainProxy - Securing GET /css/recruitList.css
+2024-11-01 14:29:02 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 14:29:02 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 14:29:02 DEBUG FilterChainProxy - Secured GET /css/header.css
+2024-11-01 14:29:02 DEBUG FilterChainProxy - Secured GET /css/recruitList.css
+2024-11-01 14:29:02 DEBUG FilterChainProxy - Securing GET /img/{job.imagePath}?id=35
+2024-11-01 14:29:02 DEBUG FilterChainProxy - Securing GET /img/{job.imagePath}?id=34
+2024-11-01 14:29:02 DEBUG FilterChainProxy - Securing GET /js/recruit.js
+2024-11-01 14:29:02 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 14:29:02 DEBUG FilterChainProxy - Secured GET /js/recruit.js
+2024-11-01 14:29:02 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 14:29:02 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 14:29:02 DEBUG FilterChainProxy - Secured GET /img/{job.imagePath}?id=34
+2024-11-01 14:29:02 DEBUG FilterChainProxy - Secured GET /img/{job.imagePath}?id=35
+2024-11-01 14:29:02 DEBUG FilterChainProxy - Securing GET /packs/media/common/bg--pt3-f3239198.gif
+2024-11-01 14:29:02 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 14:29:02 DEBUG FilterChainProxy - Secured GET /packs/media/common/bg--pt3-f3239198.gif
+2024-11-01 14:29:02 DEBUG FilterChainProxy - Securing GET /error?id=35
+2024-11-01 14:29:02 DEBUG FilterChainProxy - Securing GET /error?id=34
+2024-11-01 14:29:02 DEBUG FilterChainProxy - Securing GET /error
+2024-11-01 14:29:02 DEBUG FilterChainProxy - Secured GET /error
+2024-11-01 14:29:02 DEBUG FilterChainProxy - Secured GET /error?id=35
+2024-11-01 14:29:02 DEBUG FilterChainProxy - Secured GET /error?id=34
+2024-11-01 14:29:03 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 14:29:03 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 14:29:03 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 14:39:03 INFO JavasampleApplication - Starting JavasampleApplication using Java 21.0.4 with PID 12508 (C:\pleiades\codeWorkspace\javasample\bin\main started by x_yanwei in C:\pleiades\codeWorkspace\javasample)
+2024-11-01 14:39:03 INFO JavasampleApplication - No active profile set, falling back to 1 default profile: "default"
+2024-11-01 14:39:03 INFO DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-11-01 14:39:03 INFO DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-11-01 14:39:04 INFO RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-11-01 14:39:04 INFO RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2024-11-01 14:39:04 INFO RepositoryConfigurationExtensionSupport - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.demo.repository.JobRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2024-11-01 14:39:04 INFO RepositoryConfigurationExtensionSupport - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.demo.repository.LoginUserRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2024-11-01 14:39:04 INFO RepositoryConfigurationExtensionSupport - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.demo.repository.MessageRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2024-11-01 14:39:04 INFO RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 51 ms. Found 0 JDBC repository interfaces.
+2024-11-01 14:39:04 INFO RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-11-01 14:39:04 INFO RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-01 14:39:04 INFO RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 52 ms. Found 3 JPA repository interfaces.
+2024-11-01 14:39:05 INFO TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-11-01 14:39:06 INFO ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2611 ms
+2024-11-01 14:39:06 INFO H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/test1'
+2024-11-01 14:39:06 INFO LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-01 14:39:06 INFO Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-01 14:39:06 INFO RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-11-01 14:39:07 INFO SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-01 14:39:07 WARN Dialect - HHH000511: The 5.5.5 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2024-11-01 14:39:08 INFO JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-01 14:39:08 INFO LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-01 14:39:09 WARN JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-01 14:39:09 WARN InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+2024-11-01 14:39:09 INFO WelcomePageHandlerMapping - Adding welcome page template: index
+2024-11-01 14:39:09 DEBUG DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, LogoutFilter, UsernamePasswordAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2024-11-01 14:39:10 INFO OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-11-01 14:39:10 INFO TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-11-01 14:39:10 INFO JavasampleApplication - Started JavasampleApplication in 7.454 seconds (process running for 11.622)
+2024-11-01 14:39:14 INFO DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-11-01 14:39:14 INFO DispatcherServlet - Completed initialization in 2 ms
+2024-11-01 14:39:14 DEBUG FilterChainProxy - Securing GET /recruitList
+2024-11-01 14:39:14 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 14:39:14 DEBUG FilterChainProxy - Secured GET /recruitList
+2024-11-01 14:39:15 DEBUG FilterChainProxy - Securing GET /css/header.css
+2024-11-01 14:39:15 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 14:39:15 DEBUG FilterChainProxy - Secured GET /css/header.css
+2024-11-01 14:39:15 DEBUG FilterChainProxy - Securing GET /img/{job.imagePath}?id=34
+2024-11-01 14:39:15 DEBUG FilterChainProxy - Securing GET /img/{job.imagePath}?id=35
+2024-11-01 14:39:15 DEBUG FilterChainProxy - Securing GET /css/recruitList.css
+2024-11-01 14:39:15 DEBUG FilterChainProxy - Securing GET /js/recruit.js
+2024-11-01 14:39:15 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 14:39:15 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 14:39:15 DEBUG FilterChainProxy - Secured GET /css/recruitList.css
+2024-11-01 14:39:15 DEBUG FilterChainProxy - Secured GET /js/recruit.js
+2024-11-01 14:39:15 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 14:39:15 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 14:39:15 DEBUG FilterChainProxy - Secured GET /img/{job.imagePath}?id=34
+2024-11-01 14:39:15 DEBUG FilterChainProxy - Secured GET /img/{job.imagePath}?id=35
+2024-11-01 14:39:15 DEBUG FilterChainProxy - Securing GET /error?id=35
+2024-11-01 14:39:15 DEBUG FilterChainProxy - Securing GET /error?id=34
+2024-11-01 14:39:15 DEBUG FilterChainProxy - Secured GET /error?id=34
+2024-11-01 14:39:15 DEBUG FilterChainProxy - Secured GET /error?id=35
+2024-11-01 14:39:15 DEBUG FilterChainProxy - Securing GET /packs/media/common/bg--pt3-f3239198.gif
+2024-11-01 14:39:15 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 14:39:15 DEBUG FilterChainProxy - Secured GET /packs/media/common/bg--pt3-f3239198.gif
+2024-11-01 14:39:15 DEBUG FilterChainProxy - Securing GET /error
+2024-11-01 14:39:15 DEBUG FilterChainProxy - Secured GET /error
+2024-11-01 14:39:15 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 14:39:15 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 14:39:15 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 14:55:33 INFO JavasampleApplication - Starting JavasampleApplication using Java 21.0.4 with PID 11172 (C:\pleiades\codeWorkspace\javasample\bin\main started by x_yanwei in C:\pleiades\codeWorkspace\javasample)
+2024-11-01 14:55:33 INFO JavasampleApplication - No active profile set, falling back to 1 default profile: "default"
+2024-11-01 14:55:33 INFO DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-11-01 14:55:33 INFO DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-11-01 14:55:34 INFO RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-11-01 14:55:34 INFO RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2024-11-01 14:55:34 INFO RepositoryConfigurationExtensionSupport - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.demo.repository.JobRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2024-11-01 14:55:34 INFO RepositoryConfigurationExtensionSupport - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.demo.repository.LoginUserRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2024-11-01 14:55:34 INFO RepositoryConfigurationExtensionSupport - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.demo.repository.MessageRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2024-11-01 14:55:34 INFO RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 70 ms. Found 0 JDBC repository interfaces.
+2024-11-01 14:55:34 INFO RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-11-01 14:55:34 INFO RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-01 14:55:35 INFO RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 73 ms. Found 3 JPA repository interfaces.
+2024-11-01 14:55:36 INFO TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-11-01 14:55:36 INFO ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2769 ms
+2024-11-01 14:55:36 INFO H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/test1'
+2024-11-01 14:55:37 INFO LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-01 14:55:37 INFO Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-01 14:55:37 INFO RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-11-01 14:55:37 INFO SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-01 14:55:37 WARN Dialect - HHH000511: The 5.5.5 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2024-11-01 14:55:39 INFO JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-01 14:55:39 INFO LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-01 14:55:39 WARN JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-01 14:55:39 WARN InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+2024-11-01 14:55:40 INFO WelcomePageHandlerMapping - Adding welcome page template: index
+2024-11-01 14:55:40 DEBUG DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, LogoutFilter, UsernamePasswordAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2024-11-01 14:55:40 INFO OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-11-01 14:55:41 INFO TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-11-01 14:55:41 INFO JavasampleApplication - Started JavasampleApplication in 8.15 seconds (process running for 9.533)
+2024-11-01 14:55:52 INFO DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-11-01 14:55:52 INFO DispatcherServlet - Completed initialization in 3 ms
+2024-11-01 14:55:52 DEBUG FilterChainProxy - Securing GET /recruitList
+2024-11-01 14:55:52 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 14:55:52 DEBUG FilterChainProxy - Secured GET /recruitList
+2024-11-01 14:55:53 DEBUG FilterChainProxy - Securing GET /img/{job.imagePath}?id=35
+2024-11-01 14:55:53 DEBUG FilterChainProxy - Securing GET /img/{job.imagePath}?id=34
+2024-11-01 14:55:53 DEBUG FilterChainProxy - Securing GET /js/recruit.js
+2024-11-01 14:55:53 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 14:55:53 DEBUG FilterChainProxy - Securing GET /css/header.css
+2024-11-01 14:55:53 DEBUG FilterChainProxy - Secured GET /js/recruit.js
+2024-11-01 14:55:53 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 14:55:53 DEBUG FilterChainProxy - Secured GET /css/header.css
+2024-11-01 14:55:53 DEBUG FilterChainProxy - Securing GET /css/recruitList.css
+2024-11-01 14:55:53 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 14:55:53 DEBUG FilterChainProxy - Secured GET /css/recruitList.css
+2024-11-01 14:55:53 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 14:55:53 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 14:55:53 DEBUG FilterChainProxy - Secured GET /img/{job.imagePath}?id=34
+2024-11-01 14:55:53 DEBUG FilterChainProxy - Secured GET /img/{job.imagePath}?id=35
+2024-11-01 14:55:53 DEBUG FilterChainProxy - Securing GET /error?id=35
+2024-11-01 14:55:53 DEBUG FilterChainProxy - Securing GET /error?id=34
+2024-11-01 14:55:53 DEBUG FilterChainProxy - Secured GET /error?id=34
+2024-11-01 14:55:53 DEBUG FilterChainProxy - Secured GET /error?id=35
+2024-11-01 14:55:53 DEBUG FilterChainProxy - Securing GET /packs/media/common/bg--pt3-f3239198.gif
+2024-11-01 14:55:53 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 14:55:53 DEBUG FilterChainProxy - Secured GET /packs/media/common/bg--pt3-f3239198.gif
+2024-11-01 14:55:53 DEBUG FilterChainProxy - Securing GET /error
+2024-11-01 14:55:53 DEBUG FilterChainProxy - Secured GET /error
+2024-11-01 14:55:53 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 14:55:53 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 14:55:53 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 14:56:42 DEBUG FilterChainProxy - Securing GET /recruitList
+2024-11-01 14:56:42 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 14:56:42 DEBUG FilterChainProxy - Secured GET /recruitList
+2024-11-01 14:56:42 DEBUG FilterChainProxy - Securing GET /css/recruitList.css
+2024-11-01 14:56:42 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 14:56:42 DEBUG FilterChainProxy - Secured GET /css/recruitList.css
+2024-11-01 14:56:42 DEBUG FilterChainProxy - Securing GET /img/{job.imagePath}?id=34
+2024-11-01 14:56:42 DEBUG FilterChainProxy - Securing GET /css/header.css
+2024-11-01 14:56:42 DEBUG FilterChainProxy - Securing GET /img/{job.imagePath}?id=35
+2024-11-01 14:56:42 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 14:56:42 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 14:56:42 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 14:56:42 DEBUG FilterChainProxy - Secured GET /img/{job.imagePath}?id=34
+2024-11-01 14:56:42 DEBUG FilterChainProxy - Secured GET /img/{job.imagePath}?id=35
+2024-11-01 14:56:42 DEBUG FilterChainProxy - Securing GET /js/recruit.js
+2024-11-01 14:56:42 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 14:56:42 DEBUG FilterChainProxy - Secured GET /js/recruit.js
+2024-11-01 14:56:42 DEBUG FilterChainProxy - Secured GET /css/header.css
+2024-11-01 14:56:42 DEBUG FilterChainProxy - Securing GET /error?id=35
+2024-11-01 14:56:42 DEBUG FilterChainProxy - Securing GET /error?id=34
+2024-11-01 14:56:42 DEBUG FilterChainProxy - Secured GET /error?id=34
+2024-11-01 14:56:42 DEBUG FilterChainProxy - Secured GET /error?id=35
+2024-11-01 14:56:42 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 14:56:42 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 14:56:42 DEBUG FilterChainProxy - Securing GET /packs/media/common/bg--pt3-f3239198.gif
+2024-11-01 14:56:42 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 14:56:42 DEBUG FilterChainProxy - Secured GET /packs/media/common/bg--pt3-f3239198.gif
+2024-11-01 14:56:42 DEBUG FilterChainProxy - Securing GET /error
+2024-11-01 14:56:42 DEBUG FilterChainProxy - Secured GET /error
+2024-11-01 14:56:42 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 14:56:48 INFO JavasampleApplication - Starting JavasampleApplication using Java 21.0.4 with PID 15996 (C:\pleiades\codeWorkspace\javasample\bin\main started by x_yanwei in C:\pleiades\codeWorkspace\javasample)
+2024-11-01 14:56:48 INFO JavasampleApplication - No active profile set, falling back to 1 default profile: "default"
+2024-11-01 14:56:48 INFO DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-11-01 14:56:48 INFO DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-11-01 14:56:49 INFO RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-11-01 14:56:49 INFO RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2024-11-01 14:56:49 INFO RepositoryConfigurationExtensionSupport - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.demo.repository.JobRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2024-11-01 14:56:49 INFO RepositoryConfigurationExtensionSupport - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.demo.repository.LoginUserRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2024-11-01 14:56:49 INFO RepositoryConfigurationExtensionSupport - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.demo.repository.MessageRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2024-11-01 14:56:49 INFO RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 60 ms. Found 0 JDBC repository interfaces.
+2024-11-01 14:56:49 INFO RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-11-01 14:56:49 INFO RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-01 14:56:50 INFO RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 61 ms. Found 3 JPA repository interfaces.
+2024-11-01 14:56:51 INFO TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-11-01 14:56:51 INFO ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2880 ms
+2024-11-01 14:56:51 INFO H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/test1'
+2024-11-01 14:56:52 INFO LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-01 14:56:52 INFO Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-01 14:56:52 INFO RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-11-01 14:56:52 INFO SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-01 14:56:53 WARN Dialect - HHH000511: The 5.5.5 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2024-11-01 14:56:54 INFO JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-01 14:56:54 INFO LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-01 14:56:55 WARN JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-01 14:56:55 WARN InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+2024-11-01 14:56:55 INFO WelcomePageHandlerMapping - Adding welcome page template: index
+2024-11-01 14:56:55 DEBUG DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, LogoutFilter, UsernamePasswordAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2024-11-01 14:56:56 INFO OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-11-01 14:56:56 INFO TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-11-01 14:56:56 INFO JavasampleApplication - Started JavasampleApplication in 8.383 seconds (process running for 9.785)
+2024-11-01 14:56:58 INFO DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-11-01 14:56:58 INFO DispatcherServlet - Completed initialization in 3 ms
+2024-11-01 14:56:58 DEBUG FilterChainProxy - Securing GET /logout
+2024-11-01 14:56:58 DEBUG LogoutFilter - Logging out [null]
+2024-11-01 14:56:58 DEBUG DefaultRedirectStrategy - Redirecting to /
+2024-11-01 14:56:58 DEBUG FilterChainProxy - Securing GET /
+2024-11-01 14:56:58 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 14:56:58 DEBUG FilterChainProxy - Secured GET /
+2024-11-01 14:56:59 DEBUG FilterChainProxy - Securing GET /css/index.css
+2024-11-01 14:56:59 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 14:56:59 DEBUG FilterChainProxy - Securing GET /css/header.css
+2024-11-01 14:56:59 DEBUG FilterChainProxy - Secured GET /css/index.css
+2024-11-01 14:56:59 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 14:56:59 DEBUG FilterChainProxy - Secured GET /css/header.css
+2024-11-01 14:56:59 DEBUG FilterChainProxy - Securing GET /js/main.js
+2024-11-01 14:56:59 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 14:56:59 DEBUG FilterChainProxy - Secured GET /js/main.js
+2024-11-01 15:03:06 INFO JavasampleApplication - Starting JavasampleApplication using Java 21.0.4 with PID 9316 (C:\pleiades\codeWorkspace\javasample\bin\main started by x_yanwei in C:\pleiades\codeWorkspace\javasample)
+2024-11-01 15:03:06 INFO JavasampleApplication - No active profile set, falling back to 1 default profile: "default"
+2024-11-01 15:03:06 INFO DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-11-01 15:03:06 INFO DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-11-01 15:03:08 INFO RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-11-01 15:03:08 INFO RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2024-11-01 15:03:08 INFO RepositoryConfigurationExtensionSupport - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.demo.repository.JobRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2024-11-01 15:03:08 INFO RepositoryConfigurationExtensionSupport - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.demo.repository.LoginUserRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2024-11-01 15:03:08 INFO RepositoryConfigurationExtensionSupport - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.demo.repository.MessageRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2024-11-01 15:03:08 INFO RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 54 ms. Found 0 JDBC repository interfaces.
+2024-11-01 15:03:08 INFO RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-11-01 15:03:08 INFO RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-01 15:03:08 INFO RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 55 ms. Found 3 JPA repository interfaces.
+2024-11-01 15:03:09 INFO TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-11-01 15:03:09 INFO ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2640 ms
+2024-11-01 15:03:09 INFO H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/test1'
+2024-11-01 15:03:09 INFO LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-01 15:03:10 INFO Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-01 15:03:10 INFO RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-11-01 15:03:10 INFO SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-01 15:03:10 WARN Dialect - HHH000511: The 5.5.5 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2024-11-01 15:03:11 INFO JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-01 15:03:12 INFO LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-01 15:03:12 WARN JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-01 15:03:12 WARN InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+2024-11-01 15:03:12 INFO WelcomePageHandlerMapping - Adding welcome page template: index
+2024-11-01 15:03:13 DEBUG DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, LogoutFilter, UsernamePasswordAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2024-11-01 15:03:13 INFO OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-11-01 15:03:13 INFO TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-11-01 15:03:13 INFO JavasampleApplication - Started JavasampleApplication in 7.699 seconds (process running for 9.073)
+2024-11-01 15:03:13 INFO DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-11-01 15:03:13 INFO DispatcherServlet - Completed initialization in 2 ms
+2024-11-01 15:03:13 DEBUG FilterChainProxy - Securing GET /
+2024-11-01 15:03:13 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:03:13 DEBUG FilterChainProxy - Secured GET /
+2024-11-01 15:03:14 DEBUG FilterChainProxy - Securing GET /css/index.css
+2024-11-01 15:03:14 DEBUG FilterChainProxy - Securing GET /css/header.css
+2024-11-01 15:03:14 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:03:14 DEBUG FilterChainProxy - Secured GET /css/index.css
+2024-11-01 15:03:14 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:03:14 DEBUG FilterChainProxy - Secured GET /css/header.css
+2024-11-01 15:03:14 DEBUG FilterChainProxy - Securing GET /js/main.js
+2024-11-01 15:03:14 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:03:14 DEBUG FilterChainProxy - Secured GET /js/main.js
+2024-11-01 15:03:19 DEBUG FilterChainProxy - Securing GET /recruitList
+2024-11-01 15:03:19 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:03:19 DEBUG FilterChainProxy - Secured GET /recruitList
+2024-11-01 15:03:19 DEBUG FilterChainProxy - Securing GET /css/recruitList.css
+2024-11-01 15:03:19 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:03:19 DEBUG FilterChainProxy - Secured GET /css/recruitList.css
+2024-11-01 15:03:19 DEBUG FilterChainProxy - Securing GET /css/header.css
+2024-11-01 15:03:19 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:03:19 DEBUG FilterChainProxy - Secured GET /css/header.css
+2024-11-01 15:03:19 DEBUG FilterChainProxy - Securing GET /js/recruit.js
+2024-11-01 15:03:19 DEBUG FilterChainProxy - Securing GET /img/{job.imagePath}?id=34
+2024-11-01 15:03:19 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:03:19 DEBUG FilterChainProxy - Secured GET /js/recruit.js
+2024-11-01 15:03:19 DEBUG FilterChainProxy - Securing GET /img/{job.imagePath}?id=35
+2024-11-01 15:03:19 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:03:19 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:03:19 DEBUG FilterChainProxy - Secured GET /img/{job.imagePath}?id=34
+2024-11-01 15:03:19 DEBUG FilterChainProxy - Secured GET /img/{job.imagePath}?id=35
+2024-11-01 15:03:19 DEBUG FilterChainProxy - Securing GET /error?id=34
+2024-11-01 15:03:19 DEBUG FilterChainProxy - Securing GET /error?id=35
+2024-11-01 15:03:19 DEBUG FilterChainProxy - Secured GET /error?id=35
+2024-11-01 15:03:19 DEBUG FilterChainProxy - Secured GET /error?id=34
+2024-11-01 15:03:19 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:03:19 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:03:19 DEBUG FilterChainProxy - Securing GET /packs/media/common/bg--pt3-f3239198.gif
+2024-11-01 15:03:19 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:03:19 DEBUG FilterChainProxy - Secured GET /packs/media/common/bg--pt3-f3239198.gif
+2024-11-01 15:03:19 DEBUG FilterChainProxy - Securing GET /error
+2024-11-01 15:03:19 DEBUG FilterChainProxy - Secured GET /error
+2024-11-01 15:03:19 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:10:57 INFO JavasampleApplication - Starting JavasampleApplication using Java 21.0.4 with PID 14748 (C:\pleiades\codeWorkspace\javasample\bin\main started by x_yanwei in C:\pleiades\codeWorkspace\javasample)
+2024-11-01 15:10:57 INFO JavasampleApplication - No active profile set, falling back to 1 default profile: "default"
+2024-11-01 15:10:57 INFO DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-11-01 15:10:57 INFO DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-11-01 15:10:58 INFO RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-11-01 15:10:58 INFO RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2024-11-01 15:10:58 INFO RepositoryConfigurationExtensionSupport - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.demo.repository.JobRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2024-11-01 15:10:58 INFO RepositoryConfigurationExtensionSupport - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.demo.repository.LoginUserRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2024-11-01 15:10:58 INFO RepositoryConfigurationExtensionSupport - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.demo.repository.MessageRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2024-11-01 15:10:58 INFO RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 62 ms. Found 0 JDBC repository interfaces.
+2024-11-01 15:10:58 INFO RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-11-01 15:10:58 INFO RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-01 15:10:58 INFO RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 58 ms. Found 3 JPA repository interfaces.
+2024-11-01 15:10:59 INFO TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-11-01 15:10:59 INFO ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2457 ms
+2024-11-01 15:10:59 INFO H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/test1'
+2024-11-01 15:11:00 INFO LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-01 15:11:00 INFO Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-01 15:11:00 INFO RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-11-01 15:11:00 INFO SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-01 15:11:00 WARN Dialect - HHH000511: The 5.5.5 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2024-11-01 15:11:01 INFO JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-01 15:11:02 INFO LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-01 15:11:02 WARN JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-01 15:11:02 WARN InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+2024-11-01 15:11:02 INFO WelcomePageHandlerMapping - Adding welcome page template: index
+2024-11-01 15:11:03 DEBUG DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, LogoutFilter, UsernamePasswordAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2024-11-01 15:11:03 INFO OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-11-01 15:11:04 INFO TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-11-01 15:11:04 INFO JavasampleApplication - Started JavasampleApplication in 7.506 seconds (process running for 8.933)
+2024-11-01 15:11:06 INFO DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-11-01 15:11:06 INFO DispatcherServlet - Completed initialization in 3 ms
+2024-11-01 15:11:06 DEBUG FilterChainProxy - Securing GET /
+2024-11-01 15:11:06 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:11:06 DEBUG FilterChainProxy - Secured GET /
+2024-11-01 15:11:07 DEBUG FilterChainProxy - Securing GET /css/index.css
+2024-11-01 15:11:07 DEBUG FilterChainProxy - Securing GET /css/header.css
+2024-11-01 15:11:07 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:11:07 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:11:07 DEBUG FilterChainProxy - Secured GET /css/header.css
+2024-11-01 15:11:07 DEBUG FilterChainProxy - Secured GET /css/index.css
+2024-11-01 15:11:07 DEBUG FilterChainProxy - Securing GET /js/main.js
+2024-11-01 15:11:07 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:11:07 DEBUG FilterChainProxy - Secured GET /js/main.js
+2024-11-01 15:11:09 DEBUG FilterChainProxy - Securing GET /
+2024-11-01 15:11:09 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:11:09 DEBUG FilterChainProxy - Secured GET /
+2024-11-01 15:11:09 DEBUG FilterChainProxy - Securing GET /css/index.css
+2024-11-01 15:11:09 DEBUG FilterChainProxy - Securing GET /css/header.css
+2024-11-01 15:11:09 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:11:09 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:11:09 DEBUG FilterChainProxy - Secured GET /css/header.css
+2024-11-01 15:11:09 DEBUG FilterChainProxy - Secured GET /css/index.css
+2024-11-01 15:11:09 DEBUG FilterChainProxy - Securing GET /js/main.js
+2024-11-01 15:11:09 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:11:09 DEBUG FilterChainProxy - Secured GET /js/main.js
+2024-11-01 15:11:13 DEBUG FilterChainProxy - Securing GET /
+2024-11-01 15:11:13 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:11:13 DEBUG FilterChainProxy - Secured GET /
+2024-11-01 15:11:13 DEBUG FilterChainProxy - Securing GET /css/index.css
+2024-11-01 15:11:13 DEBUG FilterChainProxy - Securing GET /css/header.css
+2024-11-01 15:11:13 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:11:13 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:11:13 DEBUG FilterChainProxy - Secured GET /css/header.css
+2024-11-01 15:11:13 DEBUG FilterChainProxy - Secured GET /css/index.css
+2024-11-01 15:11:13 DEBUG FilterChainProxy - Securing GET /js/main.js
+2024-11-01 15:11:13 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:11:13 DEBUG FilterChainProxy - Secured GET /js/main.js
+2024-11-01 15:11:17 DEBUG FilterChainProxy - Securing GET /recruitList
+2024-11-01 15:11:17 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:11:17 DEBUG FilterChainProxy - Secured GET /recruitList
+2024-11-01 15:11:17 DEBUG FilterChainProxy - Securing GET /css/recruitList.css
+2024-11-01 15:11:17 DEBUG FilterChainProxy - Securing GET /css/header.css
+2024-11-01 15:11:17 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:11:17 DEBUG FilterChainProxy - Secured GET /css/recruitList.css
+2024-11-01 15:11:17 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:11:17 DEBUG FilterChainProxy - Secured GET /css/header.css
+2024-11-01 15:11:17 DEBUG FilterChainProxy - Securing GET /js/recruit.js
+2024-11-01 15:11:17 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:11:17 DEBUG FilterChainProxy - Secured GET /js/recruit.js
+2024-11-01 15:11:17 DEBUG FilterChainProxy - Securing GET /img/{job.imagePath}?id=35
+2024-11-01 15:11:17 DEBUG FilterChainProxy - Securing GET /img/{job.imagePath}?id=34
+2024-11-01 15:11:17 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:11:17 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:11:17 DEBUG FilterChainProxy - Secured GET /img/{job.imagePath}?id=35
+2024-11-01 15:11:17 DEBUG FilterChainProxy - Secured GET /img/{job.imagePath}?id=34
+2024-11-01 15:11:17 DEBUG FilterChainProxy - Securing GET /packs/media/common/bg--pt3-f3239198.gif
+2024-11-01 15:11:17 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:11:17 DEBUG FilterChainProxy - Secured GET /packs/media/common/bg--pt3-f3239198.gif
+2024-11-01 15:11:17 DEBUG FilterChainProxy - Securing GET /error?id=34
+2024-11-01 15:11:17 DEBUG FilterChainProxy - Securing GET /error?id=35
+2024-11-01 15:11:17 DEBUG FilterChainProxy - Securing GET /error
+2024-11-01 15:11:17 DEBUG FilterChainProxy - Secured GET /error?id=35
+2024-11-01 15:11:17 DEBUG FilterChainProxy - Secured GET /error
+2024-11-01 15:11:17 DEBUG FilterChainProxy - Secured GET /error?id=34
+2024-11-01 15:11:17 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:11:17 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:11:17 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:11:20 DEBUG FilterChainProxy - Securing GET /recruitList/categories/all
+2024-11-01 15:11:20 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:11:20 DEBUG FilterChainProxy - Secured GET /recruitList/categories/all
+2024-11-01 15:11:20 DEBUG FilterChainProxy - Securing GET /css/recruitList.css
+2024-11-01 15:11:20 DEBUG FilterChainProxy - Securing GET /js/recruit.js
+2024-11-01 15:11:20 DEBUG FilterChainProxy - Securing GET /css/header.css
+2024-11-01 15:11:20 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:11:20 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:11:20 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:11:20 DEBUG FilterChainProxy - Secured GET /css/recruitList.css
+2024-11-01 15:11:20 DEBUG FilterChainProxy - Secured GET /js/recruit.js
+2024-11-01 15:11:20 DEBUG FilterChainProxy - Secured GET /css/header.css
+2024-11-01 15:11:20 DEBUG FilterChainProxy - Securing GET /packs/media/common/bg--pt3-f3239198.gif
+2024-11-01 15:11:20 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:11:20 DEBUG FilterChainProxy - Secured GET /packs/media/common/bg--pt3-f3239198.gif
+2024-11-01 15:11:20 DEBUG FilterChainProxy - Securing GET /error
+2024-11-01 15:11:20 DEBUG FilterChainProxy - Secured GET /error
+2024-11-01 15:11:20 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:11:21 DEBUG FilterChainProxy - Securing GET /recruitList/categories/se
+2024-11-01 15:11:21 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:11:21 DEBUG FilterChainProxy - Secured GET /recruitList/categories/se
+2024-11-01 15:11:22 DEBUG FilterChainProxy - Securing GET /css/header.css
+2024-11-01 15:11:22 DEBUG FilterChainProxy - Securing GET /css/recruitList.css
+2024-11-01 15:11:22 DEBUG FilterChainProxy - Securing GET /js/recruit.js
+2024-11-01 15:11:22 DEBUG FilterChainProxy - Securing GET /img/{job.imagePath}?id=35
+2024-11-01 15:11:22 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:11:22 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:11:22 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:11:22 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:11:22 DEBUG FilterChainProxy - Secured GET /css/header.css
+2024-11-01 15:11:22 DEBUG FilterChainProxy - Secured GET /css/recruitList.css
+2024-11-01 15:11:22 DEBUG FilterChainProxy - Secured GET /img/{job.imagePath}?id=35
+2024-11-01 15:11:22 DEBUG FilterChainProxy - Secured GET /js/recruit.js
+2024-11-01 15:11:22 DEBUG FilterChainProxy - Securing GET /error?id=35
+2024-11-01 15:11:22 DEBUG FilterChainProxy - Secured GET /error?id=35
+2024-11-01 15:11:22 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:11:22 DEBUG FilterChainProxy - Securing GET /packs/media/common/bg--pt3-f3239198.gif
+2024-11-01 15:11:22 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:11:22 DEBUG FilterChainProxy - Secured GET /packs/media/common/bg--pt3-f3239198.gif
+2024-11-01 15:11:22 DEBUG FilterChainProxy - Securing GET /error
+2024-11-01 15:11:22 DEBUG FilterChainProxy - Secured GET /error
+2024-11-01 15:11:22 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:11:22 DEBUG FilterChainProxy - Securing GET /recruitList/categories/pm
+2024-11-01 15:11:22 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:11:22 DEBUG FilterChainProxy - Secured GET /recruitList/categories/pm
+2024-11-01 15:11:22 DEBUG FilterChainProxy - Securing GET /css/header.css
+2024-11-01 15:11:22 DEBUG FilterChainProxy - Securing GET /css/recruitList.css
+2024-11-01 15:11:22 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:11:22 DEBUG FilterChainProxy - Secured GET /css/recruitList.css
+2024-11-01 15:11:22 DEBUG FilterChainProxy - Securing GET /img/{job.imagePath}?id=34
+2024-11-01 15:11:22 DEBUG FilterChainProxy - Securing GET /img/{job.imagePath}?id=35
+2024-11-01 15:11:22 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:11:22 DEBUG FilterChainProxy - Secured GET /css/header.css
+2024-11-01 15:11:22 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:11:22 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:11:22 DEBUG FilterChainProxy - Securing GET /js/recruit.js
+2024-11-01 15:11:22 DEBUG FilterChainProxy - Secured GET /img/{job.imagePath}?id=35
+2024-11-01 15:11:22 DEBUG FilterChainProxy - Secured GET /img/{job.imagePath}?id=34
+2024-11-01 15:11:22 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:11:22 DEBUG FilterChainProxy - Secured GET /js/recruit.js
+2024-11-01 15:11:22 DEBUG FilterChainProxy - Securing GET /error?id=35
+2024-11-01 15:11:22 DEBUG FilterChainProxy - Securing GET /error?id=34
+2024-11-01 15:11:22 DEBUG FilterChainProxy - Secured GET /error?id=35
+2024-11-01 15:11:22 DEBUG FilterChainProxy - Secured GET /error?id=34
+2024-11-01 15:11:22 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:11:22 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:11:22 DEBUG FilterChainProxy - Securing GET /packs/media/common/bg--pt3-f3239198.gif
+2024-11-01 15:11:22 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:11:22 DEBUG FilterChainProxy - Secured GET /packs/media/common/bg--pt3-f3239198.gif
+2024-11-01 15:11:22 DEBUG FilterChainProxy - Securing GET /error
+2024-11-01 15:11:22 DEBUG FilterChainProxy - Secured GET /error
+2024-11-01 15:11:22 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:11:28 DEBUG FilterChainProxy - Securing GET /logout
+2024-11-01 15:11:28 DEBUG LogoutFilter - Logging out [null]
+2024-11-01 15:11:28 DEBUG DefaultRedirectStrategy - Redirecting to /
+2024-11-01 15:11:28 DEBUG FilterChainProxy - Securing GET /
+2024-11-01 15:11:28 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:11:28 DEBUG FilterChainProxy - Secured GET /
+2024-11-01 15:11:28 DEBUG FilterChainProxy - Securing GET /css/index.css
+2024-11-01 15:11:28 DEBUG FilterChainProxy - Securing GET /css/header.css
+2024-11-01 15:11:28 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:11:28 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:11:28 DEBUG FilterChainProxy - Secured GET /css/index.css
+2024-11-01 15:11:28 DEBUG FilterChainProxy - Secured GET /css/header.css
+2024-11-01 15:11:28 DEBUG FilterChainProxy - Securing GET /js/main.js
+2024-11-01 15:11:28 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:11:28 DEBUG FilterChainProxy - Secured GET /js/main.js
+2024-11-01 15:15:03 DEBUG FilterChainProxy - Securing GET /recruitList/categories/pm
+2024-11-01 15:15:03 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:15:03 DEBUG FilterChainProxy - Secured GET /recruitList/categories/pm
+2024-11-01 15:15:03 DEBUG FilterChainProxy - Securing GET /css/recruitList.css
+2024-11-01 15:15:03 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:15:03 DEBUG FilterChainProxy - Securing GET /img/{job.imagePath}?id=34
+2024-11-01 15:15:03 DEBUG FilterChainProxy - Secured GET /css/recruitList.css
+2024-11-01 15:15:03 DEBUG FilterChainProxy - Securing GET /css/header.css
+2024-11-01 15:15:03 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:15:03 DEBUG FilterChainProxy - Secured GET /css/header.css
+2024-11-01 15:15:03 DEBUG FilterChainProxy - Securing GET /img/{job.imagePath}?id=35
+2024-11-01 15:15:03 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:15:03 DEBUG FilterChainProxy - Secured GET /img/{job.imagePath}?id=35
+2024-11-01 15:15:03 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:15:03 DEBUG FilterChainProxy - Secured GET /img/{job.imagePath}?id=34
+2024-11-01 15:15:03 DEBUG FilterChainProxy - Securing GET /error?id=35
+2024-11-01 15:15:03 DEBUG FilterChainProxy - Secured GET /error?id=35
+2024-11-01 15:15:03 DEBUG FilterChainProxy - Securing GET /js/recruit.js
+2024-11-01 15:15:03 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:15:03 DEBUG FilterChainProxy - Secured GET /js/recruit.js
+2024-11-01 15:15:03 DEBUG FilterChainProxy - Securing GET /error?id=34
+2024-11-01 15:15:03 DEBUG FilterChainProxy - Secured GET /error?id=34
+2024-11-01 15:15:03 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:15:03 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:15:03 DEBUG FilterChainProxy - Securing GET /packs/media/common/bg--pt3-f3239198.gif
+2024-11-01 15:15:03 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:15:03 DEBUG FilterChainProxy - Secured GET /packs/media/common/bg--pt3-f3239198.gif
+2024-11-01 15:15:03 DEBUG FilterChainProxy - Securing GET /error
+2024-11-01 15:15:03 DEBUG FilterChainProxy - Secured GET /error
+2024-11-01 15:15:03 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:15:04 DEBUG FilterChainProxy - Securing GET /recruitList/categories/se
+2024-11-01 15:15:04 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:15:04 DEBUG FilterChainProxy - Secured GET /recruitList/categories/se
+2024-11-01 15:15:04 DEBUG FilterChainProxy - Securing GET /css/recruitList.css
+2024-11-01 15:15:04 DEBUG FilterChainProxy - Securing GET /css/header.css
+2024-11-01 15:15:04 DEBUG FilterChainProxy - Securing GET /js/recruit.js
+2024-11-01 15:15:04 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:15:04 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:15:04 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:15:04 DEBUG FilterChainProxy - Secured GET /css/recruitList.css
+2024-11-01 15:15:04 DEBUG FilterChainProxy - Secured GET /js/recruit.js
+2024-11-01 15:15:04 DEBUG FilterChainProxy - Secured GET /css/header.css
+2024-11-01 15:15:04 DEBUG FilterChainProxy - Securing GET /img/{job.imagePath}?id=35
+2024-11-01 15:15:04 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:15:04 DEBUG FilterChainProxy - Secured GET /img/{job.imagePath}?id=35
+2024-11-01 15:15:04 DEBUG FilterChainProxy - Securing GET /error?id=35
+2024-11-01 15:15:04 DEBUG FilterChainProxy - Secured GET /error?id=35
+2024-11-01 15:15:04 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:15:04 DEBUG FilterChainProxy - Securing GET /packs/media/common/bg--pt3-f3239198.gif
+2024-11-01 15:15:04 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:15:04 DEBUG FilterChainProxy - Secured GET /packs/media/common/bg--pt3-f3239198.gif
+2024-11-01 15:15:04 DEBUG FilterChainProxy - Securing GET /error
+2024-11-01 15:15:04 DEBUG FilterChainProxy - Secured GET /error
+2024-11-01 15:15:04 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:15:06 DEBUG FilterChainProxy - Securing GET /recruitList/categories/all
+2024-11-01 15:15:06 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:15:06 DEBUG FilterChainProxy - Secured GET /recruitList/categories/all
+2024-11-01 15:15:06 DEBUG FilterChainProxy - Securing GET /css/header.css
+2024-11-01 15:15:06 DEBUG FilterChainProxy - Securing GET /css/recruitList.css
+2024-11-01 15:15:06 DEBUG FilterChainProxy - Securing GET /js/recruit.js
+2024-11-01 15:15:06 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:15:06 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:15:06 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:15:06 DEBUG FilterChainProxy - Secured GET /css/recruitList.css
+2024-11-01 15:15:06 DEBUG FilterChainProxy - Secured GET /css/header.css
+2024-11-01 15:15:06 DEBUG FilterChainProxy - Secured GET /js/recruit.js
+2024-11-01 15:15:06 DEBUG FilterChainProxy - Securing GET /packs/media/common/bg--pt3-f3239198.gif
+2024-11-01 15:15:06 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:15:06 DEBUG FilterChainProxy - Secured GET /packs/media/common/bg--pt3-f3239198.gif
+2024-11-01 15:15:06 DEBUG FilterChainProxy - Securing GET /error
+2024-11-01 15:15:06 DEBUG FilterChainProxy - Secured GET /error
+2024-11-01 15:15:06 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:15:13 DEBUG FilterChainProxy - Securing GET /recruitList/categories/se
+2024-11-01 15:15:13 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:15:13 DEBUG FilterChainProxy - Secured GET /recruitList/categories/se
+2024-11-01 15:15:13 DEBUG FilterChainProxy - Securing GET /css/header.css
+2024-11-01 15:15:13 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:15:13 DEBUG FilterChainProxy - Securing GET /img/{job.imagePath}?id=35
+2024-11-01 15:15:13 DEBUG FilterChainProxy - Securing GET /css/recruitList.css
+2024-11-01 15:15:13 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:15:13 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:15:13 DEBUG FilterChainProxy - Secured GET /css/header.css
+2024-11-01 15:15:13 DEBUG FilterChainProxy - Secured GET /img/{job.imagePath}?id=35
+2024-11-01 15:15:13 DEBUG FilterChainProxy - Secured GET /css/recruitList.css
+2024-11-01 15:15:13 DEBUG FilterChainProxy - Securing GET /js/recruit.js
+2024-11-01 15:15:13 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:15:13 DEBUG FilterChainProxy - Secured GET /js/recruit.js
+2024-11-01 15:15:13 DEBUG FilterChainProxy - Securing GET /error?id=35
+2024-11-01 15:15:13 DEBUG FilterChainProxy - Secured GET /error?id=35
+2024-11-01 15:15:13 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:15:13 DEBUG FilterChainProxy - Securing GET /packs/media/common/bg--pt3-f3239198.gif
+2024-11-01 15:15:13 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:15:13 DEBUG FilterChainProxy - Secured GET /packs/media/common/bg--pt3-f3239198.gif
+2024-11-01 15:15:13 DEBUG FilterChainProxy - Securing GET /error
+2024-11-01 15:15:13 DEBUG FilterChainProxy - Secured GET /error
+2024-11-01 15:15:13 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:15:14 DEBUG FilterChainProxy - Securing GET /recruitList/categories/pm
+2024-11-01 15:15:14 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:15:14 DEBUG FilterChainProxy - Secured GET /recruitList/categories/pm
+2024-11-01 15:15:14 DEBUG FilterChainProxy - Securing GET /css/header.css
+2024-11-01 15:15:14 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:15:14 DEBUG FilterChainProxy - Securing GET /img/{job.imagePath}?id=34
+2024-11-01 15:15:14 DEBUG FilterChainProxy - Secured GET /css/header.css
+2024-11-01 15:15:14 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:15:14 DEBUG FilterChainProxy - Secured GET /img/{job.imagePath}?id=34
+2024-11-01 15:15:14 DEBUG FilterChainProxy - Securing GET /img/{job.imagePath}?id=35
+2024-11-01 15:15:14 DEBUG FilterChainProxy - Securing GET /css/recruitList.css
+2024-11-01 15:15:14 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:15:14 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:15:14 DEBUG FilterChainProxy - Secured GET /img/{job.imagePath}?id=35
+2024-11-01 15:15:14 DEBUG FilterChainProxy - Secured GET /css/recruitList.css
+2024-11-01 15:15:14 DEBUG FilterChainProxy - Securing GET /error?id=34
+2024-11-01 15:15:14 DEBUG FilterChainProxy - Secured GET /error?id=34
+2024-11-01 15:15:14 DEBUG FilterChainProxy - Securing GET /js/recruit.js
+2024-11-01 15:15:14 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:15:14 DEBUG FilterChainProxy - Secured GET /js/recruit.js
+2024-11-01 15:15:14 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:15:14 DEBUG FilterChainProxy - Securing GET /error?id=35
+2024-11-01 15:15:14 DEBUG FilterChainProxy - Secured GET /error?id=35
+2024-11-01 15:15:14 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:15:14 DEBUG FilterChainProxy - Securing GET /packs/media/common/bg--pt3-f3239198.gif
+2024-11-01 15:15:14 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:15:14 DEBUG FilterChainProxy - Secured GET /packs/media/common/bg--pt3-f3239198.gif
+2024-11-01 15:15:14 DEBUG FilterChainProxy - Securing GET /error
+2024-11-01 15:15:14 DEBUG FilterChainProxy - Secured GET /error
+2024-11-01 15:15:14 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:15:17 DEBUG FilterChainProxy - Securing GET /recruitList/categories/se
+2024-11-01 15:15:17 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:15:17 DEBUG FilterChainProxy - Secured GET /recruitList/categories/se
+2024-11-01 15:15:17 DEBUG FilterChainProxy - Securing GET /css/recruitList.css
+2024-11-01 15:15:17 DEBUG FilterChainProxy - Securing GET /img/{job.imagePath}?id=35
+2024-11-01 15:15:17 DEBUG FilterChainProxy - Securing GET /css/header.css
+2024-11-01 15:15:17 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:15:17 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:15:17 DEBUG FilterChainProxy - Securing GET /js/recruit.js
+2024-11-01 15:15:17 DEBUG FilterChainProxy - Secured GET /img/{job.imagePath}?id=35
+2024-11-01 15:15:17 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:15:17 DEBUG FilterChainProxy - Secured GET /css/recruitList.css
+2024-11-01 15:15:17 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:15:17 DEBUG FilterChainProxy - Secured GET /css/header.css
+2024-11-01 15:15:17 DEBUG FilterChainProxy - Secured GET /js/recruit.js
+2024-11-01 15:15:17 DEBUG FilterChainProxy - Securing GET /error?id=35
+2024-11-01 15:15:17 DEBUG FilterChainProxy - Secured GET /error?id=35
+2024-11-01 15:15:17 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:15:17 DEBUG FilterChainProxy - Securing GET /packs/media/common/bg--pt3-f3239198.gif
+2024-11-01 15:15:17 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:15:17 DEBUG FilterChainProxy - Secured GET /packs/media/common/bg--pt3-f3239198.gif
+2024-11-01 15:15:17 DEBUG FilterChainProxy - Securing GET /error
+2024-11-01 15:15:17 DEBUG FilterChainProxy - Secured GET /error
+2024-11-01 15:15:17 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:17:52 DEBUG FilterChainProxy - Securing GET /recruitList/categories/all
+2024-11-01 15:17:52 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:17:52 DEBUG FilterChainProxy - Secured GET /recruitList/categories/all
+2024-11-01 15:17:52 DEBUG FilterChainProxy - Securing GET /css/recruitList.css
+2024-11-01 15:17:52 DEBUG FilterChainProxy - Securing GET /css/header.css
+2024-11-01 15:17:52 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:17:52 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:17:52 DEBUG FilterChainProxy - Secured GET /css/header.css
+2024-11-01 15:17:52 DEBUG FilterChainProxy - Secured GET /css/recruitList.css
+2024-11-01 15:17:52 DEBUG FilterChainProxy - Securing GET /js/recruit.js
+2024-11-01 15:17:52 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:17:52 DEBUG FilterChainProxy - Secured GET /js/recruit.js
+2024-11-01 15:17:52 DEBUG FilterChainProxy - Securing GET /packs/media/common/bg--pt3-f3239198.gif
+2024-11-01 15:17:52 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:17:52 DEBUG FilterChainProxy - Secured GET /packs/media/common/bg--pt3-f3239198.gif
+2024-11-01 15:17:52 DEBUG FilterChainProxy - Securing GET /error
+2024-11-01 15:17:52 DEBUG FilterChainProxy - Secured GET /error
+2024-11-01 15:17:52 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:20:38 INFO JavasampleApplication - Starting JavasampleApplication using Java 21.0.4 with PID 10224 (C:\pleiades\codeWorkspace\javasample\bin\main started by x_yanwei in C:\pleiades\codeWorkspace\javasample)
+2024-11-01 15:20:39 INFO JavasampleApplication - No active profile set, falling back to 1 default profile: "default"
+2024-11-01 15:20:39 INFO DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-11-01 15:20:39 INFO DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-11-01 15:20:40 INFO RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-11-01 15:20:40 INFO RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2024-11-01 15:20:40 INFO RepositoryConfigurationExtensionSupport - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.demo.repository.JobRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2024-11-01 15:20:40 INFO RepositoryConfigurationExtensionSupport - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.demo.repository.LoginUserRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2024-11-01 15:20:40 INFO RepositoryConfigurationExtensionSupport - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.demo.repository.MessageRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2024-11-01 15:20:40 INFO RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 59 ms. Found 0 JDBC repository interfaces.
+2024-11-01 15:20:40 INFO RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-11-01 15:20:40 INFO RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-01 15:20:40 INFO RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 55 ms. Found 3 JPA repository interfaces.
+2024-11-01 15:20:41 INFO TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-11-01 15:20:41 INFO ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2690 ms
+2024-11-01 15:20:42 INFO H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/test1'
+2024-11-01 15:20:42 INFO LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-01 15:20:42 INFO Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-01 15:20:42 INFO RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-11-01 15:20:42 INFO SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-01 15:20:43 WARN Dialect - HHH000511: The 5.5.5 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2024-11-01 15:20:44 INFO JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-01 15:20:44 INFO LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-01 15:20:45 WARN JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-01 15:20:45 WARN InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+2024-11-01 15:20:45 INFO WelcomePageHandlerMapping - Adding welcome page template: index
+2024-11-01 15:20:45 DEBUG DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, LogoutFilter, UsernamePasswordAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2024-11-01 15:20:46 INFO OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-11-01 15:20:46 INFO TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-11-01 15:20:46 INFO JavasampleApplication - Started JavasampleApplication in 7.901 seconds (process running for 9.332)
+2024-11-01 15:20:51 INFO DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-11-01 15:20:51 INFO DispatcherServlet - Completed initialization in 2 ms
+2024-11-01 15:20:51 DEBUG FilterChainProxy - Securing GET /recruitList/categories/se
+2024-11-01 15:20:51 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:20:51 DEBUG FilterChainProxy - Secured GET /recruitList/categories/se
+2024-11-01 15:20:52 DEBUG FilterChainProxy - Securing GET /js/recruit.js
+2024-11-01 15:20:52 DEBUG FilterChainProxy - Securing GET /img/{job.imagePath}?id=35
+2024-11-01 15:20:52 DEBUG FilterChainProxy - Securing GET /css/header.css
+2024-11-01 15:20:52 DEBUG FilterChainProxy - Securing GET /css/recruitList.css
+2024-11-01 15:20:52 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:20:52 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:20:52 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:20:52 DEBUG FilterChainProxy - Secured GET /js/recruit.js
+2024-11-01 15:20:52 DEBUG FilterChainProxy - Secured GET /css/header.css
+2024-11-01 15:20:52 DEBUG FilterChainProxy - Secured GET /css/recruitList.css
+2024-11-01 15:20:52 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:20:52 DEBUG FilterChainProxy - Secured GET /img/{job.imagePath}?id=35
+2024-11-01 15:20:52 DEBUG FilterChainProxy - Securing GET /error?id=35
+2024-11-01 15:20:52 DEBUG FilterChainProxy - Secured GET /error?id=35
+2024-11-01 15:20:52 DEBUG FilterChainProxy - Securing GET /packs/media/common/bg--pt3-f3239198.gif
+2024-11-01 15:20:52 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:20:52 DEBUG FilterChainProxy - Secured GET /packs/media/common/bg--pt3-f3239198.gif
+2024-11-01 15:20:52 DEBUG FilterChainProxy - Securing GET /error
+2024-11-01 15:20:52 DEBUG FilterChainProxy - Secured GET /error
+2024-11-01 15:20:52 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:20:52 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:20:53 DEBUG FilterChainProxy - Securing GET /recruitList/categories/pm
+2024-11-01 15:20:53 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:20:53 DEBUG FilterChainProxy - Secured GET /recruitList/categories/pm
+2024-11-01 15:20:53 DEBUG FilterChainProxy - Securing GET /css/recruitList.css
+2024-11-01 15:20:53 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:20:53 DEBUG FilterChainProxy - Secured GET /css/recruitList.css
+2024-11-01 15:20:53 DEBUG FilterChainProxy - Securing GET /img/{job.imagePath}?id=34
+2024-11-01 15:20:53 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:20:53 DEBUG FilterChainProxy - Securing GET /css/header.css
+2024-11-01 15:20:53 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:20:53 DEBUG FilterChainProxy - Secured GET /css/header.css
+2024-11-01 15:20:53 DEBUG FilterChainProxy - Secured GET /img/{job.imagePath}?id=34
+2024-11-01 15:20:53 DEBUG FilterChainProxy - Securing GET /js/recruit.js
+2024-11-01 15:20:53 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:20:53 DEBUG FilterChainProxy - Securing GET /img/{job.imagePath}?id=35
+2024-11-01 15:20:53 DEBUG FilterChainProxy - Secured GET /js/recruit.js
+2024-11-01 15:20:53 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:20:53 DEBUG FilterChainProxy - Secured GET /img/{job.imagePath}?id=35
+2024-11-01 15:20:53 DEBUG FilterChainProxy - Securing GET /error?id=34
+2024-11-01 15:20:53 DEBUG FilterChainProxy - Secured GET /error?id=34
+2024-11-01 15:20:53 DEBUG FilterChainProxy - Securing GET /error?id=35
+2024-11-01 15:20:53 DEBUG FilterChainProxy - Secured GET /error?id=35
+2024-11-01 15:20:53 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:20:53 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:20:53 DEBUG FilterChainProxy - Securing GET /packs/media/common/bg--pt3-f3239198.gif
+2024-11-01 15:20:53 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:20:53 DEBUG FilterChainProxy - Secured GET /packs/media/common/bg--pt3-f3239198.gif
+2024-11-01 15:20:53 DEBUG FilterChainProxy - Securing GET /error
+2024-11-01 15:20:53 DEBUG FilterChainProxy - Secured GET /error
+2024-11-01 15:20:53 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:20:54 DEBUG FilterChainProxy - Securing GET /recruitList/categories/all
+2024-11-01 15:20:54 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:20:54 DEBUG FilterChainProxy - Secured GET /recruitList/categories/all
+2024-11-01 15:20:54 DEBUG FilterChainProxy - Securing GET /error
+2024-11-01 15:20:54 DEBUG FilterChainProxy - Secured GET /error
+2024-11-01 15:20:54 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:21:29 INFO LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-11-01 15:21:29 INFO LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-01 15:21:29 INFO JavasampleApplication - Starting JavasampleApplication using Java 21.0.4 with PID 10224 (C:\pleiades\codeWorkspace\javasample\bin\main started by x_yanwei in C:\pleiades\codeWorkspace\javasample)
+2024-11-01 15:21:29 INFO JavasampleApplication - No active profile set, falling back to 1 default profile: "default"
+2024-11-01 15:21:29 INFO RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-11-01 15:21:29 INFO RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2024-11-01 15:21:29 INFO RepositoryConfigurationExtensionSupport - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.demo.repository.JobRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2024-11-01 15:21:29 INFO RepositoryConfigurationExtensionSupport - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.demo.repository.LoginUserRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2024-11-01 15:21:29 INFO RepositoryConfigurationExtensionSupport - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.demo.repository.MessageRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2024-11-01 15:21:29 INFO RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 18 ms. Found 0 JDBC repository interfaces.
+2024-11-01 15:21:30 INFO RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-11-01 15:21:30 INFO RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-01 15:21:30 INFO RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 22 ms. Found 3 JPA repository interfaces.
+2024-11-01 15:21:30 INFO TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-11-01 15:21:30 INFO ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 688 ms
+2024-11-01 15:21:30 INFO H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/test1'
+2024-11-01 15:21:30 INFO LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-01 15:21:30 INFO RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-11-01 15:21:30 INFO SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-01 15:21:30 WARN Dialect - HHH000511: The 5.5.5 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2024-11-01 15:21:30 INFO JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-01 15:21:30 INFO LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-01 15:21:30 WARN JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-01 15:21:30 WARN InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+2024-11-01 15:21:30 INFO WelcomePageHandlerMapping - Adding welcome page template: index
+2024-11-01 15:21:30 DEBUG DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, LogoutFilter, UsernamePasswordAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2024-11-01 15:21:30 INFO OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-11-01 15:21:30 INFO TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-11-01 15:21:30 INFO JavasampleApplication - Started JavasampleApplication in 1.485 seconds (process running for 53.95)
+2024-11-01 15:21:31 INFO ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2024-11-01 15:21:44 INFO DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-11-01 15:21:44 INFO DispatcherServlet - Completed initialization in 1 ms
+2024-11-01 15:21:44 DEBUG FilterChainProxy - Securing GET /recruitList/categories/pm
+2024-11-01 15:21:44 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:21:44 DEBUG FilterChainProxy - Secured GET /recruitList/categories/pm
+2024-11-01 15:21:44 DEBUG FilterChainProxy - Securing GET /css/header.css
+2024-11-01 15:21:44 DEBUG FilterChainProxy - Securing GET /css/recruitList.css
+2024-11-01 15:21:44 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:21:44 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:21:44 DEBUG FilterChainProxy - Secured GET /css/header.css
+2024-11-01 15:21:44 DEBUG FilterChainProxy - Secured GET /css/recruitList.css
+2024-11-01 15:21:44 DEBUG FilterChainProxy - Securing GET /img/{job.imagePath}?id=34
+2024-11-01 15:21:44 DEBUG FilterChainProxy - Securing GET /img/{job.imagePath}?id=35
+2024-11-01 15:21:44 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:21:44 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:21:44 DEBUG FilterChainProxy - Secured GET /img/{job.imagePath}?id=35
+2024-11-01 15:21:44 DEBUG FilterChainProxy - Secured GET /img/{job.imagePath}?id=34
+2024-11-01 15:21:44 DEBUG FilterChainProxy - Securing GET /error?id=35
+2024-11-01 15:21:44 DEBUG FilterChainProxy - Securing GET /error?id=34
+2024-11-01 15:21:44 DEBUG FilterChainProxy - Secured GET /error?id=35
+2024-11-01 15:21:44 DEBUG FilterChainProxy - Secured GET /error?id=34
+2024-11-01 15:21:44 DEBUG FilterChainProxy - Securing GET /js/recruit.js
+2024-11-01 15:21:44 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:21:44 DEBUG FilterChainProxy - Secured GET /js/recruit.js
+2024-11-01 15:21:44 DEBUG FilterChainProxy - Securing GET /packs/media/common/bg--pt3-f3239198.gif
+2024-11-01 15:21:44 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:21:44 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:21:44 DEBUG FilterChainProxy - Secured GET /packs/media/common/bg--pt3-f3239198.gif
+2024-11-01 15:21:44 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:21:44 DEBUG FilterChainProxy - Securing GET /error
+2024-11-01 15:21:44 DEBUG FilterChainProxy - Secured GET /error
+2024-11-01 15:21:44 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:21:45 DEBUG FilterChainProxy - Securing GET /recruitList/categories/all
+2024-11-01 15:21:45 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:21:45 DEBUG FilterChainProxy - Secured GET /recruitList/categories/all
+2024-11-01 15:21:45 DEBUG FilterChainProxy - Securing GET /css/recruitList.css
+2024-11-01 15:21:45 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:21:45 DEBUG FilterChainProxy - Secured GET /css/recruitList.css
+2024-11-01 15:21:45 DEBUG FilterChainProxy - Securing GET /img/{job.imagePath}?id=35
+2024-11-01 15:21:45 DEBUG FilterChainProxy - Securing GET /css/header.css
+2024-11-01 15:21:45 DEBUG FilterChainProxy - Securing GET /img/{job.imagePath}?id=34
+2024-11-01 15:21:45 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:21:45 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:21:45 DEBUG FilterChainProxy - Secured GET /img/{job.imagePath}?id=35
+2024-11-01 15:21:45 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:21:45 DEBUG FilterChainProxy - Secured GET /css/header.css
+2024-11-01 15:21:45 DEBUG FilterChainProxy - Secured GET /img/{job.imagePath}?id=34
+2024-11-01 15:21:45 DEBUG FilterChainProxy - Securing GET /js/recruit.js
+2024-11-01 15:21:45 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:21:45 DEBUG FilterChainProxy - Secured GET /js/recruit.js
+2024-11-01 15:21:45 DEBUG FilterChainProxy - Securing GET /error?id=35
+2024-11-01 15:21:45 DEBUG FilterChainProxy - Secured GET /error?id=35
+2024-11-01 15:21:45 DEBUG FilterChainProxy - Securing GET /error?id=34
+2024-11-01 15:21:45 DEBUG FilterChainProxy - Secured GET /error?id=34
+2024-11-01 15:21:45 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:21:45 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:21:45 DEBUG FilterChainProxy - Securing GET /packs/media/common/bg--pt3-f3239198.gif
+2024-11-01 15:21:45 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:21:45 DEBUG FilterChainProxy - Secured GET /packs/media/common/bg--pt3-f3239198.gif
+2024-11-01 15:21:45 DEBUG FilterChainProxy - Securing GET /error
+2024-11-01 15:21:45 DEBUG FilterChainProxy - Secured GET /error
+2024-11-01 15:21:45 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:21:48 DEBUG FilterChainProxy - Securing GET /recruitList/categories/pm
+2024-11-01 15:21:48 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:21:48 DEBUG FilterChainProxy - Secured GET /recruitList/categories/pm
+2024-11-01 15:21:48 DEBUG FilterChainProxy - Securing GET /css/header.css
+2024-11-01 15:21:48 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:21:48 DEBUG FilterChainProxy - Securing GET /img/{job.imagePath}?id=34
+2024-11-01 15:21:48 DEBUG FilterChainProxy - Secured GET /css/header.css
+2024-11-01 15:21:48 DEBUG FilterChainProxy - Securing GET /css/recruitList.css
+2024-11-01 15:21:48 DEBUG FilterChainProxy - Securing GET /img/{job.imagePath}?id=35
+2024-11-01 15:21:48 DEBUG FilterChainProxy - Securing GET /js/recruit.js
+2024-11-01 15:21:48 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:21:48 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:21:48 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:21:48 DEBUG FilterChainProxy - Secured GET /css/recruitList.css
+2024-11-01 15:21:48 DEBUG FilterChainProxy - Secured GET /img/{job.imagePath}?id=34
+2024-11-01 15:21:48 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:21:48 DEBUG FilterChainProxy - Secured GET /js/recruit.js
+2024-11-01 15:21:48 DEBUG FilterChainProxy - Secured GET /img/{job.imagePath}?id=35
+2024-11-01 15:21:48 DEBUG FilterChainProxy - Securing GET /error?id=35
+2024-11-01 15:21:48 DEBUG FilterChainProxy - Secured GET /error?id=35
+2024-11-01 15:21:48 DEBUG FilterChainProxy - Securing GET /error?id=34
+2024-11-01 15:21:48 DEBUG FilterChainProxy - Secured GET /error?id=34
+2024-11-01 15:21:48 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:21:48 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:21:48 DEBUG FilterChainProxy - Securing GET /packs/media/common/bg--pt3-f3239198.gif
+2024-11-01 15:21:48 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:21:48 DEBUG FilterChainProxy - Secured GET /packs/media/common/bg--pt3-f3239198.gif
+2024-11-01 15:21:48 DEBUG FilterChainProxy - Securing GET /error
+2024-11-01 15:21:48 DEBUG FilterChainProxy - Secured GET /error
+2024-11-01 15:21:48 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:21:53 DEBUG FilterChainProxy - Securing GET /recruitList/categories/pm
+2024-11-01 15:21:53 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:21:53 DEBUG FilterChainProxy - Secured GET /recruitList/categories/pm
+2024-11-01 15:21:53 DEBUG FilterChainProxy - Securing GET /css/recruitList.css
+2024-11-01 15:21:53 DEBUG FilterChainProxy - Securing GET /css/header.css
+2024-11-01 15:21:53 DEBUG FilterChainProxy - Securing GET /img/{job.imagePath}?id=35
+2024-11-01 15:21:53 DEBUG FilterChainProxy - Securing GET /img/{job.imagePath}?id=34
+2024-11-01 15:21:53 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:21:53 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:21:53 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:21:53 DEBUG FilterChainProxy - Secured GET /css/header.css
+2024-11-01 15:21:53 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:21:53 DEBUG FilterChainProxy - Secured GET /css/recruitList.css
+2024-11-01 15:21:53 DEBUG FilterChainProxy - Secured GET /img/{job.imagePath}?id=34
+2024-11-01 15:21:53 DEBUG FilterChainProxy - Secured GET /img/{job.imagePath}?id=35
+2024-11-01 15:21:53 DEBUG FilterChainProxy - Securing GET /error?id=34
+2024-11-01 15:21:53 DEBUG FilterChainProxy - Secured GET /error?id=34
+2024-11-01 15:21:53 DEBUG FilterChainProxy - Securing GET /js/recruit.js
+2024-11-01 15:21:53 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:21:53 DEBUG FilterChainProxy - Securing GET /error?id=35
+2024-11-01 15:21:53 DEBUG FilterChainProxy - Secured GET /js/recruit.js
+2024-11-01 15:21:53 DEBUG FilterChainProxy - Secured GET /error?id=35
+2024-11-01 15:21:53 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:21:53 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:21:53 DEBUG FilterChainProxy - Securing GET /packs/media/common/bg--pt3-f3239198.gif
+2024-11-01 15:21:53 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:21:53 DEBUG FilterChainProxy - Secured GET /packs/media/common/bg--pt3-f3239198.gif
+2024-11-01 15:21:53 DEBUG FilterChainProxy - Securing GET /error
+2024-11-01 15:21:53 DEBUG FilterChainProxy - Secured GET /error
+2024-11-01 15:21:53 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:21:56 DEBUG FilterChainProxy - Securing GET /recruitList/categories/se
+2024-11-01 15:21:56 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:21:56 DEBUG FilterChainProxy - Secured GET /recruitList/categories/se
+2024-11-01 15:21:56 DEBUG FilterChainProxy - Securing GET /css/recruitList.css
+2024-11-01 15:21:56 DEBUG FilterChainProxy - Securing GET /css/header.css
+2024-11-01 15:21:56 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:21:56 DEBUG FilterChainProxy - Securing GET /img/{job.imagePath}?id=35
+2024-11-01 15:21:56 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:21:56 DEBUG FilterChainProxy - Secured GET /css/recruitList.css
+2024-11-01 15:21:56 DEBUG FilterChainProxy - Secured GET /css/header.css
+2024-11-01 15:21:56 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:21:56 DEBUG FilterChainProxy - Securing GET /js/recruit.js
+2024-11-01 15:21:56 DEBUG FilterChainProxy - Secured GET /img/{job.imagePath}?id=35
+2024-11-01 15:21:56 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:21:56 DEBUG FilterChainProxy - Secured GET /js/recruit.js
+2024-11-01 15:21:56 DEBUG FilterChainProxy - Securing GET /error?id=35
+2024-11-01 15:21:56 DEBUG FilterChainProxy - Secured GET /error?id=35
+2024-11-01 15:21:56 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:21:56 DEBUG FilterChainProxy - Securing GET /packs/media/common/bg--pt3-f3239198.gif
+2024-11-01 15:21:56 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:21:56 DEBUG FilterChainProxy - Secured GET /packs/media/common/bg--pt3-f3239198.gif
+2024-11-01 15:21:56 DEBUG FilterChainProxy - Securing GET /error
+2024-11-01 15:21:56 DEBUG FilterChainProxy - Secured GET /error
+2024-11-01 15:21:56 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:21:58 DEBUG FilterChainProxy - Securing GET /recruitList/categories/all
+2024-11-01 15:21:58 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:21:58 DEBUG FilterChainProxy - Secured GET /recruitList/categories/all
+2024-11-01 15:21:58 DEBUG FilterChainProxy - Securing GET /css/header.css
+2024-11-01 15:21:58 DEBUG FilterChainProxy - Securing GET /css/recruitList.css
+2024-11-01 15:21:58 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:21:58 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:21:58 DEBUG FilterChainProxy - Secured GET /css/recruitList.css
+2024-11-01 15:21:58 DEBUG FilterChainProxy - Securing GET /img/{job.imagePath}?id=35
+2024-11-01 15:21:58 DEBUG FilterChainProxy - Securing GET /img/{job.imagePath}?id=34
+2024-11-01 15:21:58 DEBUG FilterChainProxy - Secured GET /css/header.css
+2024-11-01 15:21:58 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:21:58 DEBUG FilterChainProxy - Secured GET /img/{job.imagePath}?id=34
+2024-11-01 15:21:58 DEBUG FilterChainProxy - Securing GET /js/recruit.js
+2024-11-01 15:21:58 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:21:58 DEBUG FilterChainProxy - Secured GET /js/recruit.js
+2024-11-01 15:21:58 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:21:58 DEBUG FilterChainProxy - Secured GET /img/{job.imagePath}?id=35
+2024-11-01 15:21:58 DEBUG FilterChainProxy - Securing GET /error?id=35
+2024-11-01 15:21:58 DEBUG FilterChainProxy - Securing GET /error?id=34
+2024-11-01 15:21:58 DEBUG FilterChainProxy - Secured GET /error?id=35
+2024-11-01 15:21:58 DEBUG FilterChainProxy - Secured GET /error?id=34
+2024-11-01 15:21:58 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:21:58 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:21:58 DEBUG FilterChainProxy - Securing GET /packs/media/common/bg--pt3-f3239198.gif
+2024-11-01 15:21:58 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:21:58 DEBUG FilterChainProxy - Secured GET /packs/media/common/bg--pt3-f3239198.gif
+2024-11-01 15:21:58 DEBUG FilterChainProxy - Securing GET /error
+2024-11-01 15:21:58 DEBUG FilterChainProxy - Secured GET /error
+2024-11-01 15:21:58 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:22:01 DEBUG FilterChainProxy - Securing GET /recruitList/categories/se
+2024-11-01 15:22:01 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:22:01 DEBUG FilterChainProxy - Secured GET /recruitList/categories/se
+2024-11-01 15:22:01 DEBUG FilterChainProxy - Securing GET /css/recruitList.css
+2024-11-01 15:22:01 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:22:01 DEBUG FilterChainProxy - Securing GET /img/{job.imagePath}?id=35
+2024-11-01 15:22:01 DEBUG FilterChainProxy - Securing GET /css/header.css
+2024-11-01 15:22:01 DEBUG FilterChainProxy - Secured GET /css/recruitList.css
+2024-11-01 15:22:01 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:22:01 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:22:01 DEBUG FilterChainProxy - Secured GET /css/header.css
+2024-11-01 15:22:01 DEBUG FilterChainProxy - Secured GET /img/{job.imagePath}?id=35
+2024-11-01 15:22:01 DEBUG FilterChainProxy - Securing GET /js/recruit.js
+2024-11-01 15:22:01 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:22:01 DEBUG FilterChainProxy - Secured GET /js/recruit.js
+2024-11-01 15:22:01 DEBUG FilterChainProxy - Securing GET /error?id=35
+2024-11-01 15:22:01 DEBUG FilterChainProxy - Secured GET /error?id=35
+2024-11-01 15:22:01 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:22:01 DEBUG FilterChainProxy - Securing GET /packs/media/common/bg--pt3-f3239198.gif
+2024-11-01 15:22:01 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:22:01 DEBUG FilterChainProxy - Secured GET /packs/media/common/bg--pt3-f3239198.gif
+2024-11-01 15:22:01 DEBUG FilterChainProxy - Securing GET /error
+2024-11-01 15:22:01 DEBUG FilterChainProxy - Secured GET /error
+2024-11-01 15:22:01 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:22:01 DEBUG FilterChainProxy - Securing GET /recruitList/categories/all
+2024-11-01 15:22:01 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:22:01 DEBUG FilterChainProxy - Secured GET /recruitList/categories/all
+2024-11-01 15:22:01 DEBUG FilterChainProxy - Securing GET /css/recruitList.css
+2024-11-01 15:22:01 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:22:01 DEBUG FilterChainProxy - Secured GET /css/recruitList.css
+2024-11-01 15:22:01 DEBUG FilterChainProxy - Securing GET /css/header.css
+2024-11-01 15:22:01 DEBUG FilterChainProxy - Securing GET /img/{job.imagePath}?id=35
+2024-11-01 15:22:01 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:22:01 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:22:01 DEBUG FilterChainProxy - Secured GET /css/header.css
+2024-11-01 15:22:01 DEBUG FilterChainProxy - Secured GET /img/{job.imagePath}?id=35
+2024-11-01 15:22:01 DEBUG FilterChainProxy - Securing GET /img/{job.imagePath}?id=34
+2024-11-01 15:22:01 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:22:01 DEBUG FilterChainProxy - Secured GET /img/{job.imagePath}?id=34
+2024-11-01 15:22:01 DEBUG FilterChainProxy - Securing GET /js/recruit.js
+2024-11-01 15:22:01 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:22:01 DEBUG FilterChainProxy - Secured GET /js/recruit.js
+2024-11-01 15:22:01 DEBUG FilterChainProxy - Securing GET /error?id=35
+2024-11-01 15:22:01 DEBUG FilterChainProxy - Secured GET /error?id=35
+2024-11-01 15:22:01 DEBUG FilterChainProxy - Securing GET /error?id=34
+2024-11-01 15:22:01 DEBUG FilterChainProxy - Secured GET /error?id=34
+2024-11-01 15:22:01 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:22:01 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:22:01 DEBUG FilterChainProxy - Securing GET /packs/media/common/bg--pt3-f3239198.gif
+2024-11-01 15:22:01 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:22:01 DEBUG FilterChainProxy - Secured GET /packs/media/common/bg--pt3-f3239198.gif
+2024-11-01 15:22:01 DEBUG FilterChainProxy - Securing GET /error
+2024-11-01 15:22:01 DEBUG FilterChainProxy - Secured GET /error
+2024-11-01 15:22:01 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:42:58 INFO JavasampleApplication - Starting JavasampleApplication using Java 21.0.4 with PID 17056 (C:\pleiades\codeWorkspace\javasample\bin\main started by x_yanwei in C:\pleiades\codeWorkspace\javasample)
+2024-11-01 15:42:58 INFO JavasampleApplication - No active profile set, falling back to 1 default profile: "default"
+2024-11-01 15:42:58 INFO DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-11-01 15:42:58 INFO DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-11-01 15:42:59 INFO RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-11-01 15:42:59 INFO RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2024-11-01 15:42:59 INFO RepositoryConfigurationExtensionSupport - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.demo.repository.JobRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2024-11-01 15:42:59 INFO RepositoryConfigurationExtensionSupport - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.demo.repository.LoginUserRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2024-11-01 15:42:59 INFO RepositoryConfigurationExtensionSupport - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.demo.repository.MessageRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2024-11-01 15:42:59 INFO RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 62 ms. Found 0 JDBC repository interfaces.
+2024-11-01 15:42:59 INFO RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-11-01 15:42:59 INFO RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-01 15:42:59 INFO RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 53 ms. Found 3 JPA repository interfaces.
+2024-11-01 15:43:00 INFO TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-11-01 15:43:01 INFO ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2854 ms
+2024-11-01 15:43:01 INFO H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/test1'
+2024-11-01 15:43:01 INFO LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-01 15:43:01 INFO Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-01 15:43:01 INFO RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-11-01 15:43:02 INFO SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-01 15:43:02 WARN Dialect - HHH000511: The 5.5.5 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2024-11-01 15:43:03 INFO JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-01 15:43:03 INFO LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-01 15:43:04 WARN JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-01 15:43:04 WARN InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+2024-11-01 15:43:04 INFO WelcomePageHandlerMapping - Adding welcome page template: index
+2024-11-01 15:43:05 DEBUG DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, LogoutFilter, UsernamePasswordAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2024-11-01 15:43:05 INFO OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-11-01 15:43:05 INFO TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-11-01 15:43:05 INFO JavasampleApplication - Started JavasampleApplication in 8.056 seconds (process running for 9.61)
+2024-11-01 15:43:07 INFO DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-11-01 15:43:07 INFO DispatcherServlet - Completed initialization in 1 ms
+2024-11-01 15:43:07 DEBUG FilterChainProxy - Securing GET /recruitList/categories/all
+2024-11-01 15:43:07 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:43:07 DEBUG FilterChainProxy - Secured GET /recruitList/categories/all
+2024-11-01 15:43:08 DEBUG FilterChainProxy - Securing GET /css/recruitList.css
+2024-11-01 15:43:08 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:43:08 DEBUG FilterChainProxy - Secured GET /css/recruitList.css
+2024-11-01 15:43:08 DEBUG FilterChainProxy - Securing GET /css/header.css
+2024-11-01 15:43:08 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:43:08 DEBUG FilterChainProxy - Secured GET /css/header.css
+2024-11-01 15:43:08 DEBUG FilterChainProxy - Securing GET /img/{job.imagePath}?id=34
+2024-11-01 15:43:08 DEBUG FilterChainProxy - Securing GET /img/{job.imagePath}?id=35
+2024-11-01 15:43:08 DEBUG FilterChainProxy - Securing GET /js/recruit.js
+2024-11-01 15:43:08 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:43:08 DEBUG FilterChainProxy - Secured GET /js/recruit.js
+2024-11-01 15:43:08 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:43:08 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:43:08 DEBUG FilterChainProxy - Secured GET /img/{job.imagePath}?id=34
+2024-11-01 15:43:08 DEBUG FilterChainProxy - Secured GET /img/{job.imagePath}?id=35
+2024-11-01 15:43:08 DEBUG FilterChainProxy - Securing GET /error?id=35
+2024-11-01 15:43:08 DEBUG FilterChainProxy - Securing GET /error?id=34
+2024-11-01 15:43:08 DEBUG FilterChainProxy - Secured GET /error?id=34
+2024-11-01 15:43:08 DEBUG FilterChainProxy - Secured GET /error?id=35
+2024-11-01 15:43:08 DEBUG FilterChainProxy - Securing GET /packs/media/common/bg--pt3-f3239198.gif
+2024-11-01 15:43:08 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:43:08 DEBUG FilterChainProxy - Secured GET /packs/media/common/bg--pt3-f3239198.gif
+2024-11-01 15:43:08 DEBUG FilterChainProxy - Securing GET /error
+2024-11-01 15:43:08 DEBUG FilterChainProxy - Secured GET /error
+2024-11-01 15:43:08 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:43:08 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:43:08 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:43:13 DEBUG FilterChainProxy - Securing GET /recruitList/categories/all
+2024-11-01 15:43:13 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:43:13 DEBUG FilterChainProxy - Secured GET /recruitList/categories/all
+2024-11-01 15:43:14 DEBUG FilterChainProxy - Securing GET /css/recruitList.css
+2024-11-01 15:43:14 DEBUG FilterChainProxy - Securing GET /css/header.css
+2024-11-01 15:43:14 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:43:14 DEBUG FilterChainProxy - Securing GET /img/{job.imagePath}?id=35
+2024-11-01 15:43:14 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:43:14 DEBUG FilterChainProxy - Secured GET /css/recruitList.css
+2024-11-01 15:43:14 DEBUG FilterChainProxy - Secured GET /css/header.css
+2024-11-01 15:43:14 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:43:14 DEBUG FilterChainProxy - Secured GET /img/{job.imagePath}?id=35
+2024-11-01 15:43:14 DEBUG FilterChainProxy - Securing GET /img/{job.imagePath}?id=34
+2024-11-01 15:43:14 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:43:14 DEBUG FilterChainProxy - Secured GET /img/{job.imagePath}?id=34
+2024-11-01 15:43:14 DEBUG FilterChainProxy - Securing GET /error?id=35
+2024-11-01 15:43:14 DEBUG FilterChainProxy - Securing GET /error?id=34
+2024-11-01 15:43:14 DEBUG FilterChainProxy - Secured GET /error?id=35
+2024-11-01 15:43:14 DEBUG FilterChainProxy - Secured GET /error?id=34
+2024-11-01 15:43:14 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:43:14 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:43:14 DEBUG FilterChainProxy - Securing GET /js/recruit.js
+2024-11-01 15:43:14 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:43:14 DEBUG FilterChainProxy - Secured GET /js/recruit.js
+2024-11-01 15:43:14 DEBUG FilterChainProxy - Securing GET /packs/media/common/bg--pt3-f3239198.gif
+2024-11-01 15:43:14 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2024-11-01 15:43:14 DEBUG FilterChainProxy - Secured GET /packs/media/common/bg--pt3-f3239198.gif
+2024-11-01 15:43:14 DEBUG FilterChainProxy - Securing GET /error
+2024-11-01 15:43:14 DEBUG FilterChainProxy - Secured GET /error
+2024-11-01 15:43:14 DEBUG AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext

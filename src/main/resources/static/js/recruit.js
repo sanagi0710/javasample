@@ -44,6 +44,28 @@ document.addEventListener('DOMContentLoaded', () => {
 		}
 	};
 
+
+	const showNextItem = () => {
+		// 全取得
+		const items = document.querySelectorAll(".topic__item");
+		let currentIndex = 0;
+
+		const showNext = () => {
+			items[currentIndex].style.display = "none";
+			items[currentIndex].style.zIndex = 98;
+
+			currentIndex = (currentIndex + 1) % items.length;
+
+			items[currentIndex].style.display = "flex";
+			items[currentIndex].style.zIndex = 99;
+			items[currentIndex].style.opacity = 1;
+		}
+
+		setInterval(showNext(), 2000);
+
+	};
+
+
 	// アニメーション流す処理
 	const playAnimation = () => {
 		const list = document.querySelector(".topic__list");
@@ -61,7 +83,7 @@ document.addEventListener('DOMContentLoaded', () => {
 	}
 
 	initialize();
-	
+
 });
 
 

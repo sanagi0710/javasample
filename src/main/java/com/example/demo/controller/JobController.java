@@ -61,6 +61,13 @@ public class JobController {
 
 	@GetMapping("/categories/{categorie}")
 	public String getFolderJobs(@PathVariable String categorie, Model model) {
+
+		if (categorie.equals("all")) {
+			List<Job> jobs = jobService.getAllJobs();
+			model.addAttribute("jobs", jobs);
+			return "recruitList";
+		}
+
 		List<Job> jobs = jobService.findByCategory(categorie);
 		for (Job job : jobs) {
 			try {

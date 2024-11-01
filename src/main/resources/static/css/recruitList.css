@@ -31,11 +31,13 @@
 .swiper {
 	width: 100%;
 	padding: 20px 0;
+	
 }
 
 .swiper-slide {
 	display: flex;
 	flex-direction: column;
+	background-color: lightsteelblue;
 	align-items: center;
 	width: calc(33.333% - 20px);
 	margin-right: 10px;
@@ -166,6 +168,16 @@ form {
     flex-wrap: wrap;
     gap: 10px;
 }
+
+.bookmarkCheck {
+	display:flex;
+	flex-direction:column-reverse;
+}
+
+label[for=".bookmarkCheck"] {
+	font-weight: 300;
+}
+
 
 input[type="text"],
 input[type="file"],
