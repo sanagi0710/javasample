@@ -40,4 +40,8 @@ public class JobService {
 		return jobRepository.findByBookmarkFlag(bookmarkFlag);
 	}
 
+	public List<Job> findByCategory(String category) {
+		return jobRepository.findByCategoriesContaining(category);
+	}
+
 }

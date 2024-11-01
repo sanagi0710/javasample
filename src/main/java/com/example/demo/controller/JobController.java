@@ -61,19 +61,18 @@ public class JobController {
 
 	@GetMapping("/categories/{categorie}")
 	public String getFolderJobs(@PathVariable String categorie, Model model) {
-		List<Job> jobs = new ArrayList<Job>();
-		
-		switch(categorie) {
-		case "all":
-		jobs = jobService.getAllJobs();
-		break;
-		case "se":
-			
-			jobs= jobService.
-		default:
-		break;
+		List<Job> jobs = jobService.findByCategory(categorie);
+		for (Job job : jobs) {
+			try {
+				String encodedImagePath = URLEncoder.encode(job.getImagePath(), StandardCharsets.UTF_8.toString());
+				job.setImagePath(encodedImagePath); // エンコードされたパスを設定
+			} catch (UnsupportedEncodingException e) {
+				e.printStackTrace(); // エンコーディング失敗時のエラーハンドリング
+			}
 		}
-		
+		model.addAttribute("jobs", jobs);
+		return "recruitList";
+
 	}
 
 	@PostMapping
@@ -99,6 +98,8 @@ public class JobController {
 				String filename = FileNameUtil.removeDateFromFilename(file.getOriginalFilename());
 				// 保存先パス
 				String filePath = "src/main/resources/static/img/" + filename; // パスを修正（/を追加）
+
+				logger.info(filePath);
 
 				// ファイルを保存
 				Files.write(Paths.get(filePath), file.getBytes());

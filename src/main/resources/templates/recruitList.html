@@ -5,7 +5,7 @@
 	<title>求人一覧</title>
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-	<link href="/css/recruit.css" rel="stylesheet">
+	<link href="/css/recruitList.css" rel="stylesheet">
 	<link href="/css/header.css" rel="stylesheet">
 </head>
 
@@ -16,36 +16,22 @@
 			<ul class="topic__list" style="height: 29px; position: relative;">
 				<li class="topic__item showlist"
 					style="display: flex; top: 0px; left: 0px; position: absolute; opacity: 1; z-index: 99;">
-					<p class="topic__day">
-						2024.09.24
-					</p>
+					<p class="topic__day">2024.09.24</p>
 					<h3 class="topic__ttl">
-						<a href="#">
-							新しいニュース
-						</a>
+						<a href="#">新しいニュース</a>
 					</h3>
 				</li>
-				<li class="topic__item"
-					style="display: none; top: 0px; left: -760px; position: absolute; opacity: 0; z-index: 98;">
-					<p class="topic__day">
-						2024.10.03
-					</p>
+				<li class="topic__item" style="display: none;">
+					<p class="topic__day">2024.10.03</p>
 					<p class="post__new post__new--mv">NEW</p>
 					<h3 class="topic__ttl">
-						<a href="#">
-							古いニュース
-						</a>
+						<a href="#">古いニュース</a>
 					</h3>
 				</li>
-				<li class="topic__item"
-					style="display: none; top: 0px; left: -760px; position: absolute; opacity: 0; z-index: 98;">
-					<p class="topic__day">
-						2024.09.25
-					</p>
+				<li class="topic__item" style="display: none;">
+					<p class="topic__day">2024.09.25</p>
 					<h3 class="topic__ttl">
-						<a href="/content/news/2947">
-							古すぎるニュース
-						</a>
+						<a href="/content/news/2947">古すぎるニュース</a>
 					</h3>
 				</li>
 			</ul>
@@ -56,13 +42,13 @@
 		<p class="select__trigger">SELECT</p>
 		<ul class="okinawaInfo__tab" style="display: flex;">
 			<li class="okinawaInfo__tab__item">
-				<a th:href=@{/recruitList/categories/all}>ALL</a>
+				<a th:href="@{/recruitList/categories/all}">ALL</a>
 			</li>
 			<li class="okinawaInfo__tab__item">
-				<a th:href=@{/recruitList/categories/se}>SE</a>
+				<a th:href="@{/recruitList/categories/se}">SE</a>
 			</li>
 			<li class="okinawaInfo__tab__item">
-				<a th:href=@{/recruitList/categories/pm}>PM</a>
+				<a th:href="@{/recruitList/categories/pm}">PM</a>
 			</li>
 			<li class="okinawaInfo__tab__item">
 				<a href="#">PG</a>
@@ -75,7 +61,7 @@
 			</li>
 		</ul>
 	</div>
-	<div th:if="${jobs != null || jobs.size() > 0}">
+	<div th:if="${jobs != null && jobs.size() > 0}">
 		<!-- スライダーのコンテナ -->
 		<div class="swiper">
 			<!-- スライダーのラッパー -->
@@ -84,19 +70,17 @@
 				<div th:each="job : ${jobs}" class="swiper-slide recruit_post_item">
 					<p class="recruit_post_thumbnail">
 						<a th:href="@{/recruit/{id}(id=${job.id})}">
-							<img th:src="@{'/img/' + ${job.imagePath}}" alt="Job Thumbnail" />
+							<img th:src="@{/img/{job.imagePath}(id=${job.id})}" alt="Job Thumbnail" />
 						</a>
 					</p>
-					<p class="recruit_post_day">更新日 : <span th:text="${#dates.format(job.date, 'yyyy-MM-dd')}"></span>
-					</p>
+					<p class="recruit_post_day">更新日 : <span th:text="${#dates.format(job.date, 'yyyy-MM-dd')}"></span></p>
 					<h4 class="recruit_post_ttl">
 						<a th:href="@{/recruit/{id}(id=${job.id})}" th:text="${job.title}"></a>
 					</h4>
 					<p class="recruit_post_catch" th:text="${job.description}"></p>
 					<div class="divider"></div>
 					<ul class="recruit_post_catList">
-						<li th:each="category : ${job.categories}" th:text="${category}" class="recruit_post_catItem">
-						</li>
+						<li th:each="category : ${job.categories}" th:text="${category}" class="recruit_post_catItem"></li>
 					</ul>
 				</div>
 			</div>
@@ -121,7 +105,7 @@
 		<input type="date" name="date">
 		<input type="hidden" name="bookmarkFlag" value="false">
 		<label for="bookmarkCheckbox">ブックマーク</label>
-		<input type="checkbox" id="bookmarkCheckbox" onchange="updateBookmarkFlag()" checked>
+		<input type="checkbox" id="bookmarkCheckbox" onchange="updateBookmarkFlag()">
 		<div>
 			<h3>カテゴリーを選択してください</h3>
 			<label><input type="checkbox" name="categories" value="SE">SE</label>

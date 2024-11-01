@@ -11,4 +11,6 @@ import com.example.demo.model.Job;
 @Repository
 public interface JobRepository extends JpaRepository<Job, Long>, JobRepositoryCustom {
 	List<Job> findByBookmarkFlag(boolean bookmarkFlag);
+
+	List<Job> findByCategoriesContaining(String category);
 }
