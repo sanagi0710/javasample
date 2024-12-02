@@ -1,36 +1,42 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>法人登録</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <link href="/css/register.css" rel="stylesheet">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>法人登録</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+	<link href="/css/register.css" rel="stylesheet">
 </head>
+
 <body>
-    <div class="container">
-        <h1 class="text-center">法人登録</h1>
-        <form action="/corporationRegister" method="post">
-            <input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}"/>
-            <div th:if="${message}" th:text="${message}" class="alert alert-success"></div>
-            <div class="mb-3">
-                <label for="username" class="form-label">ユーザー名:</label>
-                <input type="text" id="username" name="username" class="form-control" required>
-            </div>
-            <div class="mb-3">
-                <label for="password" class="form-label">パスワード:</label>
-                <input type="password" id="password" name="password" class="form-control" required>
-            </div>
-            <div class="mb-3">
-                <label for="email" class="form-label">メールアドレス:</label>
-                <input type="email" id="email" name="email" class="form-control" required>
-            </div>
-            <div class="d-flex justify-content-between">
-                <button type="submit" class="btn btn-primary">登録</button>
-                <a th:href="@{/}" class="btn btn-secondary">戻る</a>
-            </div>
-        </form>
-    </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-9NdCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous"></script>
+	<div class="container">
+		<h1 class="text-center">法人登録</h1>
+		<form action="/corporationRegister" method="post">
+			<input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}" />
+			<div th:if="${message}" th:text="${message}" class="alert alert-success"></div>
+			<div class="mb-3">
+				<label for="username" class="form-label">ユーザー名:</label>
+				<input type="text" id="username" name="username" class="form-control" required>
+			</div>
+			<div class="mb-3">
+				<label for="password" class="form-label">パスワード:</label>
+				<input type="password" id="password" name="password" class="form-control" required>
+			</div>
+			<div class="mb-3">
+				<label for="email" class="form-label">メールアドレス:</label>
+				<input type="email" id="email" name="email" class="form-control" required>
+			</div>
+			<div class="d-flex justify-content-between">
+				<button type="submit" class="btn btn-primary">登録</button>
+				<a th:href="@{/}" class="btn btn-secondary">戻る</a>
+			</div>
+		</form>
+	</div>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-9NdCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+		crossorigin="anonymous"></script>
 </body>
+
 </html>

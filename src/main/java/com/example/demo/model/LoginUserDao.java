@@ -28,11 +28,11 @@ public class LoginUserDao {
 
 		LoginUser loginUser = new LoginUser();
 
-		for (int i = 0; i < result.size(); i++) {
-			Long id = (Long) result.get(i).get("id");
-			String userName = (String) result.get(i).get("username");
-			String password = (String) result.get(i).get("password");
-			String email = (String) result.get(i).get("email");
+		for (Map<String, Object> element : result) {
+			Long id = (Long) element.get("id");
+			String userName = (String) element.get("username");
+			String password = (String) element.get("password");
+			String email = (String) element.get("email");
 
 			loginUser.setId(id);
 			loginUser.setUsername(userName);

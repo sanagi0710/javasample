@@ -3,7 +3,7 @@
     <Appenders>
 
         <!-- ファイルに出力するアペンダーの定義 -->
-        <File name="File" fileName="C:\pleiades\codeWorkspace\sample\logs\app.log">
+        <File name="File" fileName="C:\pleiades\codeWorkspace\javasample\logs\app.log">
             <!-- ログ出力フォーマットの指定。日付、ログレベル、ロガー名、メッセージを表示 -->
             <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} %p %c{1} - %m%n"/>
         </File>

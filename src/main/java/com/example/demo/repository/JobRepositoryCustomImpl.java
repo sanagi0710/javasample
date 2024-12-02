@@ -47,7 +47,7 @@ public class JobRepositoryCustomImpl implements JobRepositoryCustom {
 			predicates.add(cb.equal(job.get("bookmarkFlag"), false)); // falseの場合
 		}
 
-		query.select(job).where(cb.or(predicates.toArray(new Predicate[0])));
+		query.select(job).where(cb.and(predicates.toArray(new Predicate[0])));
 
 		return entityManager.createQuery(query).getResultList();
 

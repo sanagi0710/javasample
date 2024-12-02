@@ -21,15 +21,21 @@ public class Job {
 	private Long id;
 
 	private String title;
+
 	private String description;
+
 	//	@Lob
 	//	private byte[] image;
 	private String imagepath;
+
 	@DateTimeFormat(pattern = "yyyy-MM-dd")
 	private Date date;
+
 	@Column(name = "bookmark_flag")
 	private Boolean bookmarkFlag;
 
+	// 使わないと複数登録ができないから
+	// エンティティを持つコレクションの要素を外部テーブルにマッピングするアノテーション
 	@ElementCollection
 	private List<String> categories;
 
